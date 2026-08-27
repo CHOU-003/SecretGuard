@@ -1,0 +1,1 @@
+const AWS_KEY = "AKIA1234567890abcdef";
