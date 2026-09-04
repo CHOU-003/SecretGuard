@@ -7,6 +7,7 @@ const authRoutes = require('./src/routes/auth');
 const scanRoutes = require('./src/routes/scans');
 const statsRoutes = require('./src/routes/stats');
 const projectRoutes = require('./src/routes/projects');
+const auditLogRoutes = require('./src/routes/auditLog');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -22,6 +23,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/scans', scanRoutes);
 app.use('/api/stats', statsRoutes);
 app.use('/api/projects', projectRoutes);
+app.use('/api/audit-log', auditLogRoutes);
 
 // Health check nhanh
 app.get('/', (req, res) => {
@@ -30,7 +32,7 @@ app.get('/', (req, res) => {
 
 async function start() {
   try {
-    await getPool();
+    await getPool(); // kết nối SQL Server trước khi lắng nghe request
     app.listen(PORT, () => {
       console.log(`🚀 Server đang chạy tại http://localhost:${PORT}`);
     });

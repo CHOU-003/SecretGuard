@@ -18,7 +18,7 @@ export default function Dashboard() {
       try {
         const [scansData, statsData] = await Promise.all([
           apiFetch('/api/scans'),
-          apiFetch('/api/stats'),
+          apiFetch('/api/stats/overview'),
         ]);
         if (!cancelled) {
           setScans(scansData.scans || scansData || []);
