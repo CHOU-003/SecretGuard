@@ -11,7 +11,9 @@ import joblib
 import pandas as pd
 import requests
 from dotenv import load_dotenv
-from src.train_ml import extract_features
+
+from src.feature_extractor import extract_features
+from src.regex_scanner import scan_with_regex
 
 # Nạp .env riêng của secret-detector (BACKEND_URL, SERVICE_API_KEY)
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"))
@@ -20,18 +22,26 @@ EXCLUDED_DIRS = {"venv", ".git", "node_modules", "data", "secret-detector", "dis
 EXCLUDED_FILENAMES = {"package-lock.json", "yarn.lock", "pnpm-lock.yaml"}
 SCAN_EXTENSIONS = ('.js', '.py', '.json', '.env', '.yml', '.yaml', '.md', '.txt')
 
+# Bắt cặp (biến/khoá) = giá trị nghi vấn -> capture riêng phần GIÁ TRỊ (group 2)
+# để dùng làm "candidate" thật cho feature_extractor, thay vì đưa cả dòng vào.
 ASSIGNMENT_PATTERN = re.compile(
-    r'''(=|:)\s*['"]?[A-Za-z0-9+/_\-\.]{12,}['"]?'''
+    r'''(=|:)\s*['"]?([A-Za-z0-9+/_\-\.]{12,})['"]?'''
 )
 
 
-def is_candidate_line(line_str):
+def find_candidate_value(line_str):
+    """Trả về chuỗi giá trị nghi vấn (candidate) trong dòng, hoặc None nếu không có.
+    Đây là lưới quét rộng (broad net) dựa trên cấu trúc gán biến, KHÔNG cần khớp
+    đúng 1 loại secret cụ thể nào -> vẫn bắt được các secret không theo pattern
+    biết trước (đây chính là giá trị mà tầng ML mang lại so với chỉ dùng Regex).
+    """
     stripped = line_str.strip()
     if stripped.startswith(('import ', 'export ', 'require(')) and '=' not in stripped:
-        return False
+        return None
     if re.match(r'^[A-Za-z0-9_]+,?$', stripped):
-        return False
-    return bool(ASSIGNMENT_PATTERN.search(line_str))
+        return None
+    match = ASSIGNMENT_PATTERN.search(line_str)
+    return match.group(2) if match else None
 
 
 def is_excluded_path(file_path):
@@ -43,7 +53,10 @@ def is_excluded_path(file_path):
     return False
 
 
-def guess_secret_type(line_str):
+def guess_secret_type(line_str, regex_type=None):
+    # Ưu tiên loại đã được regex_scanner khớp chính xác
+    if regex_type:
+        return regex_type
     upper = line_str.upper()
     if 'AWS' in upper and ('KEY' in upper or 'SECRET' in upper):
         return 'AWS_KEY'
@@ -107,15 +120,38 @@ def get_git_branch(repo_dir):
         return None
 
 
-def scan_files(file_paths, warn_threshold=0.4):
-    """Chấm điểm mọi dòng ứng viên, trả về TẤT CẢ finding có prob >= warn_threshold
-    (không chỉ những cái vượt ngưỡng block), để còn phân loại blocked/warned."""
-    model_path = os.path.join(os.path.dirname(__file__), "models", "secret_ml_model.pkl")
+def load_model_and_columns():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(base_dir, "models", "secret_ml_model.pkl")
+    columns_path = os.path.join(base_dir, "models", "feature_columns.pkl")
+
     if not os.path.exists(model_path):
-        print("[ERROR] Chưa tìm thấy mô hình ML. Vui lòng chạy train_ml.py trước.")
+        print("[ERROR] Chưa tìm thấy mô hình ML. Vui lòng chạy build_dataset.py -> build_features.py -> train_ml.py trước.")
+        sys.exit(1)
+    if not os.path.exists(columns_path):
+        print("[ERROR] Chưa tìm thấy feature_columns.pkl. Vui lòng chạy lại train_ml.py (bản mới) để lưu đủ cả 2 file.")
         sys.exit(1)
 
     clf = joblib.load(model_path)
+    feature_columns = joblib.load(columns_path)
+    return clf, feature_columns
+
+
+def build_feature_vector(candidate, line_content, file_path, regex_type, feature_columns):
+    """Trích feature cho 1 candidate rồi align đúng thứ tự cột như lúc train
+    (bắt buộc vì one-hot regex_type có thể thiếu/thừa cột so với lúc train)."""
+    raw_features = extract_features(candidate, line_content, file_path, regex_type)
+    df = pd.DataFrame([raw_features])
+    df = pd.get_dummies(df, columns=['regex_type'])
+    df = df.reindex(columns=feature_columns, fill_value=0)
+    return df
+
+
+def scan_files(file_paths, clf, feature_columns, warn_threshold=0.4):
+    """Với mỗi dòng nghi vấn: lấy candidate (giá trị được gán) + regex_type
+    (nếu regex_scanner khớp được loại nào đó), rồi đưa qua ML để chấm điểm.
+    Trả về TẤT CẢ finding có prob >= warn_threshold (không chỉ cái vượt ngưỡng
+    block), để còn phân loại blocked/warned."""
     findings = []
 
     for file_path in file_paths:
@@ -133,12 +169,20 @@ def scan_files(file_paths, warn_threshold=0.4):
                     line_str = line.strip()
                     if not line_str or len(line_str) < 10:
                         continue
-                    if not is_candidate_line(line_str):
+
+                    candidate = find_candidate_value(line_str)
+                    if not candidate:
                         continue
 
-                    df_temp = pd.DataFrame([{"text": line_str}])
-                    features = extract_features(df_temp)
-                    prob = clf.predict_proba(features)[0][1]
+                    # Regex_scanner chạy trên cả dòng để biết có khớp loại secret
+                    # biết trước không (AWS/Slack/GitHub/Private Key...). Nếu không
+                    # khớp gì, regex_type=None -> ML vẫn xử lý bình thường, đây
+                    # chính là trường hợp ML "phát huy tác dụng" hơn Regex thuần.
+                    regex_matches = scan_with_regex(line_str)
+                    regex_type = regex_matches[0]["type"] if regex_matches else None
+
+                    feature_df = build_feature_vector(candidate, line_str, file_path, regex_type, feature_columns)
+                    prob = clf.predict_proba(feature_df)[0][1]
 
                     if prob >= warn_threshold:
                         confidence = round(prob * 100, 2)
@@ -147,7 +191,7 @@ def scan_files(file_paths, warn_threshold=0.4):
                             "line": idx,
                             "content": line_str[:50],
                             "confidence": confidence,
-                            "secret_type": guess_secret_type(line_str),
+                            "secret_type": guess_secret_type(line_str, regex_type),
                             "risk_level": risk_level_from_confidence(confidence),
                         })
         except Exception:
@@ -233,6 +277,8 @@ if __name__ == "__main__":
     repo_dir = os.path.abspath(args.path)
     project_name = args.project_name or os.path.basename(repo_dir)
 
+    clf, feature_columns = load_model_and_columns()
+
     if args.mode == "staged":
         targets = get_staged_files(repo_dir)
     else:
@@ -242,7 +288,7 @@ if __name__ == "__main__":
             for file in files:
                 targets.append(os.path.join(root, file))
 
-    findings = scan_files(targets, warn_threshold=args.warn_threshold)
+    findings = scan_files(targets, clf, feature_columns, warn_threshold=args.warn_threshold)
     status = determine_status(findings, args.threshold)
     print_report(findings, args.threshold)
 

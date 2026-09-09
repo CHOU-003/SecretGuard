@@ -1,2 +1,3 @@
 {
+	"python.defaultInterpreterPath": "${workspaceFolder}\\secret-detector\\venv\\Scripts\\python.exe"
 }
