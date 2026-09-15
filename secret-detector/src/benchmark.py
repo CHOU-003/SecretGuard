@@ -10,7 +10,8 @@ import joblib
 from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
 from src.regex_scanner import scan_with_regex
 from src.entropy_scanner import scan_with_regex_and_entropy
-from src.train_ml import extract_features
+
+NON_FEATURE_COLUMNS = ["label", "_original_type"]
 
 def evaluate_method_1(test_df):
     start_time = time.time()
@@ -32,7 +33,7 @@ def evaluate_method_2(test_df):
 
 def evaluate_method_3(test_df, model):
     start_time = time.time()
-    X_test = extract_features(test_df)
+    X_test = test_df.drop(columns=[c for c in NON_FEATURE_COLUMNS if c in test_df.columns])
     y_pred = model.predict(X_test)
     exec_time = (time.time() - start_time) * 1000
     return y_pred, exec_time
@@ -46,12 +47,13 @@ def calculate_fpr(y_true, y_pred):
 
 def run_benchmark():
     test_df = pd.read_csv("data/test.csv")
+    test_features_df = pd.read_csv("data/test_features.csv")
     y_true = test_df['label']
     clf = joblib.load("models/secret_ml_model.pkl")
 
     y_p1, time1 = evaluate_method_1(test_df)
     y_p2, time2 = evaluate_method_2(test_df)
-    y_p3, time3 = evaluate_method_3(test_df, clf)
+    y_p3, time3 = evaluate_method_3(test_features_df, clf)
 
     methods = ["1. Regex", "2. Regex + Entropy", "3. Regex + Entropy + ML"]
     preds = [y_p1, y_p2, y_p3]
