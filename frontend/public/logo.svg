@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <!-- Màu chuyển sắc Gradient từ Tím hồng đến Xanh dương -->
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Biểu tượng Chiếc khiên -->
+  <path d="M 50 12 
+       C 68 18, 80 22, 85 28 
+       C 85 58, 72 78, 50 92 
+       C 28 78, 15 58, 15 28 
+       C 20 22, 32 18, 50 12 Z" fill="url(#shieldGradient)" />
+
+  <!-- Quai ổ khóa (Màu trắng) -->
+  <path d="M 40 45 
+       V 38 
+       A 10 10 0 0 1 60 38 
+       V 45" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Thân ổ khóa (Màu trắng, bo góc) -->
+  <rect x="34" y="44" width="32" height="24" rx="5" ry="5" fill="#FFFFFF" />
+
+  <!-- Lỗ khóa chính giữa (Màu xanh đậm trùng màu nền khiên) -->
+  <circle cx="50" cy="56" r="2.5" fill="#2563EB" />
+</svg>

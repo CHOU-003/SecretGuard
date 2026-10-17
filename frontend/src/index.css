@@ -1,6 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 @import "tailwindcss";
+
+/* Design tokens -> dùng được trực tiếp trong class Tailwind:
+   bg-night, text-fg, text-fg-muted, border-edge, border-field,
+   from-brand-violet, to-brand-sky, text-brand-ink, font-auth */
+@theme {
+  --font-auth: 'Inter', 'IBM Plex Sans', sans-serif;
+
+  --color-night: #030a22;
+  --color-fg: #e9eeff;
+  --color-fg-muted: #8f9dc7;
+  --color-edge: #2a35c8;
+  --color-field: #26346e;
+  --color-brand-violet: #6a4bff;
+  --color-brand-sky: #16b1ff;
+  --color-brand-ink: #4f5bef;
+
+  /* Dashboard */
+  --color-sidebar: #050f2e;
+  --color-panel: #08143f;
+  --color-rim: #1b2a6b;
+  --color-thead: #0b1850;
+  --color-nav: #2f5bff;
+  --color-danger: #ff5c6c;
+  --color-ok: #2dd4a7;
+  --color-caution: #f5a524;
+}
 
 :root {
   --bg: #101418;
@@ -26,4 +52,21 @@ body {
 
 .font-mono {
   font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Nền gradient của các trang xác thực (Login, ...) */
+.auth-bg {
+  background-color: var(--color-night);
+  background-image:
+    radial-gradient(60% 55% at 0% 0%, rgba(38, 40, 190, 0.55), transparent 70%),
+    radial-gradient(45% 45% at 100% 0%, rgba(20, 45, 170, 0.3), transparent 70%),
+    radial-gradient(55% 55% at 100% 100%, rgba(45, 35, 225, 0.75), transparent 70%);
+}
+
+/* Nền gradient của khu vực Dashboard */
+.dash-bg {
+  background-color: var(--color-night);
+  background-image:
+    radial-gradient(45% 30% at 90% 0%, rgba(40, 70, 230, 0.28), transparent 70%),
+    radial-gradient(40% 35% at 100% 100%, rgba(45, 35, 225, 0.35), transparent 70%);
 }

@@ -183,6 +183,7 @@ def scan_files(file_paths, clf, feature_columns, warn_threshold=0.4):
 
                     feature_df = build_feature_vector(candidate, line_str, file_path, regex_type, feature_columns)
                     prob = clf.predict_proba(feature_df)[0][1]
+                    prob = float(prob)
 
                     if prob >= warn_threshold:
                         confidence = round(prob * 100, 2)
