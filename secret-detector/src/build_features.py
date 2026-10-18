@@ -1,17 +1,20 @@
 """
-build_dataset.py
-Áp feature_extractor.py lên train.csv / val.csv / test.csv hiện có,
-xuất ra train_features.csv / val_features.csv / test_features.csv.
+build_features.py (v2)
 
-Input hiện tại: mỗi dòng dataset là 1 "candidate" đã được chuẩn bị sẵn
-(cột text, label, type) — text có thể là 1 token trần (vd token Slack)
-hoặc 1 dòng code đầy đủ (vd dòng gán biến, dòng code bình thường).
+Đọc train.csv / val.csv / test.csv (schema: text, label, type, repo, file_path)
+rồi xuất train_features.csv / val_features.csv / test_features.csv.
 
-QUAN TRỌNG: regex_type dùng làm feature được TỰ TÍNH LẠI bằng
-regex_scanner.scan_with_regex(), KHÔNG đọc trực tiếp từ cột `type` có sẵn
-trong CSV — vì cột `type` đó chính là nhãn phân loại con người gán tay,
-nếu đưa thẳng vào feature sẽ gây data leakage (model học "ăn gian" theo
-đáp án có sẵn, lúc chạy thật trên code mới sẽ không có cột này để tra).
+Thay đổi so với v1:
+  - Dùng cột `file_path` THẬT của dataset cho feature is_test_path
+    (v1 luôn truyền "" nên feature này luôn = 0).
+  - Cột `repo` KHÔNG đưa vào file features (chỉ dùng để chia tập, đưa vào
+    model sẽ thành leakage). Cột `type` chỉ giữ dưới tên `_original_type`
+    để debug/phân tích lỗi, KHÔNG phải feature.
+  - In thống kê kiểm tra: regex_type theo nhãn (để thấy phần "regex-blind")
+    và tỉ lệ is_test_path theo nhãn (để chắc đường dẫn không phải đáp án).
+
+QUAN TRỌNG: regex_type được TỰ TÍNH bằng regex_scanner (giống lúc inference
+ở main.py), không đọc từ cột `type` — đọc từ `type` là data leakage.
 """
 
 import os
@@ -20,77 +23,90 @@ import pandas as pd
 from src.feature_extractor import extract_features
 from src.regex_scanner import scan_with_regex
 
+META_COLUMNS = ("label", "_original_type")
+
 
 def infer_regex_type(text: str):
-    """Chạy regex_scanner thật lên text, lấy loại pattern đầu tiên khớp được
-    (giống hệt cách main.py sẽ làm lúc inference thật)."""
+    """Loại pattern đầu tiên mà regex_scanner khớp được, hoặc None."""
     matches = scan_with_regex(text)
-    if matches:
-        return matches[0]["type"]
-    return None
+    return matches[0]["type"] if matches else None
+
+
+def clean_path(value) -> str:
+    """CSV có thể trả NaN cho file_path rỗng -> chuẩn hoá về chuỗi rỗng."""
+    if pd.isna(value):
+        return ""
+    return str(value)
 
 
 def build_feature_dataset(raw_df: pd.DataFrame) -> pd.DataFrame:
+    has_path = "file_path" in raw_df.columns
+    if not has_path:
+        print("⚠️  Dataset không có cột file_path -> is_test_path sẽ luôn = 0.")
+
     rows = []
     for _, row in raw_df.iterrows():
         text = str(row["text"])
-        label = row["label"]
-
-        regex_type = infer_regex_type(text)
-
-        # Dataset hiện tại không có cột file_path riêng -> mặc định rỗng
-        # (is_test_path sẽ luôn = 0 cho tới khi dataset có cột file_path thật)
         features = extract_features(
             candidate=text,
             line_content=text,
-            file_path="",
-            regex_type=regex_type,
+            file_path=clean_path(row["file_path"]) if has_path else "",
+            regex_type=infer_regex_type(text),
         )
-        features["label"] = label
-        features["_original_type"] = row.get("type", None)  # giữ lại để debug, KHÔNG dùng làm feature
+        features["label"] = row["label"]
+        features["_original_type"] = row.get("type", None)  # chỉ để debug
         rows.append(features)
 
     return pd.DataFrame(rows)
 
 
-def align_columns(train_df, other_df):
-    """Đảm bảo val/test có đúng cột (sau one-hot) như train, thiếu thì fill 0."""
-    feature_cols = [c for c in train_df.columns if c not in ("label", "_original_type")]
-    other_aligned = other_df.reindex(columns=feature_cols + ["label", "_original_type"], fill_value=0)
-    return other_aligned
+def align_columns(train_df: pd.DataFrame, other_df: pd.DataFrame) -> pd.DataFrame:
+    """Ép val/test có đúng cột như train (thiếu thì fill 0)."""
+    return other_df.reindex(columns=train_df.columns, fill_value=0)
+
+
+def print_sanity_report(name: str, raw_features: pd.DataFrame):
+    """Thống kê trước khi one-hot: giúp phát hiện shortcut/leakage sớm."""
+    print(f"\n--- Kiểm tra nhanh tập {name} ---")
+    print("Tỉ lệ is_test_path theo nhãn (nếu 0 vs 1 quá lệch -> đường dẫn là đáp án):")
+    print(raw_features.groupby("label")["is_test_path"].mean().round(3).to_string())
+    print("\nregex_type theo nhãn (cột 'none' ở nhãn 1 = secret mà Regex không thấy):")
+    print(pd.crosstab(raw_features["regex_type"], raw_features["label"]).to_string())
 
 
 def main():
-    data_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(base_dir, "data")
 
-    train_raw = pd.read_csv(os.path.join(data_dir, "train.csv"))
-    val_raw = pd.read_csv(os.path.join(data_dir, "val.csv"))
-    test_raw = pd.read_csv(os.path.join(data_dir, "test.csv"))
+    raw = {}
+    for split in ("train", "val", "test"):
+        path = os.path.join(data_dir, f"{split}.csv")
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"Chưa thấy {path}. Chạy build_dataset.py trước.")
+        raw[split] = pd.read_csv(path)
 
-    print("Đang trích feature cho train.csv...")
-    train_df = build_feature_dataset(train_raw)
-    print("Đang trích feature cho val.csv...")
-    val_df = build_feature_dataset(val_raw)
-    print("Đang trích feature cho test.csv...")
-    test_df = build_feature_dataset(test_raw)
+    built = {}
+    for split in ("train", "val", "test"):
+        print(f"Đang trích feature cho {split}.csv ({len(raw[split])} dòng)...")
+        built[split] = build_feature_dataset(raw[split])
 
-    # One-hot encode regex_type
-    train_df = pd.get_dummies(train_df, columns=["regex_type"])
-    val_df = pd.get_dummies(val_df, columns=["regex_type"])
-    test_df = pd.get_dummies(test_df, columns=["regex_type"])
+    print_sanity_report("train", built["train"])
 
-    # Val/test phải có đúng cột như train (phòng thiếu 1 loại regex_type nào đó)
-    val_df = align_columns(train_df, val_df)
-    test_df = align_columns(train_df, test_df)
+    # One-hot regex_type, rồi ép val/test theo đúng cột của train
+    encoded = {s: pd.get_dummies(df, columns=["regex_type"]) for s, df in built.items()}
+    encoded["val"] = align_columns(encoded["train"], encoded["val"])
+    encoded["test"] = align_columns(encoded["train"], encoded["test"])
 
-    train_df.to_csv(os.path.join(data_dir, "train_features.csv"), index=False)
-    val_df.to_csv(os.path.join(data_dir, "val_features.csv"), index=False)
-    test_df.to_csv(os.path.join(data_dir, "test_features.csv"), index=False)
+    for split, df in encoded.items():
+        if df.isna().any().any():
+            raise ValueError(f"Tập {split} có NaN trong feature, kiểm tra lại dữ liệu đầu vào.")
+        df.to_csv(os.path.join(data_dir, f"{split}_features.csv"), index=False)
 
-    print(f"\n✅ Đã lưu: train_features.csv ({len(train_df)} dòng, {len(train_df.columns)} cột)")
-    print(f"✅ Đã lưu: val_features.csv ({len(val_df)} dòng)")
-    print(f"✅ Đã lưu: test_features.csv ({len(test_df)} dòng)")
-    print("\nCác cột feature:", [c for c in train_df.columns if c not in ('label', '_original_type')])
+    feature_cols = [c for c in encoded["train"].columns if c not in META_COLUMNS]
+    print(f"\n✅ Đã lưu: train_features.csv ({len(encoded['train'])} dòng), "
+          f"val_features.csv ({len(encoded['val'])}), test_features.csv ({len(encoded['test'])})")
+    print(f"Số feature: {len(feature_cols)}")
+    print("Các cột feature:", feature_cols)
 
 
 if __name__ == "__main__":

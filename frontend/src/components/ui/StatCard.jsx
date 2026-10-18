@@ -7,20 +7,20 @@ const THEMES = {
     spark: '#58b0ff',
   },
   blocked: {
-    card: 'border-[#1fa596]/70 from-[#075a55] to-[#053a40] shadow-[0_0_36px_-12px_rgba(31,165,150,0.6)]',
-    icon: 'bg-[#25c2a4]',
-    spark: '#34d9a5',
-  },
+      card: 'border-[#e03131]/70 from-[#7a1c1c] to-[#450a0a] shadow-[0_0_36px_-12px_rgba(224,49,49,0.6)]',
+      icon: 'bg-[#f03e3e]',
+      spark: '#ff6b6b',
+    },
   warned: {
     card: 'border-[#a8661f]/70 from-[#68390f] to-[#3a210b] shadow-[0_0_36px_-12px_rgba(245,165,36,0.45)]',
     icon: 'bg-[#f59e0b]',
     spark: '#f5a524',
   },
   passed: {
-    card: 'border-[#7a4df0]/70 from-[#43209f] to-[#26106e] shadow-[0_0_36px_-12px_rgba(139,92,246,0.6)]',
-    icon: 'bg-[#8b5cf6]',
-    spark: '#b36bff',
-  },
+      card: 'border-emerald-500/70 from-emerald-900 to-emerald-950 shadow-[0_0_36px_-12px_rgba(16,185,129,0.6)]',
+      icon: 'bg-emerald-500',
+      spark: '#34d399',
+    },
 };
 
 export default function StatCard({ label, value, icon: Icon, theme = 'scan', series, delta }) {

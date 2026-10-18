@@ -20,8 +20,18 @@ KNOWN_PREFIXES = ('AKIA', 'ghp_', 'gho_', 'ghu_', 'ghs_', 'sk-', 'xox', 'AIza')
 # Từ khóa nghi vấn xuất hiện trên dòng chứa candidate
 SUSPICIOUS_KEYWORDS = ['key', 'secret', 'token', 'password', 'passwd', 'api', 'auth']
 
-# Thư mục hay chứa false positive (test/mock/sample key giả)
-TEST_PATH_SEGMENTS = ('test', 'mock', 'example', 'sample', 'fixture', 'spec')
+# Token trong đường dẫn cho thấy đây là file test/mock/mẫu (hay chứa key giả).
+# So khớp theo TỪNG THÀNH PHẦN đường dẫn, không so chuỗi con, để tránh nhầm
+# 'latest/', 'inspector/' (chứa 'test', 'spec') thành thư mục test.
+TEST_PATH_TOKENS = {
+    'test', 'tests', 'mock', 'mocks', 'example', 'examples',
+    'sample', 'samples', 'fixture', 'fixtures', 'spec', 'specs',
+}
+
+
+def is_test_path_fn(file_path: str) -> bool:
+    tokens = re.split(r'[\\/._\-\s]+', (file_path or '').lower())
+    return any(t in TEST_PATH_TOKENS for t in tokens)
 
 
 def extract_features(candidate: str, line_content: str, file_path: str, regex_type: str = None) -> dict:
@@ -49,8 +59,7 @@ def extract_features(candidate: str, line_content: str, file_path: str, regex_ty
     line_lower = (line_content or "").lower()
     keyword_hits = sum(kw in line_lower for kw in SUSPICIOUS_KEYWORDS)
 
-    file_path_lower = (file_path or "").lower()
-    is_test_path = any(seg in file_path_lower for seg in TEST_PATH_SEGMENTS)
+    is_test_path = is_test_path_fn(file_path)
 
     is_comment = (line_content or "").strip().startswith(('//', '#', '/*', '*'))
 

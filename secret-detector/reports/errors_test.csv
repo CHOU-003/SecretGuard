@@ -1,0 +1,12 @@
+text,label,type,repo,file_path,proba,pred
+AKIA226W0V…[đã che],0,Doc_Example,org7/bwycm-19,docs/api.md,0.9795376703881574,1
+AKIAXQRVGS…[đã che],0,Doc_Example,org5/ounai-17,docs/api.md,0.9431785675606374,1
+AKIA4HWTGQ…[đã che],0,Doc_Example,org0/jowz-48,docs/api.md,0.9402022157281988,1
+AKIA2W2TUB…[đã che],0,Doc_Example,org2/goyrcxtt-14,docs/setup.md,0.8295550501000569,1
+AKIAQGXWCR…[đã che],0,Doc_Example,org4/gbldxchq-04,docs/setup.md,0.7557297930207832,1
+AKIAZ34RWT…[đã che],0,Doc_Example,org0/jowz-48,docs/notes.txt,0.7538704780358799,1
+AKIAKBTFSH…[đã che],1,AWS_Key,org1/uxmhmkru-73,src/config.js,0.6554048813154919,0
+WEBHOOK_SE…[đã che],1,Custom_Secret,org2/klhwtekh-02,backend/server.js,0.6427495329100325,0
+AKIA9Q5RDO…[đã che],1,AWS_Key,org5/ounai-17,deploy/docker-compose.yml,0.5899616894961348,0
+AKIAFLSEHU…[đã che],1,AWS_Key,org0/ahft-00,config/settings.py,0.43907366886187116,0
+AKIAOTQTXH…[đã che],1,AWS_Key,org1/uxmhmkru-73,config/production.json,0.41687276921307026,0

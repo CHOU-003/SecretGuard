@@ -1,0 +1,202 @@
+{
+  "n_test": 596,
+  "n_repos_test": 12,
+  "test_prevalence": 0.4077181208053691,
+  "threshold": 0.7,
+  "ml_probabilistic": {
+    "precision": 0.9757085020242915,
+    "recall": 0.9917695473251029,
+    "f1": 0.9836734693877551,
+    "fpr": 0.0169971671388102,
+    "roc_auc": 0.9986884901899066,
+    "pr_auc": 0.9980018319526781,
+    "brier": 0.011054267715399779,
+    "log_loss": 0.04492203317225022,
+    "ece": 0.009080073330874218,
+    "tp": 241,
+    "fp": 6,
+    "fn": 2,
+    "tn": 347
+  },
+  "ml_binary": {
+    "0.5": {
+      "precision": 0.9757085020242915,
+      "recall": 0.9917695473251029,
+      "f1": 0.9836734693877551,
+      "fpr": 0.0169971671388102,
+      "tp": 241,
+      "fp": 6,
+      "fn": 2,
+      "tn": 347
+    },
+    "0.7": {
+      "precision": 0.9754098360655737,
+      "recall": 0.9794238683127572,
+      "f1": 0.9774127310061601,
+      "fpr": 0.0169971671388102,
+      "tp": 238,
+      "fp": 6,
+      "fn": 5,
+      "tn": 347
+    }
+  },
+  "ml_confidence_intervals": {
+    "roc_auc_ci": [
+      0.9972260711003174,
+      0.9997859896516866
+    ],
+    "pr_auc_ci": [
+      0.9954991422185756,
+      0.9996605686517606
+    ],
+    "n_valid_boot": 500,
+    "recall_ci_wilson": [
+      0.9527451885524065,
+      0.9911799845140457
+    ],
+    "fpr_ci_wilson": [
+      0.007812537565531172,
+      0.03658138959991142
+    ]
+  },
+  "baselines": {
+    "Regex": {
+      "precision": 0.7265917602996255,
+      "recall": 0.7983539094650206,
+      "f1": 0.7607843137254902,
+      "fpr": 0.20679886685552407,
+      "tp": 194,
+      "fp": 73,
+      "fn": 49,
+      "tn": 280
+    },
+    "Regex + Entropy": {
+      "precision": 0.7342995169082126,
+      "recall": 0.6255144032921811,
+      "f1": 0.6755555555555556,
+      "fpr": 0.1558073654390935,
+      "tp": 152,
+      "fp": 55,
+      "fn": 91,
+      "tn": 298
+    }
+  },
+  "precision_at_prevalence": {
+    "0.01": {
+      "ML": 0.36790800329310375,
+      "ML (FPR cận trên 95%)": 0.21287281449860468,
+      "Regex": 0.03753172538408883,
+      "Regex + Entropy": 0.03897178293582686
+    },
+    "0.02": {
+      "ML": 0.540435878962536,
+      "ML (FPR cận trên 95%)": 0.35333873618739453,
+      "Regex": 0.07303243172338922,
+      "Regex + Entropy": 0.07572744555360947
+    },
+    "0.05": {
+      "ML": 0.7520319381288267,
+      "ML (FPR cận trên 95%)": 0.5849156509042341,
+      "Regex": 0.16887328215662248,
+      "Regex + Entropy": 0.174439434183705
+    },
+    "0.1": {
+      "ML": 0.8649110525448855,
+      "ML (FPR cận trên 95%)": 0.7484194378591797,
+      "Regex": 0.30018454147361406,
+      "Regex + Entropy": 0.30847241305960066
+    }
+  },
+  "errors_by_type": [
+    {
+      "type": "AWS_Key",
+      "label": 1,
+      "so_loi": 4,
+      "so_mau": 48
+    },
+    {
+      "type": "Base64_Text",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 21
+    },
+    {
+      "type": "Checksum",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 30
+    },
+    {
+      "type": "Code_Line",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 40
+    },
+    {
+      "type": "Custom_Secret",
+      "label": 1,
+      "so_loi": 1,
+      "so_mau": 73
+    },
+    {
+      "type": "Doc_Example",
+      "label": 0,
+      "so_loi": 6,
+      "so_mau": 18
+    },
+    {
+      "type": "Generic_Secret",
+      "label": 1,
+      "so_loi": 0,
+      "so_mau": 58
+    },
+    {
+      "type": "GitHub_Token",
+      "label": 1,
+      "so_loi": 0,
+      "so_mau": 23
+    },
+    {
+      "type": "Git_Hash",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 36
+    },
+    {
+      "type": "Normal_Code",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 48
+    },
+    {
+      "type": "Placeholder",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 59
+    },
+    {
+      "type": "Slack_Token",
+      "label": 1,
+      "so_loi": 0,
+      "so_mau": 41
+    },
+    {
+      "type": "Test_Mock",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 37
+    },
+    {
+      "type": "URL",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 38
+    },
+    {
+      "type": "UUID",
+      "label": 0,
+      "so_loi": 0,
+      "so_mau": 26
+    }
+  ]
+}
