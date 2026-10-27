@@ -1,3 +1,24 @@
+"""
+build_dataset.py (v2)
+
+Sinh dataset tổng hợp (synthetic) theo schema mới:
+    text, label, type, repo, file_path
+
+Khác bản v1:
+  1. Có cột `repo` và `file_path` -> chia train/val/test THEO REPOSITORY
+     (GroupShuffleSplit), không chia theo dòng, đúng cam kết trong đề cương.
+  2. Tập false positive "khó": key mẫu trong tài liệu (AKIA...EXAMPLE),
+     placeholder (your_api_key_here), hash/checksum, UUID, Base64 của chuỗi
+     thường, giá trị giả trong file test/mock.
+  3. Positive "regex-blind": secret thật KHÔNG theo prefix biết trước
+     (INTERNAL_TOKEN, DB_PASSWORD, hex/base64 ngẫu nhiên...) để tầng ML có
+     chỗ chứng minh giá trị so với Regex thuần.
+  4. Cố định seed -> dataset tái lập được (reproducible).
+
+Lưu ý trung thực cho báo cáo: đây vẫn là dữ liệu TỔNG HỢP. Dữ liệu thật
+(SecretBench...) sẽ được nạp thêm ở bước import_external.py.
+"""
+
 import os
 import random
 import string
@@ -12,6 +33,8 @@ SEED = 42
 random.seed(SEED)
 
 NUM_REPOS = 80
+# Tỉ lệ secret THẬT nằm trong thư mục test (đời thực vẫn có leak trong test/)
+# -> tránh việc đường dẫn test/ trở thành "đáp án" tuyệt đối cho nhãn 0
 TEST_PATH_LEAK_RATE = 0.08
 
 SOURCE_PATHS = [
@@ -38,6 +61,15 @@ def rand_alnum(k):
 
 def rand_hex(k):
     return ''.join(random.choices("0123456789abcdef", k=k))
+
+
+# Key ID của AWS thật chỉ dùng bảng chữ cái base32: A-Z và 2-7 (không có 0, 1, 8, 9).
+# Gitleaks cũng dùng đúng bảng này trong regex aws-access-token.
+AWS_ALPHABET = string.ascii_uppercase + "234567"
+
+
+def rand_aws_chars(k):
+    return ''.join(random.choices(AWS_ALPHABET, k=k))
 
 
 def rand_b64(k):
@@ -68,7 +100,7 @@ def generate_positive_secrets():
 
     # 1. AWS Access Keys (có prefix -> Regex bắt được)
     for _ in range(300):
-        key = "AKIA" + ''.join(random.choices(string.ascii_uppercase + string.digits, k=16))
+        key = "AKIA" + rand_aws_chars(16)
         secrets.append(make_sample(key, 1, "AWS_Key", positive_paths()))
 
     # 2. Generic API secrets
@@ -78,7 +110,8 @@ def generate_positive_secrets():
 
     # 3. Slack tokens
     for _ in range(300):
-        slack = f"xoxb-{random.randint(1000000000, 9999999999)}-" + rand_alnum(24)
+        slack = (f"xoxb-{random.randint(10**9, 10**12)}-"
+                 f"{random.randint(10**9, 10**12)}-" + rand_alnum(24))
         secrets.append(make_sample(slack, 1, "Slack_Token", positive_paths()))
 
     # 4. GitHub personal tokens
@@ -155,7 +188,7 @@ def generate_negative_samples():
     non_secrets.append(make_sample("wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY", 0, "Doc_Example", DOC_PATHS))
     for _ in range(150):
         if random.random() < 0.5:
-            text = "AKIA" + ''.join(random.choices(string.ascii_uppercase + string.digits, k=9)) + "EXAMPLE"
+            text = "AKIA" + rand_aws_chars(9) + "EXAMPLE"
         else:
             text = f"aws_secret_access_key = wJalrXUtnFEMI/K7MDENG/{rand_alnum(6)}EXAMPLEKEY"
         non_secrets.append(make_sample(text, 0, "Doc_Example", DOC_PATHS))

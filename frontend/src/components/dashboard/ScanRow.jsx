@@ -1,22 +1,33 @@
+import { Link } from 'react-router-dom';
 import StatusBadge from '../ui/StatusBadge.jsx';
 import StatusGlyph from '../ui/StatusGlyph.jsx';
 import CopyButton from './CopyButton.jsx';
-import { BranchIcon, CalendarIcon } from '../common/icons.jsx';
+import { BranchIcon, CalendarIcon, ChevronRightIcon } from '../common/icons.jsx';
 import { TONES, getFindingsTone } from '../../constants/status.js';
 import { formatDateTime, shortHash } from '../../utils/format.js';
 
 export default function ScanRow({ scan }) {
   const findingsTone = getFindingsTone(scan);
+  const detailPath = `/scans/${scan.id}`;
 
   return (
-    <tr className="border-t border-rim/50 transition-colors hover:bg-white/3">
+    <tr className="border-t border-rim/50 transition-colors hover:bg-white/[0.03]">
       <td className="px-5 py-3">
         <StatusBadge status={scan.status} />
       </td>
 
       <td className="px-5 py-3">
         <span className="inline-flex items-center gap-2 font-mono text-[15px] text-fg">
-          {shortHash(scan.commit_hash)}
+          {scan.commit_hash ? (
+            <Link
+              to={detailPath}
+              className="underline-offset-4 transition hover:text-brand-sky hover:underline"
+            >
+              {shortHash(scan.commit_hash)}
+            </Link>
+          ) : (
+            '—'
+          )}
           {scan.commit_hash && <CopyButton value={scan.commit_hash} label="Sao chép commit" />}
         </span>
       </td>
@@ -48,6 +59,17 @@ export default function ScanRow({ scan }) {
           <CalendarIcon className="h-5 w-5 text-brand-sky/80" />
           {formatDateTime(scan.created_at)}
         </span>
+      </td>
+
+      <td className="px-3 py-3 text-right">
+        <Link
+          to={detailPath}
+          aria-label="Xem chi tiết scan"
+          title="Xem chi tiết"
+          className="inline-grid h-9 w-9 place-items-center rounded-lg text-fg-muted transition hover:bg-white/5 hover:text-fg"
+        >
+          <ChevronRightIcon className="h-5 w-5" />
+        </Link>
       </td>
     </tr>
   );

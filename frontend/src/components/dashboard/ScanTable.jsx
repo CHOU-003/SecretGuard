@@ -5,7 +5,7 @@ const COLUMNS = ['Trạng thái', 'Commit', 'Branch', 'Số findings', 'Thời g
 export default function ScanTable({ scans }) {
   return (
     <div className="overflow-x-auto rounded-xl border border-rim/50">
-      <table className="w-full min-w-190 text-left">
+      <table className="w-full min-w-[760px] text-left">
         <thead>
           <tr className="bg-thead text-sm text-fg">
             {COLUMNS.map((col) => (
@@ -13,6 +13,9 @@ export default function ScanTable({ scans }) {
                 {col}
               </th>
             ))}
+            <th scope="col" className="w-14 px-3 py-4">
+              <span className="sr-only">Chi tiết</span>
+            </th>
           </tr>
         </thead>
         <tbody>

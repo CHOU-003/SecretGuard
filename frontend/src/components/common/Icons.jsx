@@ -153,3 +153,16 @@ export const LogoutIcon = (p) => (
     <path d="M21 12H9" />
   </Svg>
 );
+
+export const ArrowLeftIcon = (p) => (
+  <Svg {...p}>
+    <path d="M19 12H5" />
+    <path d="M11 18l-6-6 6-6" />
+  </Svg>
+);
+
+export const ChevronRightIcon = (p) => (
+  <Svg {...p}>
+    <path d="M9 6l6 6-6 6" />
+  </Svg>
+);
