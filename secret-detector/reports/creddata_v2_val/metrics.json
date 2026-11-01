@@ -1,0 +1,1058 @@
+{
+  "model": "creddata_v2",
+  "threshold": 0.7,
+  "results": {
+    "creddata": {
+      "n_lines": 11775,
+      "n_repos": 50,
+      "prevalence": 0.15906581740976644,
+      "ml_name": "ML (ngưỡng 0.7)",
+      "metrics": {
+        "Regex": {
+          "precision": 0.7389380530973452,
+          "recall": 0.08916177255739455,
+          "f1": 0.1591233920914721,
+          "fpr": 0.005958392243991113,
+          "tp": 167,
+          "fp": 59,
+          "fn": 1706,
+          "tn": 9843
+        },
+        "Regex + Entropy": {
+          "precision": 0.88,
+          "recall": 0.03523758675920982,
+          "f1": 0.0677618069815195,
+          "fpr": 0.0009089072914562715,
+          "tp": 66,
+          "fp": 9,
+          "fn": 1807,
+          "tn": 9893
+        },
+        "Chỉ trích candidate (không ML)": {
+          "precision": 0.17389482505761575,
+          "recall": 0.8862786972770955,
+          "f1": 0.29074349767930635,
+          "fpr": 0.7964047667137952,
+          "tp": 1660,
+          "fp": 7886,
+          "fn": 213,
+          "tn": 2016
+        },
+        "ML (ngưỡng 0.7)": {
+          "precision": 0.7133163698049194,
+          "recall": 0.44901227976508273,
+          "f1": 0.5511140235910877,
+          "fpr": 0.03413451827913553,
+          "tp": 841,
+          "fp": 338,
+          "fn": 1032,
+          "tn": 9564
+        }
+      },
+      "probabilistic": {
+        "roc_auc": 0.8285154201511168,
+        "pr_auc": 0.6441522062378375,
+        "n_lines_with_score": 9546,
+        "ece_lines_with_candidate": 0.05280124924553013,
+        "brier_lines_with_candidate": 0.09189461839099757
+      },
+      "confidence_intervals": {
+        "roc_auc_ci": [
+          0.7935293939952021,
+          0.8827144884795284
+        ],
+        "pr_auc_ci": [
+          0.5836062993811402,
+          0.8048434302181493
+        ],
+        "n_valid_boot": 500,
+        "recall_ci_wilson": [
+          0.42661330265550484,
+          0.4716199845862102
+        ],
+        "fpr_ci_wilson": [
+          0.030734887780300243,
+          0.03789548482731343
+        ]
+      },
+      "funnel": {
+        "dong_secret": 1873,
+        "co_candidate": 1660,
+        "bi_canh_bao": 841
+      },
+      "sweep": {
+        "0.3": {
+          "precision": 0.577639751552795,
+          "recall": 0.6454885210891618,
+          "f1": 0.6096822995461422,
+          "fpr": 0.08927489396081599,
+          "tp": 1209,
+          "fp": 884,
+          "fn": 664,
+          "tn": 9018
+        },
+        "0.4": {
+          "precision": 0.6285871964679912,
+          "recall": 0.608115323011212,
+          "f1": 0.6181818181818182,
+          "fpr": 0.06796606746111897,
+          "tp": 1139,
+          "fp": 673,
+          "fn": 734,
+          "tn": 9229
+        },
+        "0.5": {
+          "precision": 0.6481137909709338,
+          "recall": 0.5595301655098772,
+          "f1": 0.6005730659025788,
+          "fpr": 0.057463138759846495,
+          "tp": 1048,
+          "fp": 569,
+          "fn": 825,
+          "tn": 9333
+        },
+        "0.6": {
+          "precision": 0.6352785145888594,
+          "recall": 0.5114789108382275,
+          "f1": 0.5666962437148773,
+          "fpr": 0.055544334477883255,
+          "tp": 958,
+          "fp": 550,
+          "fn": 915,
+          "tn": 9352
+        },
+        "0.7": {
+          "precision": 0.7133163698049194,
+          "recall": 0.44901227976508273,
+          "f1": 0.5511140235910877,
+          "fpr": 0.03413451827913553,
+          "tp": 841,
+          "fp": 338,
+          "fn": 1032,
+          "tn": 9564
+        },
+        "0.8": {
+          "precision": 0.7848101265822784,
+          "recall": 0.36412172984516816,
+          "f1": 0.49744711889132015,
+          "fpr": 0.018885073722480307,
+          "tp": 682,
+          "fp": 187,
+          "fn": 1191,
+          "tn": 9715
+        },
+        "0.9": {
+          "precision": 0.8536585365853658,
+          "recall": 0.2429257875066738,
+          "f1": 0.3782211138819618,
+          "fpr": 0.007877196525954352,
+          "tp": 455,
+          "fp": 78,
+          "fn": 1418,
+          "tn": 9824
+        }
+      },
+      "precision_at_prevalence": {
+        "0.01": {
+          "ML": 0.1172867354494192,
+          "ML (FPR cận trên 95%)": 0.10689075422220573,
+          "Regex": 0.1313051227398947,
+          "Regex + Entropy": 0.28140674955595024
+        },
+        "0.02": {
+          "ML": 0.21163815134859507,
+          "ML (FPR cận trên 95%)": 0.19472397988280116,
+          "Regex": 0.23394487949808707,
+          "Regex + Entropy": 0.44171744309829164
+        },
+        "0.05": {
+          "ML": 0.40909741153315676,
+          "ML (FPR cận trên 95%)": 0.38409076529572694,
+          "Regex": 0.4405852288153228,
+          "Regex + Entropy": 0.6711048813172934
+        },
+        "0.1": {
+          "ML": 0.5937564882988166,
+          "ML (FPR cận trên 95%)": 0.5683184349463133,
+          "Regex": 0.6244376834502872,
+          "Regex + Entropy": 0.8115939869232345
+        }
+      },
+      "errors_by_type": [
+        {
+          "label": 1,
+          "type": "Password",
+          "so_mau": 387,
+          "loi_ML": 348,
+          "loi_Regex": 377
+        },
+        {
+          "label": 0,
+          "type": "UUID",
+          "so_mau": 1386,
+          "loi_ML": 205,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "NTLM Token:Bearer Authorization:Auth",
+          "so_mau": 104,
+          "loi_ML": 104,
+          "loi_Regex": 104
+        },
+        {
+          "label": 1,
+          "type": "URL Credentials",
+          "so_mau": 100,
+          "loi_ML": 90,
+          "loi_Regex": 100
+        },
+        {
+          "label": 1,
+          "type": "UUID",
+          "so_mau": 312,
+          "loi_ML": 87,
+          "loi_Regex": 312
+        },
+        {
+          "label": 1,
+          "type": "JWK",
+          "so_mau": 76,
+          "loi_ML": 47,
+          "loi_Regex": 76
+        },
+        {
+          "label": 1,
+          "type": "Key",
+          "so_mau": 158,
+          "loi_ML": 45,
+          "loi_Regex": 158
+        },
+        {
+          "label": 1,
+          "type": "PEM Private Key",
+          "so_mau": 42,
+          "loi_ML": 42,
+          "loi_Regex": 21
+        },
+        {
+          "label": 0,
+          "type": "Key",
+          "so_mau": 2451,
+          "loi_ML": 30,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "JSON Web Token",
+          "so_mau": 35,
+          "loi_ML": 27,
+          "loi_Regex": 35
+        },
+        {
+          "label": 0,
+          "type": "Password",
+          "so_mau": 2483,
+          "loi_ML": 24,
+          "loi_Regex": 10
+        },
+        {
+          "label": 1,
+          "type": "Token",
+          "so_mau": 81,
+          "loi_ML": 22,
+          "loi_Regex": 65
+        },
+        {
+          "label": 0,
+          "type": "JSON Web Token",
+          "so_mau": 41,
+          "loi_ML": 20,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Nonce",
+          "so_mau": 36,
+          "loi_ML": 20,
+          "loi_Regex": 36
+        },
+        {
+          "label": 1,
+          "type": "NTLM Token",
+          "so_mau": 18,
+          "loi_ML": 18,
+          "loi_Regex": 18
+        },
+        {
+          "label": 1,
+          "type": "CURL Options",
+          "so_mau": 17,
+          "loi_ML": 17,
+          "loi_Regex": 17
+        },
+        {
+          "label": 0,
+          "type": "UUID:Key",
+          "so_mau": 17,
+          "loi_ML": 17,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Dropbox App secret",
+          "so_mau": 14,
+          "loi_ML": 14,
+          "loi_Regex": 14
+        },
+        {
+          "label": 1,
+          "type": "AWS Client ID",
+          "so_mau": 33,
+          "loi_ML": 13,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Secret",
+          "so_mau": 45,
+          "loi_ML": 12,
+          "loi_Regex": 26
+        },
+        {
+          "label": 1,
+          "type": "UUID:Token",
+          "so_mau": 11,
+          "loi_ML": 11,
+          "loi_Regex": 11
+        },
+        {
+          "label": 0,
+          "type": "URL Credentials",
+          "so_mau": 88,
+          "loi_ML": 11,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Grafana Provisioned API Key",
+          "so_mau": 14,
+          "loi_ML": 10,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "AWS S3 Bucket",
+          "so_mau": 10,
+          "loi_ML": 9,
+          "loi_Regex": 10
+        },
+        {
+          "label": 1,
+          "type": "Auth:Basic Authorization",
+          "so_mau": 9,
+          "loi_ML": 9,
+          "loi_Regex": 9
+        },
+        {
+          "label": 1,
+          "type": "SQL Password",
+          "so_mau": 7,
+          "loi_ML": 7,
+          "loi_Regex": 7
+        },
+        {
+          "label": 1,
+          "type": "Auth",
+          "so_mau": 15,
+          "loi_ML": 7,
+          "loi_Regex": 15
+        },
+        {
+          "label": 0,
+          "type": "Auth",
+          "so_mau": 685,
+          "loi_ML": 7,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "NKEY Seed",
+          "so_mau": 58,
+          "loi_ML": 6,
+          "loi_Regex": 58
+        },
+        {
+          "label": 1,
+          "type": "Auth:Password",
+          "so_mau": 6,
+          "loi_ML": 6,
+          "loi_Regex": 6
+        },
+        {
+          "label": 1,
+          "type": "CMD Password",
+          "so_mau": 6,
+          "loi_ML": 6,
+          "loi_Regex": 6
+        },
+        {
+          "label": 1,
+          "type": "AWS Client ID:Key",
+          "so_mau": 18,
+          "loi_ML": 6,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Key:Secret",
+          "so_mau": 18,
+          "loi_ML": 5,
+          "loi_Regex": 18
+        },
+        {
+          "label": 0,
+          "type": "Token",
+          "so_mau": 690,
+          "loi_ML": 4,
+          "loi_Regex": 17
+        },
+        {
+          "label": 1,
+          "type": "AWS Multi",
+          "so_mau": 15,
+          "loi_ML": 4,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "JSON Web Token:Token",
+          "so_mau": 12,
+          "loi_ML": 4,
+          "loi_Regex": 12
+        },
+        {
+          "label": 1,
+          "type": "Basic Authorization",
+          "so_mau": 6,
+          "loi_ML": 4,
+          "loi_Regex": 6
+        },
+        {
+          "label": 1,
+          "type": "Token:UUID",
+          "so_mau": 57,
+          "loi_ML": 4,
+          "loi_Regex": 52
+        },
+        {
+          "label": 1,
+          "type": "Password:URL Credentials",
+          "so_mau": 4,
+          "loi_ML": 4,
+          "loi_Regex": 4
+        },
+        {
+          "label": 1,
+          "type": "Key:Password",
+          "so_mau": 4,
+          "loi_ML": 4,
+          "loi_Regex": 4
+        },
+        {
+          "label": 0,
+          "type": "AWS Client ID",
+          "so_mau": 13,
+          "loi_ML": 4,
+          "loi_Regex": 12
+        },
+        {
+          "label": 1,
+          "type": "Auth:Nonce",
+          "so_mau": 15,
+          "loi_ML": 3,
+          "loi_Regex": 15
+        },
+        {
+          "label": 0,
+          "type": "API",
+          "so_mau": 1236,
+          "loi_ML": 3,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Secret:Key",
+          "so_mau": 13,
+          "loi_ML": 3,
+          "loi_Regex": 13
+        },
+        {
+          "label": 1,
+          "type": "API",
+          "so_mau": 7,
+          "loi_ML": 2,
+          "loi_Regex": 7
+        },
+        {
+          "label": 1,
+          "type": "Credential",
+          "so_mau": 2,
+          "loi_ML": 2,
+          "loi_Regex": 2
+        },
+        {
+          "label": 1,
+          "type": "Auth:Token",
+          "so_mau": 13,
+          "loi_ML": 2,
+          "loi_Regex": 3
+        },
+        {
+          "label": 1,
+          "type": "Token:Auth",
+          "so_mau": 8,
+          "loi_ML": 2,
+          "loi_Regex": 5
+        },
+        {
+          "label": 1,
+          "type": "Auth:Bearer Authorization",
+          "so_mau": 2,
+          "loi_ML": 2,
+          "loi_Regex": 2
+        },
+        {
+          "label": 1,
+          "type": "Password:Secret",
+          "so_mau": 3,
+          "loi_ML": 1,
+          "loi_Regex": 3
+        },
+        {
+          "label": 1,
+          "type": "PEM Private Key:Key",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "CURL User Password",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 0,
+          "type": "Secret",
+          "so_mau": 307,
+          "loi_ML": 1,
+          "loi_Regex": 8
+        },
+        {
+          "label": 0,
+          "type": "AWS Multi",
+          "so_mau": 2,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 0,
+          "type": "Auth:UUID",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Auth:JSON Web Token:Bearer Authorization",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Azure Access Token:JSON Web Token",
+          "so_mau": 3,
+          "loi_ML": 1,
+          "loi_Regex": 3
+        },
+        {
+          "label": 1,
+          "type": "Key:Product Activation Key",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Password:Auth",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Key:BASE64 Private Key",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "API:Password:Salt",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "BASE64 Private Key",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "CMD Secret",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Firebase Domain",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "JSON Web Token:Bearer Authorization",
+          "so_mau": 1,
+          "loi_ML": 1,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Auth:Key",
+          "so_mau": 15,
+          "loi_ML": 1,
+          "loi_Regex": 15
+        },
+        {
+          "label": 0,
+          "type": "Password:URL Credentials",
+          "so_mau": 10,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Password:Key",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Password:Key:Secret",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "SQL Password",
+          "so_mau": 3,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Salt",
+          "so_mau": 4,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Salt:Password",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Secret:Key",
+          "so_mau": 5,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "URL Credentials:Password",
+          "so_mau": 17,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Token:Auth:Secret",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Secret:Token",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:Dropbox App secret",
+          "so_mau": 14,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:API:Secret",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:AWS Client ID",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 2
+        },
+        {
+          "label": 0,
+          "type": "Key:Token",
+          "so_mau": 8,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:Secret",
+          "so_mau": 31,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Token",
+          "so_mau": 110,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Secret:Token",
+          "so_mau": 3,
+          "loi_ML": 0,
+          "loi_Regex": 3
+        },
+        {
+          "label": 0,
+          "type": "CMD Password",
+          "so_mau": 6,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "CMD Token",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Credential",
+          "so_mau": 81,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "CURL Options",
+          "so_mau": 8,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Dropbox App secret",
+          "so_mau": 16,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "JWK",
+          "so_mau": 3,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "API:Key",
+          "so_mau": 32,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "API:Secret",
+          "so_mau": 7,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Secret",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Salt",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Credential",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "API:Password",
+          "so_mau": 32,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "API:Key:Secret",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "API:Token",
+          "so_mau": 12,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 0,
+          "type": "Auth:Key",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Auth:Password",
+          "so_mau": 5,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Nonce:Auth",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Nonce",
+          "so_mau": 16,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "PEM Private Key",
+          "so_mau": 8,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 0,
+          "type": "Password:API",
+          "so_mau": 25,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Password:Auth",
+          "so_mau": 4,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Password:Credential",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:AWS Multi:AWS Client ID",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 2
+        },
+        {
+          "label": 0,
+          "type": "Key:Password",
+          "so_mau": 4,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 0,
+          "type": "Key:Nonce",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "API:Key",
+          "so_mau": 10,
+          "loi_ML": 0,
+          "loi_Regex": 4
+        },
+        {
+          "label": 1,
+          "type": "Key:AWS Client ID",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 2
+        },
+        {
+          "label": 1,
+          "type": "Dropbox App secret:Password",
+          "so_mau": 17,
+          "loi_ML": 0,
+          "loi_Regex": 17
+        },
+        {
+          "label": 1,
+          "type": "Bearer Authorization:Auth",
+          "so_mau": 2,
+          "loi_ML": 0,
+          "loi_Regex": 2
+        },
+        {
+          "label": 1,
+          "type": "NKEY Seed:Key",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Key:NKEY Seed",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Key:Auth",
+          "so_mau": 11,
+          "loi_ML": 0,
+          "loi_Regex": 11
+        },
+        {
+          "label": 1,
+          "type": "Postman Credentials",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Salt",
+          "so_mau": 1,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Secret:Token",
+          "so_mau": 6,
+          "loi_ML": 0,
+          "loi_Regex": 6
+        },
+        {
+          "label": 1,
+          "type": "Secret:Auth",
+          "so_mau": 5,
+          "loi_ML": 0,
+          "loi_Regex": 1
+        },
+        {
+          "label": 1,
+          "type": "Token:Secret",
+          "so_mau": 6,
+          "loi_ML": 0,
+          "loi_Regex": 0
+        },
+        {
+          "label": 1,
+          "type": "Tencent WeChat API App ID",
+          "so_mau": 4,
+          "loi_ML": 0,
+          "loi_Regex": 4
+        }
+      ],
+      "by_path_context": {
+        "thư mục test/mẫu": {
+          "so_dong": 3220,
+          "ti_le_secret": 0.35403726708074534,
+          "precision": 0.8565891472868217,
+          "recall": 0.387719298245614,
+          "f1": 0.533816425120773,
+          "fpr": 0.035576923076923075,
+          "tp": 442,
+          "fp": 74,
+          "fn": 698,
+          "tn": 2006
+        },
+        "thư mục khác": {
+          "so_dong": 8555,
+          "ti_le_secret": 0.08568088836937464,
+          "precision": 0.6018099547511312,
+          "recall": 0.5443383356070941,
+          "f1": 0.5716332378223496,
+          "fpr": 0.033750958834057786,
+          "tp": 399,
+          "fp": 264,
+          "fn": 334,
+          "tn": 7558
+        }
+      }
+    }
+  }
+}

@@ -23,6 +23,13 @@ Những chỗ khác bản trước, và lý do:
   * Khi chạy trên CI, lấy commit/branch từ biến môi trường của CI (checkout trên CI thường
     ở trạng thái detached HEAD nên `git rev-parse --abbrev-ref HEAD` chỉ ra "HEAD").
 
+Loại trừ CÓ KIỂM SOÁT (để một dòng báo nhầm không làm pipeline đỏ mãi):
+  * Thêm chú thích `secretguard:ignore` vào cuối dòng cần bỏ qua, ví dụ:
+        API_KEY = "dummy-value-for-docs"  # secretguard:ignore
+  * Hoặc liệt kê đường dẫn/mẫu glob (so với gốc repo) trong file `.secretguardignore`, mỗi dòng một mục;
+    dòng bắt đầu bằng # là chú thích; mục kết thúc bằng / loại cả thư mục.
+  Số dòng/file bị bỏ qua luôn được in ra để việc lạm dụng cơ chế này không bị che giấu.
+
 Giới hạn đã biết: ở mode staged, commit_hash ghi vào backend là commit CHA (HEAD) vì commit
 mới chưa tồn tại lúc pre-commit chạy.
 """
@@ -31,6 +38,7 @@ import sys
 import os
 import re
 import argparse
+import fnmatch
 import subprocess
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -56,6 +64,29 @@ REGEX_TYPE_LABELS = {
     "Slack Token": "SLACK_TOKEN",
     "Private Key": "PRIVATE_KEY",
 }
+
+
+IGNORE_MARKER = "secretguard:ignore"
+IGNORE_FILE = ".secretguardignore"
+
+
+def load_ignore_patterns(root):
+    path = os.path.join(root, IGNORE_FILE)
+    if not os.path.isfile(path):
+        return []
+    with open(path, encoding="utf-8", errors="replace") as f:
+        return [ln.strip() for ln in f if ln.strip() and not ln.strip().startswith("#")]
+
+
+def is_ignored_path(rel_path, patterns):
+    rel = rel_path.replace("\\", "/")
+    for pat in patterns:
+        if pat.endswith("/"):
+            if rel.startswith(pat) or f"/{pat}" in f"/{rel}":
+                return True
+        elif fnmatch.fnmatch(rel, pat) or fnmatch.fnmatch(os.path.basename(rel), pat):
+            return True
+    return False
 
 
 # ------------------------------------------------------------- lọc file
@@ -112,14 +143,17 @@ def read_working_file(abs_path, max_bytes):
         return None
 
 
-def collect_items(args, root_for_git):
-    """Trả về (danh sách (đường_dẫn_tương_đối, nội_dung), số file bị bỏ qua)."""
+def collect_items(args, root_for_git, ignore_patterns):
+    """Trả về (danh sách (đường_dẫn_tương_đối, nội_dung), số file quá lớn/không đọc được, số file bị ignore)."""
     max_bytes = args.max_file_kb * 1024
-    items, skipped = [], 0
+    items, skipped, ignored = [], 0, 0
 
     if args.mode == "staged":
         for rel in list_staged_files(root_for_git):
             if is_excluded_path(rel) or not should_scan(rel):
+                continue
+            if is_ignored_path(rel, ignore_patterns):
+                ignored += 1
                 continue
             content = read_staged_blob(root_for_git, rel, max_bytes)
             if content is None:
@@ -135,12 +169,15 @@ def collect_items(args, root_for_git):
                 rel = os.path.relpath(abs_path, base).replace(os.sep, "/")
                 if is_excluded_path(rel) or not should_scan(rel):
                     continue
+                if is_ignored_path(rel, ignore_patterns):
+                    ignored += 1
+                    continue
                 content = read_working_file(abs_path, max_bytes)
                 if content is None:
                     skipped += 1
                     continue
                 items.append((rel, content))
-    return items, skipped
+    return items, skipped, ignored
 
 
 def get_git_commit_hash(repo_dir, trigger_type):
@@ -207,13 +244,16 @@ def mask_line(line, cand, width=90):
 
 
 def scan_items(items, model, columns, warn_threshold):
-    findings, n_lines = [], 0
+    findings, n_lines, n_ignored_lines = [], 0, 0
     for rel, content in items:
         lines = content.replace("\r\n", "\n").replace("\r", "\n").split("\n")
         n_lines += len(lines)
         scores = score_lines(((ln, rel) for ln in lines), model, columns)
         for idx, (ln, ls) in enumerate(zip(lines, scores), 1):
             if ls.best is None or ls.score < warn_threshold:
+                continue
+            if IGNORE_MARKER in ln:
+                n_ignored_lines += 1
                 continue
             confidence = round(ls.score * 100, 2)
             findings.append({
@@ -224,7 +264,7 @@ def scan_items(items, model, columns, warn_threshold):
                 "secret_type": guess_secret_type(ln, ls.best),
                 "risk_level": risk_level_from_confidence(confidence),
             })
-    return findings, n_lines
+    return findings, n_lines, n_ignored_lines
 
 
 def determine_status(findings, block_threshold):
@@ -234,9 +274,11 @@ def determine_status(findings, block_threshold):
     return "blocked" if max_conf >= block_threshold else "warned"
 
 
-def print_report(findings, block_threshold, n_files, n_lines, skipped):
+def print_report(findings, block_threshold, n_files, n_lines, skipped, ignored_files=0, ignored_lines=0):
     print("\n=== BÁO CÁO KIỂM TRA SECRET LEAKAGE ===")
     print(f"Đã quét {n_files} file, {n_lines} dòng" + (f" (bỏ qua {skipped} file quá lớn/không đọc được)" if skipped else ""))
+    if ignored_files or ignored_lines:
+        print(f"ℹ️  Loại trừ có chủ đích: {ignored_files} file (.secretguardignore), {ignored_lines} dòng ({IGNORE_MARKER})")
     if not findings:
         print("✅ KHÔNG PHÁT HIỆN SECRET. PIPELINE AN TOÀN!")
         return
@@ -300,8 +342,8 @@ def default_project_name(root, trigger_type):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Secret Detection Engine")
     parser.add_argument("--path", type=str, default=".", help="Thư mục repo cần quét")
-    parser.add_argument("--threshold", type=float, default=0.7, help="Ngưỡng BLOCK (0.0 - 1.0)")
-    parser.add_argument("--warn-threshold", type=float, default=0.4, help="Ngưỡng CẢNH BÁO, thấp hơn threshold")
+    parser.add_argument("--threshold", type=float, default=0.8, help="Ngưỡng BLOCK (0.0 - 1.0); chọn từ bảng quét ngưỡng trên validation")
+    parser.add_argument("--warn-threshold", type=float, default=0.5, help="Ngưỡng CẢNH BÁO, thấp hơn threshold")
     parser.add_argument("--mode", choices=["staged", "full"], default="staged",
                         help="staged = chỉ quét file đã git add (pre-commit). full = quét toàn bộ thư mục (CI).")
     parser.add_argument("--trigger-type", choices=["local_precommit", "ci_pipeline"], default="local_precommit")
@@ -324,10 +366,11 @@ if __name__ == "__main__":
     git_root = get_git_root(repo_dir) if (args.mode == "staged" or not args.no_report) else repo_dir
     project_name = args.project_name or default_project_name(git_root, args.trigger_type)
 
-    items, skipped = collect_items(args, git_root)
-    findings, n_lines = scan_items(items, model, columns, warn_threshold=args.warn_threshold)
+    ignore_patterns = load_ignore_patterns(git_root)
+    items, skipped, ignored_files = collect_items(args, git_root, ignore_patterns)
+    findings, n_lines, ignored_lines = scan_items(items, model, columns, warn_threshold=args.warn_threshold)
     status = determine_status(findings, args.threshold)
-    print_report(findings, args.threshold, len(items), n_lines, skipped)
+    print_report(findings, args.threshold, len(items), n_lines, skipped, ignored_files, ignored_lines)
 
     # Theo đúng luồng thiết kế: dù block hay không, luôn gọi backend ghi log
     if not args.no_report:

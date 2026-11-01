@@ -1,61 +1,75 @@
 """
-benchmark_tools.py — so sánh hệ thống với Gitleaks và TruffleHog trên CÙNG test set
+benchmark_tools.py (v2) — so sánh với Gitleaks và TruffleHog trên CÙNG các dòng của CredData
 
-Chạy SAU evaluate.py:
-    python -m src.benchmark_tools [--gitleaks gitleaks] [--trufflehog trufflehog] [--threshold 0.7]
+Chạy SAU khi đã chốt model và ngưỡng (bằng validation):
+    python -m src.benchmark_tools --gitleaks C:\\tools\\gitleaks.exe --trufflehog C:\\tools\\trufflehog.exe ^
+        --model production --warn-threshold 0.5 --threshold 0.8
+    python -m src.benchmark_tools --split val ...      # chạy thử trên validation, không chạm test
 
 Cách so sánh công bằng:
-  - Mỗi dòng của test.csv được ghi thành 1 file riêng:
-        <workdir>/<chỉ-số-mẫu>/<file_path của mẫu>
-    (giữ nguyên đuôi file và thư mục như tests/, docs/... để công cụ nhìn thấy
-    cùng ngữ cảnh đường dẫn mà mô hình ML được thấy).
-  - Một mẫu được tính là "dự đoán có secret" nếu công cụ báo >= 1 finding
-    trong file của mẫu đó. Mọi công cụ đều chạy với cấu hình MẶC ĐỊNH.
+  - Mỗi dòng của tập đánh giá (mặc định: split test của CredData) được ghi thành 1 file riêng:
+        <workdir>/<chỉ-số-dòng>/<file_path của dòng>
+    giữ nguyên thư mục và đuôi file (test/, lang/, .json, .yml...) để công cụ thấy cùng ngữ cảnh
+    đường dẫn mà mô hình ML thấy.
+  - Một dòng được tính là "dự đoán có secret" nếu công cụ báo >= 1 finding trong file của dòng đó.
+    Mọi công cụ chạy với cấu hình MẶC ĐỊNH, đúng như một người dùng cài về chạy.
+  - Hệ thống của bạn được báo cáo ở HAI mức: "cảnh báo" (>= --warn-threshold, cùng nghĩa với
+    "công cụ có báo gì đó") và "chặn" (>= --threshold, mức làm commit bị từ chối).
 
 Quy tắc an toàn (cố ý không cho tắt):
-  - TruffleHog luôn chạy với --no-verification. Chế độ verify sẽ GỌI API thật
-    (AWS, Slack, GitHub...) bằng chính chuỗi tìm được — với dữ liệu thật như
-    CredData đó là truy cập trái phép.
+  - TruffleHog luôn chạy với --no-verification. Chế độ verify sẽ GỌI API thật bằng chính chuỗi
+    tìm được; với dữ liệu thật như CredData đó là truy cập trái phép.
   - Gitleaks luôn chạy với --redact để báo cáo không chứa secret.
-  - Chỉ lưu chỉ số mẫu + tên rule/detector, KHÔNG lưu nội dung secret.
-  - Thư mục tạm chứa các mẫu bị xoá sau khi chạy (trừ khi dùng --keep).
+  - Chỉ lưu chỉ số dòng, nhãn, loại và dự đoán; KHÔNG lưu nội dung dòng.
+  - Thư mục tạm chứa các dòng bị xoá sau khi chạy (trừ khi dùng --keep).
 
-Hạn chế cần nêu trong báo cáo: các công cụ thiết kế để quét repo, không phải
-để phân loại từng chuỗi rời; test set lại do chính nhóm thiết kế. Kết quả cho
-thấy hành vi trên TẬP NÀY, không phải xếp hạng tổng quát giữa các công cụ.
+Hạn chế cần nêu trong báo cáo:
+  - Các công cụ được thiết kế để quét cả repo (có ngữ cảnh nhiều dòng, xác minh key bằng API);
+    ở đây chúng chỉ thấy 1 dòng và không được verify. Kết quả mô tả hành vi trên TẬP NÀY với
+    cấu hình mặc định, không phải xếp hạng tổng quát giữa các công cụ.
+  - Mô hình của bạn được train trên chính CredData (tập train) còn các công cụ kia thì không,
+    nên so sánh này thiên về phía bạn. Phải nói rõ điều đó.
+  - Nhãn CredData tính cả credential trong thư mục test là secret; công cụ có thể chủ ý bỏ qua.
+  - Khoảng tin cậy chênh lệch F1 dùng bootstrap theo repo; độ lệch lớn giữa các repo làm khoảng rộng.
 """
 
 import os
 import json
 import shutil
 import argparse
+import datetime
 import subprocess
 from collections import Counter
 
-import joblib
 import numpy as np
 import pandas as pd
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from sklearn.metrics import precision_recall_curve, average_precision_score
+from sklearn.metrics import average_precision_score, precision_recall_curve
 
 from src.evaluate import (
+    SOURCE_LABELS,
+    SOURCES,
     binary_metrics,
     fmt_pct,
+    load_test_sets,
     ppv_at_prevalence,
     regex_entropy_predictions,
     regex_predictions,
     save_fig,
     wilson_interval,
 )
-from src.train_ml import NON_FEATURE_COLUMNS
+from src.feature_extractor import is_test_path_fn
+from src.scoring import load_model, score_lines
 
-PREVALENCES = [0.01, 0.05]
+SEED = 42
+PREVALENCES = [0.01, 0.05, 0.10]
 COLORS = {
     "Regex": "tab:green",
     "Regex + Entropy": "tab:orange",
+    "Chỉ trích candidate (không ML)": "tab:gray",
     "Gitleaks": "tab:purple",
     "TruffleHog": "tab:brown",
 }
@@ -160,190 +174,283 @@ def run_trufflehog(binary, root, work_dir):
     return hit, detectors
 
 
+
 # ---------------------------------------------------------------- phân tích
-def per_type_errors(test_raw, predictions):
-    """Bảng số lỗi theo (nhãn, loại mẫu) cho từng phương pháp.
-    Nhãn 0: lỗi = báo nhầm (FP). Nhãn 1: lỗi = bỏ sót (FN)."""
-    df = test_raw[["type", "label"]].copy()
-    for name, pred in predictions.items():
-        df[name] = (np.asarray(pred) != df["label"].to_numpy()).astype(int)
-    grouped = df.groupby(["label", "type"])
-    table = grouped.size().rename("so_mau").to_frame()
-    for name in predictions:
-        table[name] = grouped[name].sum()
-    return table.reset_index()
+def f1_binary(y, pred):
+    tp = int(((pred == 1) & (y == 1)).sum())
+    fp = int(((pred == 1) & (y == 0)).sum())
+    fn = int(((pred == 0) & (y == 1)).sum())
+    return 2 * tp / (2 * tp + fp + fn) if (2 * tp + fp + fn) else 0.0
 
 
-def plot_comparison(y, proba, threshold, metrics, path):
-    precision, recall, _ = precision_recall_curve(y, proba)
-    fig, ax = plt.subplots(figsize=(7, 5.4))
-    ax.plot(recall, precision, lw=2, color="tab:blue",
-            label=f"ML — đường PR (PR-AUC = {average_precision_score(y, proba):.3f})")
-    ml = metrics[f"ML (ngưỡng {threshold})"]
-    ax.scatter([ml["recall"]], [ml["precision"]], marker="*", s=200, color="tab:red", zorder=6,
-               label=f"ML tại ngưỡng {threshold}")
-    for name, m in metrics.items():
-        if name in COLORS:
-            ax.scatter([m["recall"]], [m["precision"]], s=80, color=COLORS[name], zorder=5, label=name)
-    ax.axhline(float(np.mean(y)), ls="--", color="gray", lw=1, label="Ngẫu nhiên")
-    ax.set_xlabel("Recall")
-    ax.set_ylabel("Precision")
-    ax.set_title("So sánh với công cụ thực tế (cùng tập test)")
-    ax.set_xlim(0, 1.02)
-    ax.set_ylim(0, 1.02)
-    ax.grid(alpha=0.3)
-    ax.legend(loc="lower left", fontsize=8)
+def cluster_bootstrap_f1_diff(y, pred_a, pred_b, groups, n_boot, seed=SEED):
+    """Khoảng tin cậy 95% cho F1(a) - F1(b), resample theo repo. Trả về (điểm, thấp, cao)."""
+    rng = np.random.default_rng(seed)
+    uniq = np.unique(groups)
+    idx_by_group = {g: np.where(groups == g)[0] for g in uniq}
+    diffs = []
+    for _ in range(n_boot):
+        chosen = rng.choice(uniq, size=len(uniq), replace=True)
+        idx = np.concatenate([idx_by_group[g] for g in chosen])
+        diffs.append(f1_binary(y[idx], pred_a[idx]) - f1_binary(y[idx], pred_b[idx]))
+    point = f1_binary(y, pred_a) - f1_binary(y, pred_b)
+    return float(point), float(np.percentile(diffs, 2.5)), float(np.percentile(diffs, 97.5))
+
+
+def category_tables(df, y, preds, min_n=30, top=10):
+    """Tỉ lệ dòng bị báo theo (nhãn, Category). Nhãn 1: đây là recall. Nhãn 0: đây là FPR."""
+    d = pd.DataFrame({"label": y, "type": df["type"].astype(str).to_numpy()})
+    for name, p in preds.items():
+        d[name] = p
+    out = {}
+    for label in (1, 0):
+        g = d[d["label"] == label].groupby("type")
+        sizes = g.size()
+        keep = sizes[sizes >= min_n].sort_values(ascending=False).head(top).index
+        tbl = g[list(preds)].mean().loc[keep]
+        tbl.insert(0, "so_mau", sizes.loc[keep])
+        out[label] = tbl
+    return out
+
+
+def context_metrics(y, paths, preds):
+    """Recall và FPR của từng phương pháp, tách theo thư mục test/mẫu và thư mục khác."""
+    in_test = np.array([is_test_path_fn(p) for p in paths])
+    out = {}
+    for ctx, mask in (("thư mục test/mẫu", in_test), ("thư mục khác", ~in_test)):
+        if mask.sum() == 0:
+            continue
+        out[ctx] = {"so_dong": int(mask.sum()), "ti_le_secret": float(y[mask].mean()),
+                    "methods": {n: binary_metrics(y[mask], p[mask]) for n, p in preds.items()}}
+    return out
+
+
+def benchmark_source(src, df, model, columns, tools, args, work_dir):
+    texts = df["text"].astype(str).tolist()
+    paths = df["file_path"].astype(str).tolist() if "file_path" in df.columns else [""] * len(df)
+    y = df["label"].astype(int).to_numpy()
+    groups = df["repo"].astype(str).to_numpy() if "repo" in df.columns else np.array([str(i) for i in range(len(df))])
+    n = len(df)
+
+    ls = score_lines(zip(texts, paths), model, columns)
+    score = np.array([s.score for s in ls])
+    n_cand = np.array([s.n_candidates for s in ls])
+
+    preds, rule_hits = {}, {}
+    preds["Regex"] = regex_predictions(texts)
+    preds["Regex + Entropy"] = regex_entropy_predictions(texts)
+    preds["Chỉ trích candidate (không ML)"] = (n_cand > 0).astype(int)
+
+    if tools:
+        src_work = os.path.join(work_dir, src)
+        root = os.path.join(src_work, "samples")
+        os.makedirs(src_work, exist_ok=True)
+        print(f"[{src}] đang dựng {n} dòng thành file...")
+        materialize_samples(df, root)
+        if "Gitleaks" in tools:
+            print(f"[{src}] đang chạy Gitleaks ({tools['Gitleaks']['version']})...")
+            hit, rules = run_gitleaks(tools["Gitleaks"]["binary"], root, src_work)
+            preds["Gitleaks"] = np.array([1 if i in hit else 0 for i in range(n)])
+            rule_hits["Gitleaks"] = dict(rules)
+        if "TruffleHog" in tools:
+            print(f"[{src}] đang chạy TruffleHog ({tools['TruffleHog']['version']}), không verify...")
+            hit, dets = run_trufflehog(tools["TruffleHog"]["binary"], root, src_work)
+            preds["TruffleHog"] = np.array([1 if i in hit else 0 for i in range(n)])
+            rule_hits["TruffleHog"] = dict(dets)
+
+    warn_name = f"ML cảnh báo (≥{args.warn_threshold})"
+    block_name = f"ML chặn (≥{args.threshold})"
+    preds[warn_name] = (score >= args.warn_threshold).astype(int)
+    preds[block_name] = (score >= args.threshold).astype(int)
+    ml_names = [warn_name, block_name]
+
+    metrics = {name: binary_metrics(y, p) for name, p in preds.items()}
+    ci = {name: {"recall": list(wilson_interval(m["tp"], m["tp"] + m["fn"])),
+                 "fpr": list(wilson_interval(m["fp"], m["fp"] + m["tn"]))} for name, m in metrics.items()}
+
+    f1_diff = {}
+    others = [n_ for n_ in preds if n_ not in ml_names]
+    for ml in ml_names:
+        f1_diff[ml] = {}
+        for other in others:
+            point, lo, hi = cluster_bootstrap_f1_diff(y, preds[ml], preds[other], groups, args.boot)
+            f1_diff[ml][other] = {"diff": point, "ci": [lo, hi]}
+
+    prevalence_sim = {
+        str(p): {name: ppv_at_prevalence(m["recall"], m["fpr"], p) for name, m in metrics.items()}
+        for p in PREVALENCES
+    }
+    cats = category_tables(df, y, {k: v for k, v in preds.items() if k in ("Regex", "Gitleaks", "TruffleHog", warn_name, block_name)})
+    result = {
+        "n_lines": n, "n_repos": int(len(np.unique(groups))), "prevalence": float(y.mean()),
+        "warn_name": warn_name, "block_name": block_name,
+        "metrics": metrics, "ci": ci, "f1_diff": f1_diff,
+        "context": context_metrics(y, paths, preds),
+        "categories": {str(k): v.reset_index().to_dict(orient="records") for k, v in cats.items()},
+        "precision_at_prevalence": prevalence_sim, "rule_hits": rule_hits,
+        "pr_auc_ml": float(average_precision_score(y, score)),
+    }
+    arrays = {"y": y, "score": score, "preds": preds,
+              "frame": pd.DataFrame({"idx": range(n), "repo": groups, "label": y, "type": df["type"].astype(str).to_numpy(),
+                                     "ml_score": np.round(score, 4), **{k: v for k, v in preds.items()}})}
+    return result, arrays
+
+
+# ------------------------------------------------------------------ đồ thị
+def plot_comparison(results, arrays, path):
+    fig, axes = plt.subplots(1, len(results), figsize=(9.6 * len(results), 5.6))
+    axes = np.atleast_1d(axes)
+    for ax, (src, r) in zip(axes, results.items()):
+        y, score = arrays[src]["y"], arrays[src]["score"]
+        prec, rec, _ = precision_recall_curve(y, score)
+        ax.plot(rec, prec, lw=2, color="tab:blue", label=f"ML — đường PR (PR-AUC = {r['pr_auc_ml']:.3f})")
+        for name, color in COLORS.items():
+            if name in r["metrics"]:
+                m = r["metrics"][name]
+                ax.scatter([m["recall"]], [m["precision"]], s=80, color=color, zorder=5, label=name)
+        for key, marker in ((r["warn_name"], "*"), (r["block_name"], "P")):
+            m = r["metrics"][key]
+            ax.scatter([m["recall"]], [m["precision"]], marker=marker, s=190, color="tab:red", zorder=6, label=key)
+        ax.axhline(r["prevalence"], ls="--", color="gray", lw=1, label="Ngẫu nhiên")
+        ax.set(xlabel="Recall", ylabel="Precision", xlim=(0, 1.02), ylim=(0, 1.02),
+               title=f"So sánh với công cụ thực tế (cấp dòng)\n{SOURCE_LABELS[src]}")
+        ax.grid(alpha=0.3)
+        ax.legend(loc="upper left", bbox_to_anchor=(1.02, 1.0), fontsize=8, frameon=False)  # ngoài khung, không che điểm
     save_fig(fig, path)
 
 
-def write_markdown(path, info, metrics, per_type, prevalence_rows, rule_hits):
-    names = list(metrics.keys())
-    lines = [
-        "# So sánh với Gitleaks và TruffleHog (cùng tập test)",
-        "",
-        f"Số mẫu: {info['n_test']} | Tỉ lệ secret: {fmt_pct(info['prevalence'])} | Ngưỡng ML: {info['threshold']}",
-        "",
-        "Phiên bản công cụ: " + "; ".join(f"{k}: {v}" for k, v in info["versions"].items()),
-        "",
-        "Cấu hình mặc định cho mọi công cụ. TruffleHog chạy `--no-verification`, Gitleaks chạy `--redact`.",
-        "",
-        "## 1. Kết quả tổng hợp",
-        "",
-        "| Phương pháp | Precision | Recall | F1 | FPR | FP | FN |",
-        "|---|---|---|---|---|---|---|",
-    ]
-    for name in names:
-        m = metrics[name]
-        lines.append(f"| {name} | {fmt_pct(m['precision'])} | {fmt_pct(m['recall'])} | {fmt_pct(m['f1'])} | "
-                     f"{fmt_pct(m['fpr'])} | {m['fp']} | {m['fn']} |")
+# ----------------------------------------------------------------- báo cáo
+def write_markdown(path, info, results):
+    L = [f"# So sánh với Gitleaks và TruffleHog ({'VALIDATION' if info['split'] == 'val' else 'TEST'})", "",
+         f"Model: `{info['model']}` | cảnh báo ≥ {info['warn_threshold']} | chặn ≥ {info['threshold']}", "",
+         "Phiên bản công cụ: " + ("; ".join(f"{k}: {v}" for k, v in info["versions"].items()) or "không có công cụ ngoài"), "",
+         "Cấu hình mặc định cho mọi công cụ; TruffleHog chạy `--no-verification`, Gitleaks chạy `--redact`.", ""]
+    for src, r in results.items():
+        names = list(r["metrics"])
+        L += [f"## {SOURCE_LABELS[src]} ({r['n_lines']} dòng, {r['n_repos']} repo, {fmt_pct(r['prevalence'])} là secret)", "",
+              "| Phương pháp | Precision | Recall (95% CI) | F1 | FPR (95% CI) |", "|---|---|---|---|---|"]
+        for name in names:
+            m, c = r["metrics"][name], r["ci"][name]
+            L.append(f"| {name} | {fmt_pct(m['precision'])} | {fmt_pct(m['recall'])} [{fmt_pct(c['recall'][0])}, {fmt_pct(c['recall'][1])}] | "
+                     f"{fmt_pct(m['f1'])} | {fmt_pct(m['fpr'])} [{fmt_pct(c['fpr'][0])}, {fmt_pct(c['fpr'][1])}] |")
+        L += ["", "**Chênh lệch F1 của ML so với từng phương pháp** (dương = ML tốt hơn; CI bootstrap theo repo; "
+              "CI không chứa 0 nghĩa là chênh lệch vững khi lấy mẫu lại repo):", "",
+              "| ML | so với | ΔF1 | 95% CI |", "|---|---|---|---|"]
+        for ml, d in r["f1_diff"].items():
+            for other, v in d.items():
+                L.append(f"| {ml} | {other} | {v['diff'] * 100:+.2f} điểm | [{v['ci'][0] * 100:+.2f}, {v['ci'][1] * 100:+.2f}] |")
 
-    lines += ["", "## 2. Số lỗi theo loại mẫu", "",
-              "Nhãn 0 = không phải secret (lỗi là báo nhầm). Nhãn 1 = secret thật (lỗi là bỏ sót).", "",
-              "| Nhãn | Loại | Số mẫu | " + " | ".join(names) + " |",
-              "|---|---|---|" + "---|" * len(names)]
-    for _, row in per_type.iterrows():
-        lines.append(f"| {row['label']} | {row['type']} | {row['so_mau']} | " +
-                     " | ".join(str(int(row[n])) for n in names) + " |")
+        L += ["", "**Theo ngữ cảnh đường dẫn** (Recall trên dòng secret / FPR trên dòng không phải secret):", "",
+              "| Ngữ cảnh | Số dòng | Tỉ lệ secret | " + " | ".join(names) + " |", "|---|---|---|" + "---|" * len(names)]
+        for ctx, v in r["context"].items():
+            cells = " | ".join(f"{fmt_pct(v['methods'][n]['recall'])} / {fmt_pct(v['methods'][n]['fpr'])}" for n in names)
+            L.append(f"| {ctx} | {v['so_dong']} | {fmt_pct(v['ti_le_secret'])} | {cells} |")
 
-    lines += ["", "## 3. Precision kỳ vọng khi tỉ lệ secret ngoài đời thấp", "",
+        for label, title in (("1", "Dòng secret theo Category (giá trị = tỉ lệ được phát hiện, tức recall)"),
+                             ("0", "Dòng KHÔNG phải secret theo Category (giá trị = tỉ lệ bị báo nhầm, tức FPR)")):
+            rows = r["categories"][label]
+            if not rows:
+                continue
+            cols = [c for c in rows[0] if c not in ("type", "so_mau")]
+            L += ["", f"**{title}:**", "", "| Category | Số dòng | " + " | ".join(cols) + " |", "|---|---|" + "---|" * len(cols)]
+            for row in rows:
+                L.append(f"| {row['type']} | {row['so_mau']} | " + " | ".join(fmt_pct(row[c]) for c in cols) + " |")
+
+        L += ["", "**Precision kỳ vọng khi tỉ lệ secret ngoài đời thấp** (công thức Bayes, giả định TPR/FPR không đổi):", "",
               "| Tỉ lệ secret | " + " | ".join(names) + " |", "|---|" + "---|" * len(names)]
-    for prev, row in prevalence_rows.items():
-        lines.append(f"| {float(prev):.0%} | " + " | ".join(fmt_pct(row[n]) for n in names) + " |")
+        for p, row in r["precision_at_prevalence"].items():
+            L.append(f"| {float(p):.0%} | " + " | ".join(fmt_pct(row[n]) for n in names) + " |")
 
-    if rule_hits:
-        lines += ["", "## 4. Rule/detector được kích hoạt nhiều nhất", ""]
-        for tool, counter in rule_hits.items():
-            top = ", ".join(f"{r} ({c})" for r, c in counter.most_common(8))
-            lines.append(f"- **{tool}**: {top}")
+        if r["rule_hits"]:
+            L += ["", "**Rule/detector kích hoạt nhiều nhất:**", ""]
+            for tool, counter in r["rule_hits"].items():
+                top = ", ".join(f"{k} ({v})" for k, v in sorted(counter.items(), key=lambda kv: -kv[1])[:8])
+                L.append(f"- **{tool}**: {top}")
+        L.append("")
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(L) + "\n")
 
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + "\n")
+
+def print_console(info, results):
+    for src, r in results.items():
+        names = list(r["metrics"])
+        print("\n" + "=" * 92)
+        print(f"{SOURCE_LABELS[src]} | {'VALIDATION' if info['split'] == 'val' else 'TEST'} {r['n_lines']} dòng, "
+              f"{r['n_repos']} repo, {fmt_pct(r['prevalence'])} là secret")
+        print("=" * 92)
+        print(f"{'Phương pháp':<34}{'Precision':>10}{'Recall':>9}{'F1':>9}{'FPR':>9}{'FP':>7}{'FN':>7}")
+        for name in names:
+            m = r["metrics"][name]
+            print(f"{name:<34}{fmt_pct(m['precision']):>10}{fmt_pct(m['recall']):>9}{fmt_pct(m['f1']):>9}"
+                  f"{fmt_pct(m['fpr']):>9}{m['fp']:>7}{m['fn']:>7}")
+        print("\nChênh lệch F1 của ML so với từng phương pháp (điểm %, CI 95% bootstrap theo repo):")
+        for ml, d in r["f1_diff"].items():
+            for other, v in d.items():
+                print(f"  {ml:<22} vs {other:<32} {v['diff'] * 100:+6.2f}  [{v['ci'][0] * 100:+.2f}, {v['ci'][1] * 100:+.2f}]")
+        for ctx, v in r["context"].items():
+            print(f"\n{ctx} ({v['so_dong']} dòng, {fmt_pct(v['ti_le_secret'])} secret) — recall / FPR:")
+            print("  " + " | ".join(f"{n.split(' (')[0]}: {fmt_pct(v['methods'][n]['recall'])}/{fmt_pct(v['methods'][n]['fpr'])}" for n in names))
+        for tool, counter in r["rule_hits"].items():
+            print(f"\n{tool} — rule hay kích hoạt: " + ", ".join(f"{k} ({v})" for k, v in sorted(counter.items(), key=lambda kv: -kv[1])[:5]))
 
 
 # --------------------------------------------------------------------- chính
 def run(args):
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    data_dir = os.path.join(base_dir, "data")
-    models_dir = os.path.join(base_dir, "models")
-    out_dir = os.path.join(base_dir, "reports")
-    work_dir = os.path.join(out_dir, "_tool_work")
-    root = os.path.join(work_dir, "samples")
-    os.makedirs(out_dir, exist_ok=True)
+    data_dir, reports_dir = os.path.join(base_dir, "data"), os.path.join(base_dir, "reports")
+    work_dir = os.path.join(reports_dir, "_tool_work")
+    os.makedirs(reports_dir, exist_ok=True)
 
-    test_raw = pd.read_csv(os.path.join(data_dir, "test.csv"))
-    test_feat = pd.read_csv(os.path.join(data_dir, "test_features.csv"))
-    if len(test_raw) != len(test_feat):
-        raise ValueError("test.csv và test_features.csv lệch số dòng — chạy lại build_features.py.")
-    y = test_raw["label"].to_numpy()
-    texts = test_raw["text"].astype(str).tolist()
+    model, columns = load_model(args.model)
+    sets = load_test_sets(data_dir, args.sources, args.split)
+    if not sets:
+        raise SystemExit("Không có dữ liệu để đánh giá. Chạy import_external.py / build_dataset.py trước.")
 
-    predictions, versions, rule_hits = {}, {}, {}
+    tools, versions = {}, {}
+    for name, binary, cmd in (("Gitleaks", args.gitleaks, [args.gitleaks, "version"]),
+                              ("TruffleHog", args.trufflehog, [args.trufflehog, "--version"])):
+        if tool_available(binary):
+            versions[name] = tool_version(cmd)
+            tools[name] = {"binary": binary, "version": versions[name]}
+        else:
+            print(f"⚠️  Bỏ qua {name}: không tìm thấy '{binary}' (dùng --{name.lower()} <đường dẫn .exe>).")
 
-    # 1. Phương pháp của hệ thống
-    predictions["Regex"] = regex_predictions(texts)
-    predictions["Regex + Entropy"] = regex_entropy_predictions(texts)
-    clf = joblib.load(os.path.join(models_dir, "secret_ml_model.pkl"))
-    cols = joblib.load(os.path.join(models_dir, "feature_columns.pkl"))
-    X = test_feat.drop(columns=[c for c in NON_FEATURE_COLUMNS if c in test_feat.columns]).reindex(columns=cols, fill_value=0)
-    proba = clf.predict_proba(X)[:, 1]
-    ml_name = f"ML (ngưỡng {args.threshold})"
+    if args.split == "test":
+        with open(os.path.join(reports_dir, "test_access_log.txt"), "a", encoding="utf-8") as log:
+            log.write(f"{datetime.datetime.now().isoformat(timespec='seconds')}\tbenchmark_tools model={args.model}"
+                      f"\tsources={','.join(sets)}\twarn={args.warn_threshold}\tblock={args.threshold}\n")
 
-    # 2. Công cụ bên ngoài
-    gl_ok, th_ok = tool_available(args.gitleaks), tool_available(args.trufflehog)
-    if not gl_ok:
-        print(f"⚠️  Bỏ qua Gitleaks: không tìm thấy '{args.gitleaks}' (dùng --gitleaks <đường dẫn gitleaks.exe>).")
-    if not th_ok:
-        print(f"⚠️  Bỏ qua TruffleHog: không tìm thấy '{args.trufflehog}' (dùng --trufflehog <đường dẫn trufflehog.exe>).")
+    results, arrays = {}, {}
+    try:
+        for src, df in sets.items():
+            results[src], arrays[src] = benchmark_source(src, df, model, columns, tools, args, work_dir)
+    finally:
+        if not args.keep and os.path.exists(work_dir):
+            shutil.rmtree(work_dir, ignore_errors=True)
 
-    if gl_ok or th_ok:
-        try:
-            print(f"Đang dựng {len(test_raw)} mẫu test thành file...")
-            materialize_samples(test_raw, root)
-            n = len(test_raw)
-            if gl_ok:
-                versions["Gitleaks"] = tool_version([args.gitleaks, "version"])
-                print(f"Đang chạy Gitleaks ({versions['Gitleaks']})...")
-                hit, rules = run_gitleaks(args.gitleaks, root, work_dir)
-                predictions["Gitleaks"] = np.array([1 if i in hit else 0 for i in range(n)])
-                rule_hits["Gitleaks"] = rules
-            if th_ok:
-                versions["TruffleHog"] = tool_version([args.trufflehog, "--version"])
-                print(f"Đang chạy TruffleHog ({versions['TruffleHog']}), không verify...")
-                hit, dets = run_trufflehog(args.trufflehog, root, work_dir)
-                predictions["TruffleHog"] = np.array([1 if i in hit else 0 for i in range(n)])
-                rule_hits["TruffleHog"] = dets
-        finally:
-            if not args.keep and os.path.exists(work_dir):
-                shutil.rmtree(work_dir, ignore_errors=True)
-
-    predictions[ml_name] = (proba >= args.threshold).astype(int)
-
-    # 3. Số liệu
-    metrics = {name: binary_metrics(y, pred) for name, pred in predictions.items()}
-    prevalence = float(y.mean())
-    per_type = per_type_errors(test_raw, predictions)
-    prevalence_rows = {
-        str(p): {name: ppv_at_prevalence(m["recall"], m["fpr"], p) for name, m in metrics.items()}
-        for p in PREVALENCES
-    }
-    fpr_ci = {name: list(wilson_interval(m["fp"], m["fp"] + m["tn"])) for name, m in metrics.items()}
-
-    # 4. Lưu kết quả (chỉ chỉ số + loại + dự đoán, không có nội dung mẫu)
-    pred_df = pd.DataFrame({"idx": range(len(y)), "label": y, "type": test_raw["type"], "ml_proba": proba})
-    for name, pred in predictions.items():
-        pred_df[name] = pred
-    pred_df.to_csv(os.path.join(out_dir, "tool_predictions_test.csv"), index=False)
-
-    info = {"n_test": int(len(y)), "prevalence": prevalence, "threshold": args.threshold, "versions": versions}
-    with open(os.path.join(out_dir, "tool_benchmark.json"), "w", encoding="utf-8") as f:
-        json.dump({**info, "metrics": metrics, "fpr_ci_wilson": fpr_ci,
-                   "precision_at_prevalence": prevalence_rows,
-                   "rule_hits": {k: dict(v) for k, v in rule_hits.items()}},
-                  f, ensure_ascii=False, indent=2)
-    write_markdown(os.path.join(out_dir, "tool_benchmark.md"), info, metrics, per_type, prevalence_rows, rule_hits)
-    plot_comparison(y, proba, args.threshold, metrics, os.path.join(out_dir, "tools_comparison.png"))
-
-    # 5. In ra màn hình
-    print("\n" + "=" * 86)
-    print(f"SO SÁNH VỚI CÔNG CỤ THỰC TẾ | {len(y)} mẫu | tỉ lệ secret {fmt_pct(prevalence)}")
-    print("=" * 86)
-    print(f"{'Phương pháp':<26}{'Precision':>10}{'Recall':>9}{'F1':>9}{'FPR':>9}{'FP':>6}{'FN':>6}")
-    for name, m in metrics.items():
-        print(f"{name:<26}{fmt_pct(m['precision']):>10}{fmt_pct(m['recall']):>9}{fmt_pct(m['f1']):>9}"
-              f"{fmt_pct(m['fpr']):>9}{m['fp']:>6}{m['fn']:>6}")
-    print("\nSố lỗi theo loại mẫu (nhãn 0 = báo nhầm, nhãn 1 = bỏ sót):")
-    show = per_type.copy()
-    show["tong_loi"] = show[list(predictions)].sum(axis=1)
-    print(show[show["tong_loi"] > 0].drop(columns="tong_loi").to_string(index=False))
-    for tool, counter in rule_hits.items():
-        print(f"\n{tool} — rule/detector hay kích hoạt: " + ", ".join(f"{r} ({c})" for r, c in counter.most_common(5)))
-    print(f"\n✅ Đã lưu tool_benchmark.md/.json, tools_comparison.png, tool_predictions_test.csv vào: {out_dir}")
+    info = {"split": args.split, "model": args.model, "threshold": args.threshold,
+            "warn_threshold": args.warn_threshold, "versions": versions}
+    suffix = "" if args.split == "test" else "_val"
+    with open(os.path.join(reports_dir, f"tool_benchmark{suffix}.json"), "w", encoding="utf-8") as fh:
+        json.dump({**info, "results": results}, fh, ensure_ascii=False, indent=2)
+    write_markdown(os.path.join(reports_dir, f"tool_benchmark{suffix}.md"), info, results)
+    for src, a in arrays.items():
+        a["frame"].to_csv(os.path.join(reports_dir, f"tool_predictions_{src}{suffix}.csv"), index=False)
+    plot_comparison(results, arrays, os.path.join(reports_dir, f"tools_comparison{suffix}.png"))
+    print_console(info, results)
+    print(f"\n✅ Đã lưu tool_benchmark{suffix}.md/.json, tools_comparison{suffix}.png, tool_predictions_*{suffix}.csv vào: {reports_dir}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="So sánh với Gitleaks và TruffleHog")
     parser.add_argument("--gitleaks", default="gitleaks", help="Tên lệnh hoặc đường dẫn gitleaks(.exe)")
     parser.add_argument("--trufflehog", default="trufflehog", help="Tên lệnh hoặc đường dẫn trufflehog(.exe)")
-    parser.add_argument("--threshold", type=float, default=0.7, help="Ngưỡng phân loại của ML")
+    parser.add_argument("--model", default="production", help="production hoặc tên thí nghiệm trong models/experiments/")
+    parser.add_argument("--split", choices=["val", "test"], default="test")
+    parser.add_argument("--sources", nargs="+", choices=list(SOURCES), default=["creddata"],
+                        help="Mặc định chỉ CredData (dữ liệu thật); thêm synthetic nếu muốn đối chiếu")
+    parser.add_argument("--threshold", type=float, default=0.7, help="Ngưỡng CHẶN của ML")
+    parser.add_argument("--warn-threshold", type=float, default=0.4, help="Ngưỡng CẢNH BÁO của ML")
+    parser.add_argument("--boot", type=int, default=500, help="Số lần bootstrap theo repo")
     parser.add_argument("--keep", action="store_true", help="Giữ lại thư mục mẫu tạm để debug")
     run(parser.parse_args())

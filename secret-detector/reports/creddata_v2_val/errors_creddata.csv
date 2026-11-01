@@ -1,0 +1,1371 @@
+repo,file_path,type,label,loai_loi,score,co_candidate,nguon_candidate,text_da_che
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.967,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.967,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9663,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9663,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,src/057249c6.ts,JSON Web Token,0,FP (báo nhầm),0.9649,1,assignment,* const jws = '<VALUE>'
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9627,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9627,1,assignment,"encrypted_key: '<VALUE>',"
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9627,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+c9201a51,test/904f6890.go,Secret,0,FP (báo nhầm),0.9618,1,regex,"const secret = ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9597,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"" : ""<VALUE>"","
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9584,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/code/7c95184c.mjs,JSON Web Token,0,FP (báo nhầm),0.9584,1,assignment,"protected: '<VALUE>',"
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.9584,1,assignment,"protected: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9584,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.9584,1,assignment,"protected: '<VALUE>',"
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9557,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9544,1,assignment,"""KeyId"" : ""<VALUE>"","
+23689bd1,docs/792d4c24.md,JSON Web Token,0,FP (báo nhầm),0.9537,1,assignment,protected: '<VALUE>'
+23689bd1,docs/3ba90705.md,JSON Web Token,0,FP (báo nhầm),0.9537,1,assignment,"protected: '<VALUE>',"
+23689bd1,src/6a9c6ace.ts,JSON Web Token,0,FP (báo nhầm),0.9494,1,assignment,*   protected: '<VALUE>'
+638eb0c6,test/src/c2e4c1dd.snap,Key,0,FP (báo nhầm),0.9485,1,assignment,"""deletedCompoundKeyId"": ""<VALUE>"","
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9478,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9478,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,src/fdc00c72.ts,JSON Web Token,0,FP (báo nhầm),0.9454,1,assignment,"*   protected: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.945,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.945,1,assignment,"encrypted_key: '<VALUE>',"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9423,1,assignment,"""DestinationKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9411,1,assignment,"""KeyId"" : ""<VALUE>"""
+b6b2487d,_/b7d85c35.lock,Auth,0,FP (báo nhầm),0.937,1,assignment,AppAuth: <VALUE>
+b6b2487d,_/b7d85c35.lock,Auth,0,FP (báo nhầm),0.937,1,assignment,GTMAppAuth: <VALUE>
+23689bd1,src/fcb157ae.ts,JSON Web Token,0,FP (báo nhầm),0.9353,1,assignment,* const jwt = '<VALUE>'
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID,0,FP (báo nhầm),0.9347,1,regex,"""RoleId"" : ""<VALUE>E"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.9337,1,assignment,"""KeyId"" : ""<VALUE>"","
+638eb0c6,test/src/c2e4c1dd.snap,Key,0,FP (báo nhầm),0.9332,1,assignment,"""deletedCompoundKeyId"": ""<VALUE>"","
+81cd05d0,src/resource/model/cb502bda.json,UUID,0,FP (báo nhầm),0.9329,1,assignment,"""IPSetId"" : ""<VALUE>"","
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9279,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.9279,1,assignment,"encrypted_key: '<VALUE>',"
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/4fc86169.json,UUID,0,FP (báo nhầm),0.9272,1,assignment,"""HealthCheckId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9205,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9187,1,assignment,"""KeyId"" : ""<VALUE>"","
+0436af4a,docs/94b788c0.md,Auth:UUID,0,FP (báo nhầm),0.9132,1,assignment,oauthClientId = <VALUE>
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.9086,1,token,"""documentation"" : ""<p>The data sent with the signal. The data schema depends on the type of signal used in the request.<…"
+81cd05d0,src/resource/model/3581f3d2.json,UUID,0,FP (báo nhầm),0.9086,1,token,"""documentation"":""<p>The data sent with the signal. The data schema depends on the type of signal used in the request.</p…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.9086,1,token,"""documentation"" : ""<p>The data sent with the signal. The data schema depends on the type of signal used in the request.<…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.9086,1,token,"""documentation"" : ""<p>The data sent with the signal. The data schema depends on the type of signal used in the request.<…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.9086,1,token,"""documentation"" : ""<p>The data sent with the signal. The data schema depends on the type of signal used in the request.<…"
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.9031,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.902,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.902,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.8983,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/b5304871.mjs,Key,0,FP (báo nhầm),0.8983,1,assignment,"encrypted_key: '<VALUE>',"
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.894,1,token,"'<VALUE>',"
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.8906,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.8906,1,assignment,"""KeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.8906,1,assignment,"""TargetKeyId"" : ""<VALUE>"""
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID,0,FP (báo nhầm),0.8839,1,regex,"""InstanceProfileId"" : ""<VALUE>E"","
+81cd05d0,src/resource/model/6f8a2a14.json,AWS Multi,0,FP (báo nhầm),0.8773,1,assignment,"""SecretAccessKey"" : ""<VALUE>"","
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+0436af4a,test/src/setting/b15ae452.cs,URL Credentials,0,FP (báo nhầm),0.8766,1,url,"var settingValue = new Uri(""http://john.doe:<VALUE>@proxy.example.com"");"
+389fd795,test/secret/4887442f.go,Key,0,FP (báo nhầm),0.8763,1,token,"wantPublicKey: PublicKey{Key: String(""<VALUE>"")},"
+6c73b80a,vendor/083a78c6.md,Key,0,FP (báo nhầm),0.8753,1,assignment,"// publicKey = ""<VALUE>"""
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.87,1,token,"'<VALUE>',"
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.8688,1,token,"'<VALUE>',"
+389fd795,test/secret/4887442f.go,Key,0,FP (báo nhầm),0.8663,1,token,"wantPublicKey: PublicKey{KeyID: nil, Key: String(""<VALUE>"")},"
+23689bd1,test/94864ff4.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.8655,1,assignment,"protected: '<VALUE>',"
+23689bd1,test/94864ff4.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.8655,1,assignment,"protected: '<VALUE>',"
+b6b2487d,_/053150b6.json,Key,0,FP (báo nhầm),0.8618,1,assignment,"""integrity"": ""<VALUE>"","
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.8529,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.8529,1,token,"'<VALUE>',"
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.8488,1,assignment,"""integrity"": ""<VALUE>"""
+b6b2487d,lang/f435402c.json,Password,0,FP (báo nhầm),0.8488,1,assignment,"""userPassword"": ""<VALUE>"","
+23689bd1,test/94864ff4.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.8488,1,assignment,"protected: '<VALUE>',"
+b6b2487d,lang/e96794ab.json,Password,0,FP (báo nhầm),0.843,1,assignment,"""userPassword"": ""<VALUE>"","
+b6b2487d,_/053150b6.json,Key,0,FP (báo nhầm),0.8416,1,assignment,"""integrity"": ""<VALUE>"","
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID,0,FP (báo nhầm),0.841,1,regex,"""Id"" : ""<VALUE>C"","
+b6b2487d,_/053150b6.json,Key,0,FP (báo nhầm),0.8409,1,assignment,"""integrity"": ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.8399,1,assignment,"""KeyId"" : ""<VALUE>"","
+9069e3a1,test/bf09b9d0.py,Auth,0,FP (báo nhầm),0.8386,1,assignment,"'_auth_user_hash': '<VALUE>',"
+9069e3a1,test/bf09b9d0.py,Auth,0,FP (báo nhầm),0.8386,1,assignment,"'_auth_user_hash': '<VALUE>',"
+9069e3a1,test/bf09b9d0.py,Auth,0,FP (báo nhầm),0.8386,1,assignment,"'_auth_user_hash': '<VALUE>',"
+9069e3a1,test/bf09b9d0.py,Auth,0,FP (báo nhầm),0.8386,1,assignment,"'_auth_user_hash': '<VALUE>',"
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.8362,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.8362,1,token,"'<VALUE>',"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8333,1,token,"""setterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used in the …"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8333,1,token,"""getterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used in the …"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8333,1,token,"""setterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used in the …"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8333,1,token,"""getterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used in the …"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8296,1,token,"""varargSetterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used i…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8296,1,token,"""fluentSetterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used i…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8296,1,token,"""fluentSetterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used i…"
+81cd05d0,src/resource/model/c0336ff8.json,UUID,0,FP (báo nhầm),0.8296,1,token,"""varargSetterDocumentation"" : ""/**<p>The data sent with the signal. The data schema depends on the type of signal used i…"
+0436af4a,test/src/70f9618e.cs,URL Credentials,0,FP (báo nhầm),0.8264,1,url,"[InlineData(""http://john.doe:<VALUE>@example.com"","
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.8239,1,assignment,"""integrity"": ""<VALUE>"","
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.8184,1,assignment,"""integrity"": ""<VALUE>"""
+23689bd1,src/2ee482d5.ts,JSON Web Token,0,FP (báo nhầm),0.8174,1,assignment,* const jwe = '<VALUE>'
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.8161,1,assignment,"""integrity"": ""<VALUE>"","
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the mo…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artif…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the core dump d…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the mo…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artif…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encryp…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artif…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artif…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the core dump d…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume at…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume at…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the core dump d…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the co…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the mo…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the mo…"
+81cd05d0,src/resource/api/model/6b9f0c30.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"":""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the model artifac…"
+81cd05d0,src/resource/api/model/6b9f0c30.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"":""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the core dump dat…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume at…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume at…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the co…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the core dump d…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the co…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the co…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.8105,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+23689bd1,src/fdc00c72.ts,Key,0,FP (báo nhầm),0.8065,1,assignment,*       encrypted_key: '<VALUE>'
+23689bd1,src/6a9c6ace.ts,Key,0,FP (báo nhầm),0.8065,1,assignment,"*   encrypted_key: '<VALUE>',"
+23689bd1,docs/3ba90705.md,Key,0,FP (báo nhầm),0.8055,1,assignment,encrypted_key: '<VALUE>'
+23689bd1,docs/792d4c24.md,Key,0,FP (báo nhầm),0.8055,1,assignment,"encrypted_key: '<VALUE>',"
+fa71ac83,test/5222ac44.js,Password,0,FP (báo nhầm),0.8042,1,assignment,userInfo.new_pass = '<VALUE>';
+fa71ac83,test/5222ac44.js,Password,0,FP (báo nhầm),0.8042,1,assignment,userInfo.new_pass = '<VALUE>';
+e72eb979,modul/5fa5e939.cpp,UUID:Key,0,FP (báo nhầm),0.7953,1,assignment,"static const char* const webSocketKeyGUID = ""<VALUE>"";"
+e72eb979,modul/800f8bfd.cpp,UUID:Key,0,FP (báo nhầm),0.7953,1,assignment,"static const char* const webSocketKeyGUID = ""<VALUE>"";"
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.795,1,assignment,"""integrity"": ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Token,0,FP (báo nhầm),0.7949,1,assignment,"o.Websocket.Token = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Token,0,FP (báo nhầm),0.7949,1,assignment,"o.Websocket.Token = ""<VALUE>"""
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data o…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data o…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""setterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data o…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""varargSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""fluentSetterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt …"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7945,1,token,"""getterDocumentation"" : ""/**<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data o…"
+57c424f8,test/src/a933a801.java,Key,0,FP (báo nhầm),0.7914,1,assignment,"String key = ""<VALUE>"";"
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.7877,1,assignment,"""integrity"": ""<VALUE>"","
+0436af4a,conf/docs/c7cee009.md,URL Credentials,0,FP (báo nhầm),0.783,1,url,https://john.doe:<VALUE>@proxy.example.com
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.7818,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.7818,1,token,"'<VALUE>',"
+81cd05d0,src/resource/model/3cb16807.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"":""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the outpu…"
+81cd05d0,src/resource/model/3cb16807.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"":""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the outpu…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached to the M…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached to the M…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached to the M…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached to the M…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/api/model/6b9f0c30.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"":""<p>The AWS KMS key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML …"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+81cd05d0,src/resource/model/789b51b8.json,UUID,0,FP (báo nhầm),0.7774,1,token,"""documentation"" : ""<p>The Amazon Resource Name (ARN) of the AWS Key Management Service (KMS) key used to encrypt the out…"
+b6b2487d,_/053150b6.json,API,0,FP (báo nhầm),0.7716,1,assignment,"""integrity"": ""<VALUE>"""
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.7692,1,assignment,"""integrity"": ""<VALUE>"","
+b6b2487d,_/053150b6.json,Key,0,FP (báo nhầm),0.7678,1,assignment,"""integrity"": ""<VALUE>"","
+36b76643,_/b3356305.md,Password,0,FP (báo nhầm),0.7666,1,assignment,GOCOMMERCE_SMTP_PASS=<VALUE>
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7598,1,token,"""setterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be described.</p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7598,1,token,"""setterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be described.</p…"
+b6b2487d,_/053150b6.json,Password,0,FP (báo nhầm),0.7595,1,assignment,"""integrity"": ""<VALUE>"","
+0436af4a,test/src/70f9618e.cs,URL Credentials,0,FP (báo nhầm),0.759,1,url,"[InlineData(""http://john.doe:<VALUE>@example.com"", ""http://example.com"")]"
+81cd05d0,src/resource/api/model/6b9f0c30.json,UUID,0,FP (báo nhầm),0.757,1,token,"""documentation"":""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the stora…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.757,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the sto…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.757,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the sto…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.757,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the sto…"
+81cd05d0,src/resource/api/model/f69d455b.json,UUID,0,FP (báo nhầm),0.757,1,token,"""documentation"" : ""<p>The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt data on the sto…"
+6c73b80a,test/server/3906e586.go,Auth,0,FP (báo nhầm),0.7531,1,assignment,"o.MQTT.NoAuthUser = ""<VALUE>"""
+b6b2487d,lang/d4fbedce.json,Password,0,FP (báo nhầm),0.7495,1,assignment,"""userPassword"": ""<VALUE>"","
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7493,1,token,"""getterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be described.</p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7493,1,token,"""getterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be described.</p…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the symmetric CMK that encrypts the data key.</p> <p>To specify a CMK, use its key ID, …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the symmetric CMK that encrypts the data key.</p> <p>To specify a CMK, use its key ID, …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>The identifier of the symmetric customer master key (CMK) that encrypts the data key.</p> <p>To sp…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Associates the alias with the specified <a href=\""https://docs.aws.amazon.com/kms/latest/developer…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Associates the alias with the specified <a href=\""https://docs.aws.amazon.com/kms/latest/developer…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>The identifier of the symmetric customer master key (CMK) that encrypts the data key.</p> <p>To sp…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the symmetric CMK that encrypts the data key.</p> <p>To specify a CMK, use its key ID, …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies a symmetric customer master key (CMK). You cannot enable or disable automatic rotation …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>A unique identifier for the customer master key (CMK).</p> <p>To specify a CMK, use its key ID, Am…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>A unique identifier for the customer master key (CMK).</p> <p>To specify a CMK, use its key ID, Am…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the symmetric CMK that encrypts the data key.</p> <p>To specify a CMK, use its key ID, …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Associates the alias with the specified <a href=\""https://docs.aws.amazon.com/kms/latest/developer…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies a symmetric customer master key (CMK). You cannot enable or disable automatic rotation …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies a symmetric customer master key (CMK). You cannot enable or disable automatic rotation …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies a symmetric customer master key (CMK). You cannot enable or disable automatic rotation …"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Associates the alias with the specified <a href=\""https://docs.aws.amazon.com/kms/latest/developer…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>A unique identifier for the customer master key (CMK).</p> <p>To specify a CMK, use its key ID, Am…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>A unique identifier for the customer master key (CMK).</p> <p>To specify a CMK, use its key ID, Am…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that includes the public key.</p> <p>To specify a CMK, use its key I…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that will be used to verify the signature. This must be the same CMK…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that includes the public key.</p> <p>To specify a CMK, use its key I…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>Identifies a symmetric customer master key (CMK). You cannot enable or disable automatic rotation of…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>A unique identifier for the customer master key (CMK).</p> <p>To specify a CMK, use its key ID, Amaz…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>Identifies the symmetric CMK that encrypts the data key.</p> <p>To specify a CMK, use its key ID, Am…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>The identifier of the symmetric customer master key (CMK) that encrypts the data key.</p> <p>To spec…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>Identifies the asymmetric CMK that will be used to verify the signature. This must be the same CMK t…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>Associates the alias with the specified <a href=\""https://docs.aws.amazon.com/kms/latest/developergu…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that will be used to verify the signature. This must be the same CMK…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that will be used to verify the signature. This must be the same CMK…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that will be used to verify the signature. This must be the same CMK…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>The identifier of the symmetric customer master key (CMK) that encrypts the data key.</p> <p>To sp…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>The identifier of the symmetric customer master key (CMK) that encrypts the data key.</p> <p>To sp…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that includes the public key.</p> <p>To specify a CMK, use its key I…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"" : ""<p>Identifies the asymmetric CMK that includes the public key.</p> <p>To specify a CMK, use its key I…"
+81cd05d0,src/resource/model/ec5466c3.json,UUID,0,FP (báo nhầm),0.747,1,token,"""documentation"":""<p>Identifies the asymmetric CMK that includes the public key.</p> <p>To specify a CMK, use its key ID,…"
+81cd05d0,src/resource/model/970588b6.json,UUID:Key,0,FP (báo nhầm),0.745,1,assignment,"""KeyId"" : ""<VALUE>"","
+c2d95db7,_/a3046da0.example,Password,0,FP (báo nhầm),0.7405,1,assignment,GRAYLOG_SHA256_PASSWORD=<VALUE>
+b6b2487d,_/053150b6.json,API,0,FP (báo nhầm),0.7349,1,assignment,"""integrity"": ""<VALUE>"","
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+0436af4a,test/src/setting/b15ae452.cs,Password,0,FP (báo nhầm),0.7347,1,assignment,"const string expectedPassword = ""<VALUE>"";"
+81cd05d0,src/resource/model/82290d65.json,UUID,0,FP (báo nhầm),0.7344,1,token,"""documentation"":""<p>If specified, this value is the backtrack identifier of the backtrack to be described.</p> <p>Constr…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer master key …"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer master key …"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer master key …"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer maste…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer maste…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer master key …"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer maste…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the symmetric AWS Key Management Service (AWS KMS) customer maste…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""fluentSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""getterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""varargSetterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK…"
+81cd05d0,src/resource/model/02fd2d8d.json,UUID,0,FP (báo nhầm),0.7313,1,token,"""setterDocumentation"" : ""/**<p>The identifier of the AWS Key Management Service (AWS KMS) customer master key (CMK) to u…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7229,1,token,"""fluentSetterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be describ…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7229,1,token,"""varargSetterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be describ…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7229,1,token,"""fluentSetterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be describ…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,0,FP (báo nhầm),0.7229,1,token,"""varargSetterDocumentation"" : ""/**<p>If specified, this value is the backtrack identifier of the backtrack to be describ…"
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.7144,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.7144,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.7144,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.7144,1,token,"'<VALUE>',"
+6c73b80a,test/server/3906e586.go,Token,0,FP (báo nhầm),0.7138,1,assignment,"o.MQTT.Token = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Token,0,FP (báo nhầm),0.7138,1,assignment,"o.MQTT.Token = ""<VALUE>"""
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.7137,1,token,"'<VALUE>',"
+23689bd1,test/b5304871.mjs,JSON Web Token,0,FP (báo nhầm),0.7137,1,token,"'<VALUE>',"
+b6b2487d,lang/d4fbedce.json,Password,0,FP (báo nhầm),0.7101,1,assignment,"""lockRoomPassword"": ""<VALUE>"","
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID,0,FP (báo nhầm),0.7077,1,regex,"""Id"" : ""<VALUE>4"","
+81cd05d0,src/resource/model/afcb1e37.json,UUID,0,FP (báo nhầm),0.7045,1,assignment,"""RequestId"" : ""<VALUE>"","
+23689bd1,test/94864ff4.mjs,Grafana Provisioned API Key,0,FP (báo nhầm),0.7012,1,token,"'<VALUE>',"
+23689bd1,test/94864ff4.mjs,JSON Web Token,0,FP (báo nhầm),0.7012,1,token,"'<VALUE>',"
+b6b2487d,_/053150b6.json,API,0,FP (báo nhầm),0.7011,1,assignment,"""integrity"": ""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.7002,1,token,"""fluentSetterDocumentation"" : ""/**<p>Identifies a symmetric customer master key (CMK). You cannot enable automatic rotat…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.7002,1,token,"""varargSetterDocumentation"" : ""/**<p>Identifies a symmetric customer master key (CMK). You cannot enable automatic rotat…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.7002,1,token,"""fluentSetterDocumentation"" : ""/**<p>Identifies a symmetric customer master key (CMK). You cannot enable automatic rotat…"
+81cd05d0,src/resource/model/970588b6.json,UUID,0,FP (báo nhầm),0.7002,1,token,"""varargSetterDocumentation"" : ""/**<p>Identifies a symmetric customer master key (CMK). You cannot enable automatic rotat…"
+660708f3,locale/94caa9b1.php,Password,0,FP (báo nhầm),0.7002,1,assignment,"'PASSWORD'		=> '<VALUE>',"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.698,1,token,"""CONNECT {\""echo\"":true,\""verbose\"":false,\""pedantic\"":false,\""user\"":\""foo\"",\""pass\"":\""<VALUE>\"",\""tls_required\"":fals…"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.698,1,token,"""CONNECT {\""echo\"":true,\""verbose\"":false,\""pedantic\"":false,\""user\"":\""foo\"",\""pass\"":\""<VALUE>\"",\""tls_required\"":fals…"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.6975,1,assignment,REDIS_WEBUI_PASSWORD=<VALUE>
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.6975,1,assignment,GITLAB_ROOT_PASSWORD=<VALUE>
+9069e3a1,test/2500680f.yml,Password,1,FN (bỏ sót),0.6958,1,assignment,POSTGRES_PASSWORD: <VALUE>
+3d82970b,test/39a14b64.js,JSON Web Token:Token,1,FN (bỏ sót),0.6928,1,assignment,var TOKEN = '<VALUE>';
+81cd05d0,src/resource/model/app/136adda0.json,UUID,1,FN (bỏ sót),0.69,1,assignment,"""PolicyARN"" : ""arn:aws:autoscaling:us-west-2:012345678910:scalingPolicy:<VALUE>:resource/ecs/service/default/web-app:pol…"
+41d10ede,_/b803fcb7.yml,Password,1,FN (bỏ sót),0.6898,1,assignment,POSTGRES_PASSWORD: <VALUE>
+638eb0c6,_/b803fcb7.yml,Password,1,FN (bỏ sót),0.6898,1,assignment,POSTGRES_PASSWORD: <VALUE>
+c2d95db7,document/7ccdfb29.md,Password,1,FN (bỏ sót),0.6879,1,assignment,GRAYLOG_PASSWORD=<VALUE>
+3d82970b,test/ca9d3341.js,JSON Web Token:Token,1,FN (bỏ sót),0.6852,1,assignment,var broken_token = '<VALUE>';
+93ff401b,tool/docs/794bcafe.html,NKEY Seed,1,FN (bỏ sót),0.6838,1,token,"<pre class=""language-""><code class=""lang-text"">&gt; nsc edit account --sk ABHYL27UAHHQXA5HLH2YWHFQBIP4YMPC7RNZ4PSFRAMJHS…"
+3d82970b,test/ca9d3341.js,JSON Web Token:Token,1,FN (bỏ sót),0.6831,1,assignment,var broken_token = '<VALUE>';
+e0b41e26,sample/2539a395.yaml,AWS Client ID:Key,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,mock/9ce19240.yaml,AWS Client ID:Key,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,mock/9ce19240.yaml,AWS Client ID:Key,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,mock/9ce19240.yaml,AWS Multi,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,sample/2539a395.yaml,AWS Client ID:Key,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,mock/9ce19240.yaml,AWS Multi,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,sample/2539a395.yaml,AWS Multi,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+e0b41e26,sample/2539a395.yaml,AWS Multi,1,FN (bỏ sót),0.6823,1,regex,accessKeyId: <VALUE>
+93ff401b,conf/e5748f4f.md,JSON Web Token,1,FN (bỏ sót),0.6814,1,assignment,ADFB2JXYTXOJEL6LNAXDREUGRX35BOLZI3B4PFFAC7IRPR3OA4QNKBN2: <VALUE>
+93ff401b,_/f0681755.md,JSON Web Token,1,FN (bỏ sót),0.6754,1,assignment,"""jwt"": ""<VALUE>"","
+81a41883,test/fixture/b4eeffb8.yml,Token,1,FN (bỏ sót),0.6736,1,assignment,"encrypted_github_access_token_iv: ""<VALUE>"""
+36b76643,docker/e45e45ba.yml,Password,1,FN (bỏ sót),0.6713,1,assignment,MYSQL_PASSWORD: <VALUE>
+0436af4a,test/src/ef52c2b8.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/ef52c2b8.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/1cf81e7e.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"var expectedPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake cr…"
+0436af4a,test/src/1cf81e7e.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"var expectedPassword = ""<VALUE>"";  // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.6696,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID:Key,1,FN (bỏ sót),0.6672,1,regex,"""AccessKeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/bc39da73.json,AWS Client ID:Key,1,FN (bỏ sót),0.6672,1,regex,"""AccessKeyId"" : ""<VALUE>"","
+81cd05d0,src/resource/model/6274d7e5.json,UUID,1,FN (bỏ sót),0.6661,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+81cd05d0,src/resource/model/6274d7e5.json,UUID,1,FN (bỏ sót),0.6661,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+81cd05d0,src/resource/model/6274d7e5.json,UUID,1,FN (bỏ sót),0.6661,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.6649,1,assignment,"accounts { $SYS { users = [ { user: ""admin"", pass: ""<VALUE>"" } ] } }"
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.6649,1,assignment,"accounts { $SYS { users = [ { user: ""admin"", pass: ""<VALUE>"" } ] } }"
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.6649,1,assignment,"accounts { $SYS { users = [ { user: ""admin"", pass: ""<VALUE>"" } ] } }"
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.6649,1,assignment,"accounts { $SYS { users = [ { user: ""admin"", pass: ""<VALUE>"" } ] } }"
+23689bd1,test/d2d4907a.mjs,Azure Access Token:JSON Web Token,1,FN (bỏ sót),0.663,1,token,'<VALUE>';
+e13d78bf,test/1a382b82,NTLM Token,1,FN (bỏ sót),0.6606,1,token,REPLY <VALUE> 235 Authenticated
+e13d78bf,test/350e0682,NTLM Token,1,FN (bỏ sót),0.6606,1,token,REPLY <VALUE> 235 Authenticated
+6c73b80a,test/conf/server/edc1c568.go,Key,1,FN (bỏ sót),0.6603,1,assignment,"`./configs/multiple_errors.conf:36:5: Not a valid public nkey for an account: ""<VALUE>""`,"
+6c73b80a,conf/server/3342c78c.conf,JSON Web Token,1,FN (bỏ sót),0.6599,1,assignment,"operator = ""<VALUE>"""
+6c73b80a,test/conf/9f7a2e57.conf,JSON Web Token,1,FN (bỏ sót),0.6556,1,assignment,"ADM2CIIL3RWXBA6T2HW3FODNCQQOUJEHHQD6FKCPVAMHDNTTSMO73ROX: ""<VALUE>"""
+e0b41e26,app/1efcc29b.js,Password,1,FN (bỏ sót),0.6545,1,regex,"password: '<VALUE>',"
+93ff401b,conf/e5748f4f.md,JSON Web Token,1,FN (bỏ sót),0.6536,1,assignment,ACWOMQA7PZTKJSBTR7BF6TBK3D776734PWHWDKO7HFMQOM5BIOYPSYZZ: <VALUE>
+389fd795,test/c159516b.go,Token,1,FN (bỏ sót),0.6533,1,token,"want := &RegistrationToken{Token: String(""<VALUE>""),"
+389fd795,test/c159516b.go,Token,1,FN (bỏ sót),0.6533,1,token,"want := &RegistrationToken{Token: String(""<VALUE>""),"
+389fd795,test/2928bf42.go,Token,1,FN (bỏ sót),0.6533,1,token,"want := &RegistrationToken{Token: String(""<VALUE>""),"
+93ff401b,conf/sys/5e0626e3.md,Password,1,FN (bỏ sót),0.6526,1,assignment,"{user: admin, password: <VALUE>}"
+93ff401b,tool/0a986c15.md,NKEY Seed,1,FN (bỏ sót),0.6517,1,token,<VALUE>
+e13d78bf,test/3fe76704,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/d8b3eb71,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/8346f9d2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/f0232b8d,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/ae420af2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/34d86ede,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/760f11c6,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/719ccb64,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/238543ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/4eb61cb1,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/59b9c876,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/330eb500,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6482,1,token,Proxy-Authorization: NTLM <VALUE>
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.6469,1,assignment,MAILU_INIT_ADMIN_PASSWORD=<VALUE>
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.6445,1,assignment,GRAYLOG_PASSWORD=<VALUE>
+e13d78bf,test/431fe03a,NTLM Token,1,FN (bỏ sót),0.6421,1,token,REPLY <VALUE> A002 OK AUTHENTICATE completed
+e13d78bf,test/9b82666e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.6421,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/0ac5a03d,NTLM Token,1,FN (bỏ sót),0.6421,1,token,REPLY <VALUE> A002 OK AUTHENTICATE completed
+bd14e9cf,_/fb685b23.sh,Token:Auth,1,FN (bỏ sót),0.641,1,assignment,"[root@operation ops]# curl -k https://192.168.56.102:8000 -H ""Accept: application/x-yaml"" -H ""X-Auth-Token: <VALUE>""  -d…"
+e13d78bf,test/eea5731d,NTLM Token,1,FN (bỏ sót),0.6324,1,token,REPLY <VALUE> +OK Login successful
+e13d78bf,test/e74bd159,NTLM Token,1,FN (bỏ sót),0.6324,1,token,REPLY <VALUE> +OK Login successful
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/dc9185d3.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+0436af4a,test/src/660ce36a.cs,Password,1,FN (bỏ sót),0.6323,1,assignment,"const string testPassword = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fa…"
+93ff401b,tool/10c8e7a2.md,NKEY Seed,1,FN (bỏ sót),0.6294,1,token,|  MyAccount | <VALUE> |             |
+6c73b80a,test/conf/server/edc1c568.go,Key,1,FN (bỏ sót),0.6276,1,assignment,"`./configs/multiple_errors.conf:21:5: Not a valid public nkey for an account: ""<VALUE>""`,"
+e13d78bf,test/lib/67301bd1.c,Password,1,FN (bỏ sót),0.6256,1,assignment,"""options=updated,scheme=imaps,password=<VALUE>,"","
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.6251,1,token,"(5, 'kwilliams4@paypal.com', '$2a$06$<VALUE>'), -- Password: '<VALUE>'"
+3b7cbdd3,conf/docs/77b35193.md,Key:Secret,1,FN (bỏ sót),0.6244,1,assignment,SECRET_KEY=<VALUE>
+5aefaef8,api/54ad8eef.md,Auth:Bearer Authorization,1,FN (bỏ sót),0.6228,1,token,> Authorization: Bearer <VALUE>
+81cd05d0,src/resource/model/631b3f02.json,Password,1,FN (bỏ sót),0.6219,1,assignment,"""MasterUserPassword"" : ""<VALUE>"","
+81cd05d0,src/api/model/150edd90.java,Token:UUID,1,FN (bỏ sót),0.6212,1,assignment,* <code>GET /restapis/o81lxisefl/gatewayresponses/MISSING_AUTHENTICATION_TOKEN HTTP/1.1 Host: beta-apigateway.us-east-1.…
+81cd05d0,src/api/model/0685fc76.java,Token:UUID,1,FN (bỏ sót),0.6212,1,assignment,* <code>GET /restapis/o81lxisefl/gatewayresponses/MISSING_AUTHENTICATION_TOKEN HTTP/1.1 Host: beta-apigateway.us-east-1.…
+81cd05d0,src/api/model/d053d6b5.java,Token:UUID,1,FN (bỏ sót),0.6212,1,assignment,* <code>GET /restapis/o81lxisefl/gatewayresponses/MISSING_AUTHENTICATION_TOKEN HTTP/1.1 Host: beta-apigateway.us-east-1.…
+3d82970b,test/secret/public/4ea0570b.js,JSON Web Token:Token,1,FN (bỏ sót),0.6212,1,assignment,var TOKEN = '<VALUE>';
+81cd05d0,src/api/model/720e8cc4.java,Token:UUID,1,FN (bỏ sót),0.6212,1,assignment,* <code>GET /restapis/o81lxisefl/gatewayresponses/MISSING_AUTHENTICATION_TOKEN HTTP/1.1 Host: beta-apigateway.us-east-1.…
+e72eb979,test/api/4cce1d1a.cpp,Auth:Basic Authorization,1,FN (bỏ sót),0.6205,1,assignment,"static const char expectedAuthorization[] = ""Basic <VALUE>""; // Base64 encoding of ""username:password""."
+e72eb979,test/api/5b69c9ba.cpp,Auth:Basic Authorization,1,FN (bỏ sót),0.6205,1,assignment,"static const char expectedAuthorization[] = ""Basic <VALUE>""; // Base64 encoding of ""username:password""."
+e13d78bf,test/b29da158,Password,1,FN (bỏ sót),0.6162,1,assignment,Cookie: userpwd=<VALUE>
+e72eb979,test/7188e3c3.html,Key,1,FN (bỏ sót),0.6139,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/efb916f4.html,Key,1,FN (bỏ sót),0.6139,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+826a020b,test/spec/fe2a39c1.js,Password,1,FN (bỏ sót),0.6103,1,assignment,"const payload = { username: 'testuser', password: '<VALUE>' };"
+0436af4a,src/399829cf.cs,Password,1,FN (bỏ sót),0.61,1,assignment,"const string password = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake c…"
+826a020b,test/spec/21a473fe.js,Password,1,FN (bỏ sót),0.608,1,assignment,"const testuser = { username: 'testuser', password: '<VALUE>' };"
+93ff401b,docker/docs/0c7d7adc.html,Password,1,FN (bỏ sót),0.6078,1,assignment,password: <VALUE>
+6c73b80a,conf/server/87cecf4f.conf,Password,1,FN (bỏ sót),0.6078,1,assignment,password: <VALUE>
+6c73b80a,conf/server/5f039f34.conf,Password,1,FN (bỏ sót),0.6078,1,assignment,password: <VALUE>
+6c73b80a,docker/server/10d446a0.conf,Password,1,FN (bỏ sót),0.6078,1,assignment,password: <VALUE>
+36b76643,_/b3356305.md,Secret,1,FN (bỏ sót),0.6032,1,assignment,GOCOMMERCE_JWT_SECRET=<VALUE>
+d94d550a,test/0fc56164.py,Token,1,FN (bỏ sót),0.6023,1,assignment,"{""access_token"": ""<VALUE>"","
+d94d550a,test/0fc56164.py,Token,1,FN (bỏ sót),0.6023,1,assignment,"""refresh_token"": ""<VALUE>"","
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.6022,1,assignment,"(9, 'jpalmer8@washingtonpost.com', '$2a$06$q3H4ngUMZ9ADz3utyzGRX.6pWrzmPurqEjKtm7qzbYJrmSEYrsYvu'), -- Password: '<VALUE…"
+6c73b80a,test/server/8e39a8bd.go,JSON Web Token,1,FN (bỏ sót),0.5996,1,assignment,"ojwt = ""<VALUE>"""
+81cd05d0,src/resource/model/bc39da73.json,Password,1,FN (bỏ sót),0.5977,1,assignment,"""Password"" : ""<VALUE>"","
+8d217d6c,test/5e3278b1.php,Nonce,1,FN (bỏ sót),0.5977,1,assignment,"'https://127.0.0.1/admin/admin-ajax.php?id=y1120844669&action=edit&keyword=1a&nonce=<VALUE>',"
+826a020b,_/ca122b97.js,URL Credentials,1,FN (bỏ sót),0.5949,1,url,'https://58f16d6f010d4c77900bb1de9c02185f:<VALUE>@app.getsentry.com/12434'
+93ff401b,tool/docs/f4e41f02.html,Password,1,FN (bỏ sót),0.5922,1,assignment,pass: <VALUE>
+1e007c58,_/556918e1.go,CURL User Password,1,FN (bỏ sót),0.5909,1,assignment,"curl -X PUT -u ""ff20f250a7b3a414781d1abe11cd8cee:<VALUE>"" \"
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.5881,1,assignment,"(10, 'rfisher9@nytimes.com', '$2a$06$lvLbqB8u.BVnqa8Zmy5E0.1LgSyKJkBnRYztVu3gO.hE6kCIsx2YK'); -- Password: '<VALUE>'"
+e13d78bf,test/eea5731d,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+e13d78bf,test/e74bd159,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+e13d78bf,test/1a382b82,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+e13d78bf,test/350e0682,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+e13d78bf,test/431fe03a,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+e13d78bf,test/0ac5a03d,NTLM Token,1,FN (bỏ sót),0.5844,1,token,<VALUE>
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.5821,1,assignment,"(6, 'apeterson5@webnode.com', '$2a$06$wCdceaTUqf9fxp/j6hswk.pWp9aY7N2HMQeNKb2TJZMUm.i8IZ.3G'), -- Password: '<VALUE>'"
+d94d550a,test/72a90f02.py,Password,1,FN (bỏ sót),0.5793,1,assignment,"self.client.login(username=""anakin"", password=""<VALUE>"")"
+93ff401b,security/docs/33c96199.html,NKEY Seed,1,FN (bỏ sót),0.5729,1,token,"<span class=""token keyword"">const</span> seed <span class=""token operator"">=</span> <span class=""token string"">&apos;<VA…"
+93ff401b,security/docs/33c96199.html,NKEY Seed,1,FN (bỏ sót),0.5729,1,token,"<span class=""token keyword"">const</span> seed <span class=""token operator"">=</span> <span class=""token string"">&apos;<VA…"
+389fd795,test/c159516b.go,Token,1,FN (bỏ sót),0.5725,1,token,"want := &RemoveToken{Token: String(""<VALUE>""), ExpiresAt: &Timestamp{time.Date(2020, time.January, 29, 12, 13, 35, 12300…"
+389fd795,test/c159516b.go,Token,1,FN (bỏ sót),0.5725,1,token,"want := &RemoveToken{Token: String(""<VALUE>""), ExpiresAt: &Timestamp{time.Date(2020, time.January, 29, 12, 13, 35, 12300…"
+a0abd87c,test/29093b48.py,API,1,FN (bỏ sót),0.5681,1,assignment,jsapi_ticket = '<VALUE>'  # NOQA
+23689bd1,test/b8560638.mjs,JSON Web Token,1,FN (bỏ sót),0.5677,1,token,"'<VALUE>',"
+81cd05d0,src/resource/model/511699c7.json,UUID,1,FN (bỏ sót),0.5667,1,assignment,"""ScheduledActionARN"" : ""arn:aws:autoscaling:us-west-2:123456789012:scheduledUpdateGroupAction:<VALUE>:autoScalingGroupNa…"
+36b76643,test/util/api/0111c3f3.go,Secret,1,FN (bỏ sót),0.5642,1,assignment,"config.JWT.Secret = ""<VALUE>"""
+6c73b80a,test/cluster/server/7708ebf0.go,URL Credentials,1,FN (bỏ sót),0.555,1,url,"lnss = append(lnss, fmt.Sprintf(""nats://admin:<VALUE>@%s:%d"", ln.Host, ln.Port))"
+e72eb979,test/4ac54fd9.html,Key,1,FN (bỏ sót),0.5548,1,token,"var unwrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/cc771c32.html,Key,1,FN (bỏ sót),0.5548,1,token,"var unwrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/83dc9cd4.html,Key,1,FN (bỏ sót),0.5548,1,token,"var unwrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/afbedd91.html,Key,1,FN (bỏ sót),0.5548,1,token,"var unwrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+ab473e6e,_/cc3633ac.py,Password,1,FN (bỏ sót),0.5517,1,assignment,"cli.send(b'add: {""server_port"":7001, ""password"":""<VALUE>""}')"
+6d59a88a,_/2e746c9e.py,Password,1,FN (bỏ sót),0.5448,1,assignment,"env.password = ""<VALUE>"""
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/83ef9380,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/2b8b71ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/66577be9,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/54a9d151,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/12e5ea65,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/51914b63,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/1536d0d4,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/bd707d49,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/5dafded8,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.5427,1,token,Authorization: NTLM <VALUE>
+e72eb979,test/tool/ed146a45.cpp,Auth:Basic Authorization,1,FN (bỏ sót),0.5408,1,assignment,"static const char authExpectedAuthorization[] = ""Basic <VALUE>""; // Base64 encoding of ""username:password""."
+e72eb979,test/tool/1afadf03.cpp,Auth:Basic Authorization,1,FN (bỏ sót),0.5408,1,assignment,"static const char authExpectedAuthorization[] = ""Basic <VALUE>""; // Base64 encoding of ""username:password""."
+e13d78bf,test/114266f5,Nonce,1,FN (bỏ sót),0.5383,1,assignment,"REPLY AUTH 334 %b64[realm=""cu\""rl"",nonce=""<VALUE>"",algorithm=md5-sess,qop=""auth""]b64%"
+e13d78bf,test/0bb80d98,Nonce,1,FN (bỏ sót),0.5383,1,assignment,"REPLY AUTHENTICATE + %b64[realm=""curl"",nonce=""<VALUE>"",algorithm=md5-sess,qop=""auth""]b64%"
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.537,1,assignment,"Password:    ""<VALUE>"","
+ff527e6f,example/setting/6cf1b6e7.py,Key:Secret,1,FN (bỏ sót),0.5366,1,assignment,SECRET_KEY = '<VALUE>'
+6482c382,test/src/fixture/lib/d9c3d0ef.json,AWS S3 Bucket,1,FN (bỏ sót),0.5359,1,assignment,"""icon_url"": ""https://<VALUE>/images/icon-bg.png"""
+6c73b80a,test/opt/server/728925ac.go,JSON Web Token,1,FN (bỏ sót),0.5357,1,assignment,operator: <VALUE>
+c9201a51,test/5391075a.go,Secret,1,FN (bỏ sót),0.5339,1,regex,"opts.CookieSecret = ""<VALUE>"""
+35c273e2,test/src/29edcedd.java,UUID,1,FN (bỏ sót),0.5326,1,assignment,"Assert.assertEquals(""https://login.microsoftonline.com/common/oauth2/authorize?resource=<VALUE>&client_id=f7e11bcd-b50b-…"
+35c273e2,test/src/29edcedd.java,UUID,1,FN (bỏ sót),0.527,1,assignment,"Assert.assertEquals(""https://login.microsoftonline.com/common/oauth2/authorize?resource=<VALUE>&client_id=f7e11bcd-b50b-…"
+e13d78bf,test/1567dfa2,Nonce,1,FN (bỏ sót),0.5199,1,assignment,"REPLY AUTH + %b64[realm=""curl"",nonce=""<VALUE>"",algorithm=md5-sess,qop=""auth""]b64%"
+36b76643,test/d45129d5.go,Password,1,FN (bỏ sót),0.5192,1,assignment,"c.Coupons.Password = ""<VALUE>"""
+4dccc5be,template/d76d7ec8,Key,1,FN (bỏ sót),0.5192,1,assignment,pagerduty.service_key = '<VALUE>'
+81cd05d0,src/resource/model/6f8a2a14.json,Token,1,FN (bỏ sót),0.5172,1,assignment,"""SessionToken"" : ""<VALUE>"","
+81a41883,lib/fe5f237c.rb,API,1,FN (bỏ sót),0.5159,1,assignment,API_STATUS_ID = '<VALUE>'
+e72eb979,test/4ac54fd9.html,Key,1,FN (bỏ sót),0.5143,1,token,"var wrappedKey = hexStringToUint8Array(""<VALUE>""); // An empty encrypted JSON."
+e72eb979,test/83dc9cd4.html,Key,1,FN (bỏ sót),0.5143,1,token,"var wrappedKey = hexStringToUint8Array(""<VALUE>""); // An empty encrypted JSON."
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.5137,1,assignment,"config = self._conf(password=""<VALUE>"", sudo_password=None)"
+57c424f8,test/src/26e016da.java,Secret,1,FN (bỏ sót),0.5121,1,token,"+ ""\""<VALUE>\"",\""appSecret\"":\""<VALUE>\"","""
+c9201a51,test/5391075a.go,Secret,1,FN (bỏ sót),0.5108,1,regex,"t.opts.CookieSecret = ""<VALUE>"""
+e72eb979,test/0cd2be61.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/59a255ce.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/e496b2ac.html,Key,1,FN (bỏ sót),0.5047,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/e23515f4.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/d192dee2.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/144f91b5.html,Key,1,FN (bỏ sót),0.5047,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/2664a772.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/144d9be7.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/9824e1a4.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/6a56bfb0.html,Key,1,FN (bỏ sót),0.5047,1,token,"aesKeyData = hexStringToUint8Array(""<VALUE>"");"
+c9201a51,test/5391075a.go,Secret,1,FN (bỏ sót),0.5028,1,assignment,"sip_test.opts.ClientSecret = ""<VALUE>"""
+e13d78bf,test/5f4b45d2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/5f4b45d2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/7b268862,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/3c6e357c,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/3c6e357c,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/aaebc69e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/36685586,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/7b268862,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/7b268862,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.501,1,token,Authorization: NTLM <VALUE>
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+81cd05d0,src/resource/model/021a7dd9.json,UUID,1,FN (bỏ sót),0.5008,1,assignment,"""KmsKeyId"" : ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+c9201a51,test/5391075a.go,Secret,1,FN (bỏ sót),0.4995,1,assignment,"pc_test.opts.ClientSecret = ""<VALUE>"""
+e72eb979,test/555ed8d2.html,Key,1,FN (bỏ sót),0.4957,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/2da57f03.html,Key,1,FN (bỏ sót),0.4957,1,token,"var keyData = hexStringToUint8Array(""<VALUE>"");"
+93ff401b,conf/e5748f4f.md,JSON Web Token,1,FN (bỏ sót),0.4942,1,assignment,operator = <VALUE>
+57c424f8,test/src/2bf65644.java,Key,1,FN (bỏ sót),0.4915,1,assignment,"String aseKey = ""<VALUE>"";"
+5d8870b3,test/fe21d82c.js,Password,1,FN (bỏ sót),0.4913,1,assignment,password: '<VALUE>'
+5d8870b3,test/ecd8a360.js,Password,1,FN (bỏ sót),0.4913,1,assignment,password: '<VALUE>'
+5d8870b3,example/model/bbe3797e.js,Password,1,FN (bỏ sót),0.4913,1,assignment,password: '<VALUE>'
+d2926eb1,src/conf/resource/app/e53e1a79.yml,Key:BASE64 Private Key,1,FN (bỏ sót),0.4825,1,assignment,private_key: <VALUE>
+6c73b80a,test/conf/0fd3e5cb.conf,Password,1,FN (bỏ sót),0.4775,1,assignment,"password = ""<VALUE>"""
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.4755,1,assignment,"users = [ { user: ""u"", pass: ""<VALUE>"" } ]"
+5aefaef8,conf/2812ad30.yaml,Dropbox App secret,1,FN (bỏ sót),0.4746,1,assignment,<VALUE>: <VALUE>
+6c73b80a,test/opt/server/728925ac.go,JSON Web Token,1,FN (bỏ sót),0.471,1,assignment,operator: <VALUE>
+81cd05d0,src/resource/model/6274d7e5.json,UUID,1,FN (bỏ sót),0.4703,1,assignment,"""KmsKeyId"" : ""arn:aws:fsx:us-east-1:012345678912:key/<VALUE>"","
+35c273e2,test/src/29edcedd.java,UUID,1,FN (bỏ sót),0.4702,1,assignment,"Assert.assertEquals(""https://login.microsoftonline.com/common/oauth2/authorize?resource=<VALUE>&client_id=f7e11bcd-b50b-…"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.4662,1,assignment,"url, {""password1"": ""<VALUE>"", ""password2"": ""<VALUE>""}, follow=True"
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.4657,1,assignment,"o.Password = ""<VALUE>"""
+e72eb979,test/97c67026.html,Key,1,FN (bỏ sót),0.465,1,token,"var wrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/daa124ed.html,Key,1,FN (bỏ sót),0.465,1,token,"var wrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/8c6c430c.html,Key,1,FN (bỏ sót),0.465,1,token,"var wrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/1ca69d60.html,Key,1,FN (bỏ sót),0.465,1,token,"var wrappingKeyOctets = hexStringToUint8Array(""<VALUE>"");"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4613,1,token,"[InlineData(""resource://<VALUE>"")]"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4613,1,token,"[InlineData(""RESOURCE://<VALUE>"")]"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4613,1,token,"[InlineData(""rEsOuRcE://<VALUE>"")]"
+e097ae9a,test/init/5f27cb02.yml,Password,1,FN (bỏ sót),0.4605,1,assignment,"ldap_password: ""<VALUE>"""
+6c73b80a,test/opt/server/728925ac.go,JSON Web Token,1,FN (bỏ sót),0.4572,1,assignment,ADSPOYMHXJN6JVYQCLRZ5XQ5IUN6A3S33XA4NV4VH74423U7U7YR4YVW: <VALUE>
+81cd05d0,src/cac498a7.java,Key,1,FN (bỏ sót),0.4509,1,assignment,* x-amz-key-v2: <VALUE>
+81cd05d0,src/cac498a7.java,Key,1,FN (bỏ sót),0.4509,1,assignment,* x-amz-key-v2: <VALUE>
+bd14e9cf,docker/4e485f74.sh,Password,1,FN (bỏ sót),0.45,1,assignment,"-e MYSQL_ROOT_PASSWORD=""<VALUE>"" \"
+81cd05d0,src/resource/model/511699c7.json,UUID,1,FN (bỏ sót),0.45,1,assignment,"""PolicyARN"" : ""arn:aws:autoscaling:us-west-2:123456789012:scalingPolicy:<VALUE>:autoScalingGroupName/my-auto-scaling-gro…"
+bd14e9cf,docker/d1402f93.sh,Password,1,FN (bỏ sót),0.45,1,assignment,"-e MYSQL_ROOT_PASSWORD=""<VALUE>"" \"
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.4495,1,token,"(7, 'glee6@arizona.edu', '$2a$06$<VALUE>.W6cwz0tsvf49IaNhmM65FkFJVr8GEgW'), -- Password: '<VALUE>'"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4469,1,token,"[InlineData(""unknown://<VALUE>"")]"
+e13d78bf,test/aaebc69e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/7b268862,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/36685586,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/7b268862,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/5efb0e98,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/aaebc69e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+e13d78bf,test/36685586,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.445,1,token,Authorization: NTLM <VALUE>
+41d10ede,_/b803fcb7.yml,Password,1,FN (bỏ sót),0.443,1,assignment,PGPASSWORD: <VALUE>
+e13d78bf,test/212a7370,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.4421,1,token,Proxy-Authorization: NTLM <VALUE>
+e13d78bf,test/6c32ca01,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.4421,1,token,Authorization: NTLM <VALUE>
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.4412,1,assignment,"url, {""password1"": ""<VALUE>"", ""password2"": ""<VALUE>""}"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.4412,1,assignment,"url, {""password1"": ""<VALUE>"", ""password2"": ""<VALUE>""}"
+81cd05d0,src/resource/model/bc39da73.json,Password,1,FN (bỏ sót),0.44,1,assignment,"""NewPassword"" : ""<VALUE>"""
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.4384,1,regex,"config = self._conf(password=""<VALUE>"")"
+81cd05d0,src/resource/model/6f8a2a14.json,Auth:Token,1,FN (bỏ sót),0.4378,1,assignment,"""WebIdentityToken"" : ""<VALUE>"","
+5d8870b3,_/1550ec65.md,Auth:Basic Authorization,1,FN (bỏ sót),0.4375,1,token,Authorization: Basic <VALUE>
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.4369,1,assignment,"""getterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>\n@re…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.4369,1,assignment,"""getterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>\n@re…"
+81cd05d0,src/secret/resource/model/334b19eb.json,Password,1,FN (bỏ sót),0.4357,1,assignment,"""RandomPassword"" : ""<VALUE>"""
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.4351,1,assignment,"{""password1"": ""<VALUE>"", ""password2"": ""<VALUE>""},"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4347,1,assignment,"*        <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4347,1,assignment,"*        <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4347,1,assignment,"*        <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4347,1,assignment,"*        <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+6c73b80a,conf/server/aa0abde9.conf,Token,1,FN (bỏ sót),0.4324,1,assignment,token: <VALUE>
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4287,1,assignment,"*         <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4287,1,assignment,"*         <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.4225,1,assignment,"* <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.4225,1,assignment,"resp.url, {""password1"": ""<VALUE>"", ""password2"": ""<VALUE>""}"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.4225,1,assignment,"* <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.4225,1,assignment,"* <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.4225,1,assignment,"* <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+fa71ac83,conf/9aa3c9b2.js,Secret,1,FN (bỏ sót),0.4209,1,regex,"masterSecret: '<VALUE>',"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4176,1,token,"[InlineData(""id://<VALUE>"")]"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4176,1,token,"[InlineData(""ID://<VALUE>"")]"
+0436af4a,test/src/697a0f01.cs,UUID,1,FN (bỏ sót),0.4176,1,token,"[InlineData(""Id://<VALUE>"")]"
+fa71ac83,test/7593a72b.js,Password,1,FN (bỏ sót),0.4135,1,assignment,var pass = '<VALUE>';
+c2d95db7,_/a3046da0.example,Key,1,FN (bỏ sót),0.4133,1,assignment,MEILISEARCH_KEY=<VALUE>
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/8d7c43d8.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.4114,1,assignment,"* <code>[{""username"":""bob""},{""password"":""<VALUE>""}]</code>"
+638eb0c6,_/b803fcb7.yml,URL Credentials,1,FN (bỏ sót),0.4101,1,url,LDS_TEST_DATABASE_URL: <VALUE>://<VALUE>:<VALUE>@localhost:5432/lds_test
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.4097,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+8d217d6c,test/sample/conf/c72b46d8.php,Password,1,FN (bỏ sót),0.4065,1,assignment,"'phpass2' => '<VALUE>', // password: also '<VALUE>' but without YOURLS internal char substitution"
+8d217d6c,test/conf/da28ac29.php,Password,1,FN (bỏ sót),0.4065,1,assignment,"'phpass2' => '<VALUE>', // password: also '<VALUE>' but without YOURLS internal char substitution"
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.4025,1,assignment,"(4, 'kaustin3@nyu.edu', '$2a$06$YJJ.vNqGcrKcX4ZtPl1nG.crDhCCoA6t5tWXkAokvprG4nytdWNli'), -- Password: '<VALUE>'"
+e097ae9a,test/init/5f27cb02.yml,Password,1,FN (bỏ sót),0.3949,1,assignment,github_admin_password: <VALUE>
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.3947,1,assignment,"""password1"": ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.394,1,assignment,"Password:       ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.394,1,assignment,"Password:       ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.394,1,assignment,"Password:     ""<VALUE>"","
+f7ae636a,test/a3f34961.go,Password,1,FN (bỏ sót),0.3918,1,assignment,//         Passphrase: <VALUE>
+638eb0c6,_/b803fcb7.yml,URL Credentials,1,FN (bỏ sót),0.3887,1,url,TEST_PG_URL: <VALUE>://<VALUE>:<VALUE>@localhost:5432/postgraphile_test
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.3871,1,assignment,"*        <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.3871,1,assignment,"*         <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+81cd05d0,src/secret/model/91eb9e36.java,Password,1,FN (bỏ sót),0.3871,1,assignment,"*        <code>{""username"":""bob"",""password"":""<VALUE>""}</code>"
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.3858,1,assignment,"Password:              ""<VALUE>"","
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.3852,1,assignment,"const string password2 = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake …"
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.3852,1,assignment,"const string password2 = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake …"
+81cd05d0,src/resource/model/021a7dd9.json,Password,1,FN (bỏ sót),0.3802,1,assignment,"""Password"" : ""<VALUE>"","
+6c73b80a,test/conf/9f7a2e57.conf,JSON Web Token,1,FN (bỏ sót),0.3792,1,assignment,"AD2VB6C25DQPEUUQ7KJBUFX2J4ZNVBPOHSCBISC7VFZXVWXZA7VASQZG : ""<VALUE>"""
+6c73b80a,test/633f9ac2.go,JSON Web Token,1,FN (bỏ sót),0.3792,1,assignment,"AD2VB6C25DQPEUUQ7KJBUFX2J4ZNVBPOHSCBISC7VFZXVWXZA7VASQZG : ""<VALUE>"""
+6c73b80a,test/633f9ac2.go,JSON Web Token,1,FN (bỏ sót),0.3792,1,assignment,"AD2VB6C25DQPEUUQ7KJBUFX2J4ZNVBPOHSCBISC7VFZXVWXZA7VASQZG : ""<VALUE>"""
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.3758,1,assignment,"const string password1 = ""<VALUE>"";  // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake…"
+0436af4a,test/src/df627f1b.cs,Password,1,FN (bỏ sót),0.3758,1,assignment,"const string password1 = ""<VALUE>"";  // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=""Fake…"
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3756,1,assignment,"env=Lexicon(self.env, sudo_password=""<VALUE>"")"
+bd14e9cf,docker/4e485f74.sh,Password,1,FN (bỏ sót),0.3752,1,assignment,-e MYSQL_ROOT_PASSWORD=<VALUE>  \
+bd14e9cf,docker/d1402f93.sh,Password,1,FN (bỏ sót),0.3752,1,assignment,-e MYSQL_ROOT_PASSWORD=<VALUE>  \
+93ff401b,conf/sys/5e0626e3.md,URL Credentials,1,FN (bỏ sót),0.3747,1,url,Please note that applications now have to authenticate such that a connection can be associated with an account. In this…
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3726,1,assignment,"env, overrides={""sudo"": {""password"": ""<VALUE>""}}"
+638eb0c6,_/b803fcb7.yml,URL Credentials,1,FN (bỏ sót),0.3696,1,url,TEST_DATABASE_URL: <VALUE>://<VALUE>:<VALUE>@localhost:5432/graphileengine_test
+c2127ffb,conf/7817fa94.js,Secret,1,FN (bỏ sót),0.3623,1,assignment,"secret: '<VALUE>',"
+81cd05d0,src/resource/model/462783ad.json,UUID,1,FN (bỏ sót),0.3611,1,assignment,"""documentation"":""<p>A web ACL ID specified is not valid. To specify a web ACL created using the latest version of AWS WA…"
+93ff401b,docs/server/fd9a3635.html,NKEY Seed,1,FN (bỏ sót),0.3583,1,token,"<span class=""token keyword"">const</span> nkey_seed <span class=""token operator"">=</span> &#x2018;<span class=""token cons…"
+6c73b80a,test/server/cb4307f8.go,Password,1,FN (bỏ sót),0.3525,1,assignment,"Password:    ""<VALUE>"","
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3512,1,assignment,"assert config.connect_kwargs.password == ""<VALUE>"""
+f295f04f,test/010a05a8.js,Auth:Basic Authorization,1,FN (bỏ sót),0.3495,1,assignment,"'Proxy-Authorization': 'Basic <VALUE>',"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.343,1,assignment,"""setterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>\n@pa…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.343,1,assignment,"""setterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>\n@pa…"
+9069e3a1,test/2500680f.yml,Password,1,FN (bỏ sót),0.34,1,assignment,DJANGO_EXTENSIONS_DATABASE_PASSWORD: <VALUE>
+5aefaef8,api/54ad8eef.md,Auth:Bearer Authorization,1,FN (bỏ sót),0.3377,1,token,"$ curl -v -k -H ""Authorization: Bearer <VALUE>"" https://10.240.122.184:443/api/v1/namespaces/default/pods/grafana"
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3298,1,assignment,"assert config.sudo.password == ""<VALUE>"""
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3298,1,assignment,"assert config.sudo.password == ""<VALUE>"""
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3298,1,assignment,"assert config.sudo.password == ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.3287,1,assignment,"o.MQTT.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.3287,1,assignment,"o.MQTT.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.3287,1,assignment,"o.MQTT.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.3287,1,assignment,"o.MQTT.Password = ""<VALUE>"""
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.3287,1,assignment,"o.MQTT.Password = ""<VALUE>"""
+e13d78bf,test/lib/67301bd1.c,URL Credentials,1,FN (bỏ sót),0.3268,1,url,"""imaps://user:<VALUE>@host/"","
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.3245,1,assignment,"password: ""<VALUE>"""
+6c73b80a,test/633f9ac2.go,Password,1,FN (bỏ sót),0.3245,1,assignment,"password: ""<VALUE>"""
+e72eb979,test/f802d292.html,Key,1,FN (bỏ sót),0.3242,1,token,"var hmacKeyAsArrayBuffer = Base64URL.parse(""<VALUE>"");"
+e72eb979,test/bbe5c7e5.html,Key,1,FN (bỏ sót),0.3242,1,token,"var hmacKeyAsArrayBuffer = Base64URL.parse(""<VALUE>"");"
+3adfbe9d,test/270247a6.ts,Password,1,FN (bỏ sót),0.3217,1,assignment,"password: '<VALUE>',"
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.3216,1,assignment,"assert config.sudo.password == ""<VALUE>"""
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.3189,1,url,"nc2 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o2.Host, o2.Port))"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.3189,1,url,"nc1 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o2.Host, o2.Port))"
+e0b41e26,test/util/c72880b5.js,Password,1,FN (bỏ sót),0.3136,1,assignment,"password: '<VALUE>',"
+f295f04f,test/456f5110.js,Nonce,1,FN (bỏ sót),0.3126,1,assignment,"nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Nonce,1,FN (bỏ sót),0.3126,1,assignment,"nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Nonce,1,FN (bỏ sót),0.3126,1,assignment,"nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Nonce,1,FN (bỏ sót),0.3126,1,assignment,"nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Nonce,1,FN (bỏ sót),0.3126,1,assignment,"nonce: '<VALUE>',"
+e13d78bf,test/0bb80d98,Nonce,1,FN (bỏ sót),0.3123,1,assignment,"%b64[username=""user"",realm=""curl"",nonce=""<VALUE>"",cnonce=""34333231353332313633323137333231"",nc=""00000001"",digest-uri=""im…"
+57c424f8,test/src/conf/client/1f3cb7b7.java,Password,1,FN (bỏ sót),0.3084,1,assignment,"""shenyu.httpclient.proxy.password=<VALUE>"","
+0436af4a,test/src/client/4433e6a4.cs,Auth,1,FN (bỏ sót),0.304,1,assignment,"const string authCode = ""<VALUE>"";"
+e13d78bf,test/114266f5,Nonce,1,FN (bỏ sót),0.3032,1,assignment,"%b64[username=""us\""er"",realm=""cu\""rl"",nonce=""<VALUE>"",cnonce=""34333231353332313633323137333231"",nc=""00000001"",digest-uri…"
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.3011,1,regex,* <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.3011,1,regex,* <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.3011,1,regex,* <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.3004,1,assignment,"""documentation"" : ""<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>"","
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.3004,1,assignment,"""documentation"" : ""<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>"","
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.3004,1,assignment,"""documentation"" : ""<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>"","
+81cd05d0,src/resource/model/82290d65.json,UUID,1,FN (bỏ sót),0.3004,1,assignment,"""documentation"":""<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>"""
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.3004,1,assignment,"""documentation"" : ""<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p>"","
+6c73b80a,test/server/3906e586.go,Password,1,FN (bỏ sót),0.2984,1,assignment,"pass:      ""<VALUE>"","
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.2958,1,url,"ncACC1 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o1.Host, o1.Port))"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.2958,1,url,"ncACC2 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o1.Host, o1.Port))"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.2958,1,url,"ncACC2 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o1.Host, o1.Port))"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.2958,1,url,"ncACC1 := natsConnect(t, fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", o1.Host, o1.Port))"
+ff527e6f,_/7b3ed02b.rst,Token,1,FN (bỏ sót),0.295,1,assignment,.. image:: https://codecov.io/gh/jazzband/django-admin2/branch/main/graph/badge.svg?token=<VALUE>
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.2947,1,assignment,"const string testPasswordOld = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=…"
+ab473e6e,test/982dcd17.json,Password,1,FN (bỏ sót),0.2889,1,assignment,"""password"":""<VALUE>"","
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.2882,1,assignment,"o.Websocket.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.2882,1,assignment,"o.Websocket.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.2882,1,assignment,"o.Websocket.Password = ""<VALUE>"""
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.2882,1,assignment,"o.Websocket.Password = ""<VALUE>"""
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.2882,1,assignment,"config = self._conf(sudo_password=""<VALUE>"")"
+6c73b80a,test/server/88341713.go,Password,1,FN (bỏ sót),0.2882,1,assignment,"o.Websocket.Password = ""<VALUE>"""
+81cd05d0,src/resource/model/096e5c06.json,UUID,1,FN (bỏ sót),0.2876,1,assignment,"""documentation"":""<p>The ID of the reserved cache node offering to purchase.</p> <p>Example: <code><VALUE></code> </p>"""
+e13d78bf,test/1567dfa2,Nonce,1,FN (bỏ sót),0.2826,1,assignment,"%b64[username=""user"",realm=""curl"",nonce=""<VALUE>"",cnonce=""34333231353332313633323137333231"",nc=""00000001"",digest-uri=""po…"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.2818,1,url,"{ name: A, url: nats://gwuser:<VALUE>@127.0.0.1:%d }"
+ab473e6e,test/60ea96cc.json,Password,1,FN (bỏ sót),0.2808,1,assignment,"""password"":""<VALUE>"","
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.277,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+81a41883,test/fixture/b4eeffb8.yml,Token,1,FN (bỏ sót),0.2759,1,assignment,"encrypted_github_access_token_iv: ""<VALUE>"""
+81a41883,test/fixture/b4eeffb8.yml,Token,1,FN (bỏ sót),0.2759,1,assignment,"encrypted_github_access_token_iv: ""<VALUE>"""
+e13d78bf,test/0bb80d98,Auth,1,FN (bỏ sót),0.2759,1,assignment,"REPLY %b64[username=""user"",realm=""curl"",nonce=""5300d17a1d695bd411e4cdf96f9548c23ced6175"",cnonce=""34333231353332313633323…"
+e13d78bf,test/1567dfa2,Nonce,1,FN (bỏ sót),0.2745,1,assignment,"REPLY %b64[username=""user"",realm=""curl"",nonce=""<VALUE>"",cnonce=""34333231353332313633323137333231"",nc=""00000001"",digest-u…"
+bd14e9cf,docker/d1402f93.sh,Password,1,FN (bỏ sót),0.2714,1,assignment,"-e MYSQL_ROOT_PASSWORD=""<VALUE>"" \"
+e0b41e26,app/27f723c6.js,Auth:Token,1,FN (bỏ sót),0.2686,1,assignment,// http://localhost:9000/static/oauth.html#access_token=<VALUE>&token_type=Bearer&state=&expires_in=36000&scope=read+wri…
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.2681,1,assignment,"""fluentSetterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.2681,1,assignment,"""fluentSetterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.2681,1,assignment,"""varargSetterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.2681,1,assignment,"""varargSetterDocumentation"" : ""/**<p>The ID of the Reserved DB instance offering to purchase.</p> <p>Example: <VALUE></p…"
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.2678,1,assignment,"env.sudo_password = ""<VALUE>"""
+5aefaef8,_/dc02cd9b.md,Dropbox App secret,1,FN (bỏ sót),0.2638,1,assignment,- [<u>Ashwin Kumar Uppala</u>](mailto:<VALUE>@gmail.com)(He/Him)
+a0abd87c,_/aff33522.rst,Nonce,1,FN (bỏ sót),0.2637,1,assignment,nonce = '<VALUE>'  # Request 中 GET 参数 nonce
+a0abd87c,_/aff33522.rst,Nonce,1,FN (bỏ sót),0.2637,1,assignment,nonce = '<VALUE>'  # Request 中 GET 参数 nonce
+ab473e6e,test/63c8a407.json,Password,1,FN (bỏ sót),0.2618,1,assignment,"""password"":""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.2602,1,assignment,"pwd = ""<VALUE>"""
+c2127ffb,src/vendor/42074fd8.js,Auth:Basic Authorization,1,FN (bỏ sót),0.2596,1,assignment,*   $http.defaults.headers.common.Authorization = 'Basic <VALUE>'
+6d59a88a,_/b714d675.py,Password,1,FN (bỏ sót),0.2569,1,assignment,"{""sudo"": {""password"": ""<VALUE>""}, ""run"": {""hide"": True}}"
+4dccc5be,spec/3b048855.rb,Password,1,FN (bỏ sót),0.2566,1,assignment,sftp.password = '<VALUE>'
+6c73b80a,test/conf/924a0284.conf,Password,1,FN (bỏ sót),0.2535,1,assignment,password: <VALUE>
+ab473e6e,test/client/server/7755cb30.json,Password,1,FN (bỏ sót),0.2511,1,assignment,"""password"": ""<VALUE>"","
+638eb0c6,example/d4451bab.md,Auth:JSON Web Token:Bearer Authorization,1,FN (bỏ sót),0.2468,1,token,Authorization: Bearer <VALUE>
+6c73b80a,test/server/dc47d09f.go,Password,1,FN (bỏ sót),0.2467,1,assignment,"authorization: { user: gwuser, password: <VALUE> }"
+6c73b80a,test/server/dc47d09f.go,Password,1,FN (bỏ sót),0.2467,1,assignment,"authorization: { user: gwuser, password: <VALUE> }"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"b1URL := fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob1.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"bURL = fmt.Sprintf(""nats://clientBBar:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"bURL := fmt.Sprintf(""nats://clientBar:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"bURL = fmt.Sprintf(""nats://clientBFoo:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"a2URL := fmt.Sprintf(""nats://clientA:<VALUE>@127.0.0.1:%d"", oa2.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"a2URL := fmt.Sprintf(""nats://clientA:<VALUE>@127.0.0.1:%d"", oa2.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"aURL := fmt.Sprintf(""nats://clientFoo:<VALUE>@127.0.0.1:%d"", oa.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"b1URL := fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob1.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.244,1,url,"bURL = fmt.Sprintf(""nats://clientBFoo:<VALUE>@127.0.0.1:%d"", ob.Port)"
+8c9b3ae9,src/resource/app/bca40d89.properties,Password,1,FN (bỏ sót),0.2435,1,assignment,spring.datasource.password=<VALUE>
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.2417,1,url,"bURL := fmt.Sprintf(""nats://clientBFoo:<VALUE>@127.0.0.1:%d"", ob.Port)"
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.2388,1,regex,*        <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.2388,1,regex,*        <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+5aefaef8,test/3addfba0.md,UUID,1,FN (bỏ sót),0.2384,1,assignment,[Log Filtering Example 1](https://k8s-gubernator.appspot.com/build/kubernetes-jenkins/logs/kubelet-gce-e2e-ci/5535/nodel…
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.2381,1,assignment,"`CONNECT {""pass"":""[REDACTED]"", ""password"": ""<VALUE>""}`,"
+8f499d55,_/d9cfa760.libsonnet,Password,1,FN (bỏ sót),0.2381,1,regex,"<VALUE>: '<VALUE>',"
+d94d550a,docs/0c5ae732.rst,Key,1,FN (bỏ sót),0.2349,1,assignment,"""key"": ""<VALUE>"","
+5aefaef8,_/6a4ca2be.md,Key,1,FN (bỏ sót),0.2349,1,assignment,[poll]: <http://civs.cs.cornell.edu/cgi-bin/vote.pl?id=E_9ef4ac5e58c4cab1&akey=<VALUE>
+660708f3,_/6e395352.js,Password,1,FN (bỏ sót),0.2307,1,assignment,"'ALBUM_PASSWORD': '<VALUE>',"
+ff527e6f,test/example/b240b186.py,Password,1,FN (bỏ sót),0.2299,1,regex,password='<VALUE>'))
+81cd05d0,src/resource/model/631b3f02.json,Password,1,FN (bỏ sót),0.2299,1,assignment,"""MasterUserPassword"" : ""<VALUE>"""
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.2292,1,url,"b2URL := fmt.Sprintf(""nats://clientBFoo:<VALUE>@127.0.0.1:%d"", ob2.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.2292,1,url,"b2URL := fmt.Sprintf(""nats://clientBFoo:<VALUE>@127.0.0.1:%d"", ob2.Port)"
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.2287,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+81cd05d0,src/model/088d0e81.java,AWS Client ID,1,FN (bỏ sót),0.2276,1,regex,*         <code>arn:aws:kms:us-east-1:123456789012:key/<VALUE></code>.
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.2266,1,assignment,"`CONNECT {""pass"":""<VALUE>"", ""password"": ""<VALUE>""}`,"
+a0abd87c,test/conf/ee18e1cb.py,Nonce,1,FN (bỏ sót),0.2251,1,assignment,nonce = <VALUE>
+e13d78bf,test/114266f5,Nonce,1,FN (bỏ sót),0.2249,1,assignment,"REPLY %b64[username=""us\""er"",realm=""cu\""rl"",nonce=""<VALUE>"",cnonce=""34333231353332313633323137333231"",nc=""00000001"",dige…"
+0436af4a,test/src/client/4433e6a4.cs,Auth,1,FN (bỏ sót),0.2233,1,assignment,"const string expectedAuthCode = ""<VALUE>"";"
+0436af4a,test/src/client/4433e6a4.cs,Auth,1,FN (bỏ sót),0.2233,1,assignment,"const string expectedAuthCode = ""<VALUE>"";"
+0436af4a,test/src/client/4433e6a4.cs,Auth,1,FN (bỏ sót),0.2233,1,assignment,"const string expectedAuthCode = ""<VALUE>"";"
+bd14e9cf,_/44faa4ce.bat,Password,1,FN (bỏ sót),0.2229,1,assignment,"""D:\MySQL Server 5.5\bin\mysqldump.exe"" --opt -u test2 --password=<VALUE> test2 > D:\backup\%name%\test2_%name%.sql"
+e72eb979,test/afbedd91.html,Key,1,FN (bỏ sót),0.2219,1,token,"var wrappedKey = hexStringToUint8Array(""<VALUE>"");"
+e72eb979,test/cc771c32.html,Key,1,FN (bỏ sót),0.2219,1,token,"var wrappedKey = hexStringToUint8Array(""<VALUE>"");"
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.2191,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+4dccc5be,spec/e74228f3.rb,Password,1,FN (bỏ sót),0.2151,1,assignment,scp.password = '<VALUE>'
+4dccc5be,spec/51efbd88.rb,Password,1,FN (bỏ sót),0.2151,1,assignment,ftp.password = '<VALUE>'
+9069e3a1,test/78a46475.py,Password,1,FN (bỏ sót),0.2151,1,assignment,"call_command('set_fake_passwords', '--password=<VALUE>')"
+41d10ede,_/7b3ed02b.rst,URL Credentials,1,FN (bỏ sót),0.2145,1,url,$ pgcli postgres://amjith:<VALUE>@example.com:5432/app_db?sslmode=verify-ca&sslrootcert=/myrootcert
+0436af4a,docs/4663e076.md,Credential,1,FN (bỏ sót),0.2139,1,assignment,"SET GCM_CREDENTIAL_STORE=""<VALUE>"""
+23689bd1,test/d2d4907a.mjs,JSON Web Token,1,FN (bỏ sót),0.2121,1,token,"'<VALUE>',"
+fa71ac83,test/7593a72b.js,Password,1,FN (bỏ sót),0.2101,1,assignment,"psw: '<VALUE>',"
+81cd05d0,src/resource/model/6f8a2a14.json,Token,1,FN (bỏ sót),0.2066,1,assignment,"""SessionToken"" : ""<VALUE>"","
+81cd05d0,src/resource/model/6f8a2a14.json,Token,1,FN (bỏ sót),0.2066,1,assignment,"""SessionToken"" : ""<VALUE>"","
+638eb0c6,_/04b06f40.md,URL Credentials,1,FN (bỏ sót),0.2049,1,url,postgraphile -c <VALUE>://<VALUE>:<VALUE>@localhost:5432/issn
+e0b41e26,app/1efcc29b.js,Password,1,FN (bỏ sót),0.2047,1,assignment,"password: '<VALUE>',"
+c2d95db7,conf/be5fd676.conf,Password:Secret,1,FN (bỏ sót),0.2042,1,assignment,password_secret = <VALUE>
+81cd05d0,src/resource/model/b4fe3b74.json,UUID,1,FN (bỏ sót),0.2027,1,assignment,"""documentation"":""<p>An identifier for an object in AWS SSO, such as a user or group. PrincipalIds are GUIDs (For example…"
+81cd05d0,src/resource/model/b4fe3b74.json,UUID,1,FN (bỏ sót),0.2027,1,assignment,"""documentation"":""<p>An identifier for an object in AWS SSO, such as a user or group. PrincipalIds are GUIDs (For example…"
+81cd05d0,src/resource/model/b4fe3b74.json,UUID,1,FN (bỏ sót),0.2027,1,assignment,"""documentation"":""<p>An identifier for an object in AWS SSO, such as a user or group. PrincipalIds are GUIDs (For example…"
+81cd05d0,src/resource/model/b4fe3b74.json,UUID,1,FN (bỏ sót),0.2027,1,assignment,"""documentation"":""<p>An identifier for an object in AWS SSO, such as a user or group. PrincipalIds are GUIDs (For example…"
+57c424f8,src/resource/app/b5b3fa31.yml,Key,1,FN (bỏ sót),0.1999,1,assignment,key: <VALUE>
+57c424f8,src/resource/app/b5b3fa31.yml,Key,1,FN (bỏ sót),0.1999,1,assignment,key: <VALUE>
+6d59a88a,_/2e746c9e.py,Password,1,FN (bỏ sót),0.199,1,assignment,"""sudo"": {""user"": ""sudouser"", ""password"": ""<VALUE>""},"
+6c73b80a,test/8bf97fa3.go,Auth:Password,1,FN (bỏ sót),0.1966,1,assignment,"const BCRYPT_AUTH_PASS = ""<VALUE>"""
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1955,1,regex,"""getterDocumentation"" : ""/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS ke…"
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1955,1,regex,"""setterDocumentation"" : ""/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS ke…"
+a0abd87c,example/15231524.py,Nonce,1,FN (bỏ sót),0.195,1,assignment,nonce = '<VALUE>'  # Request 中 GET 参数 nonce
+a0abd87c,example/14fabf8b.py,Nonce,1,FN (bỏ sót),0.195,1,assignment,nonce = '<VALUE>'  # Request 中 GET 参数 nonce
+e097ae9a,test/init/5f27cb02.yml,Password,1,FN (bỏ sót),0.1933,1,assignment,github_initial_user_password: <VALUE>
+4dccc5be,spec/8349f09f.rb,Password,1,FN (bỏ sót),0.1924,1,assignment,rsync.rsync_password = '<VALUE>'
+4dccc5be,spec/8349f09f.rb,Password,1,FN (bỏ sót),0.1924,1,assignment,rsync.rsync_password = '<VALUE>'
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.1903,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+81cd05d0,src/resource/model/05b12c99.json,UUID,1,FN (bỏ sót),0.1883,1,assignment,"""documentation"" : ""<p>The format of the resulting image. Only PNG images are supported.</p> <p>The default is <code>png<…"
+81cd05d0,src/resource/model/05b12c99.json,UUID,1,FN (bỏ sót),0.1883,1,assignment,"""documentation"" : ""<p>The format of the resulting image. Only PNG images are supported.</p> <p>The default is <code>png<…"
+81cd05d0,src/resource/model/05b12c99.json,UUID,1,FN (bỏ sót),0.1883,1,assignment,"""documentation"" : ""<p>The format of the resulting image. Only PNG images are supported.</p> <p>The default is <code>png<…"
+81cd05d0,src/resource/model/6cc1dd8a.json,UUID,1,FN (bỏ sót),0.1883,1,assignment,"""documentation"":""<p>The format of the resulting image. Only PNG images are supported.</p> <p>The default is <code>png</c…"
+81cd05d0,src/resource/model/05b12c99.json,UUID,1,FN (bỏ sót),0.1883,1,assignment,"""documentation"" : ""<p>The format of the resulting image. Only PNG images are supported.</p> <p>The default is <code>png<…"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.1881,1,assignment,"opts.Password = ""<VALUE>"""
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1854,1,regex,"""documentation"" : ""<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is t…"
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1854,1,regex,"""documentation"" : ""<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is t…"
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1854,1,regex,"""documentation"" : ""<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is t…"
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.1843,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+6c73b80a,conf/cluster/server/c28815c0.conf,Password,1,FN (bỏ sót),0.1843,1,assignment,password: <VALUE>
+0436af4a,test/src/d197c0ec.cs,Password,1,FN (bỏ sót),0.1842,1,assignment,"const string testPasswordNew = ""<VALUE>""; // [SuppressMessage(""Microsoft.Security"", ""CS001:SecretInline"", Justification=…"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.1822,1,assignment,CASSANDRA_PASSWORD=<VALUE>
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.1819,1,assignment,"t.Fatalf(""Password is incorrect.\nexpected: <VALUE>\ngot: %s"", updated.Password)"
+e51ae6e8,build/49a96e7e.gradle,Password,1,FN (bỏ sót),0.1816,1,assignment,repoPassword = '<VALUE>'
+e51ae6e8,mock/src/setting/ae899f6f.java,Key:Password,1,FN (bỏ sót),0.1778,1,assignment,"private String keyStorePassword = ""<VALUE>"";"
+e13d78bf,test/e74bd159,NTLM Token,1,FN (bỏ sót),0.175,1,token,REPLY AUTH + <VALUE>
+638eb0c6,_/04b06f40.md,URL Credentials,1,FN (bỏ sót),0.1723,1,url,psql <VALUE>://<VALUE>:<VALUE>@localhost:5432/issn
+bd14e9cf,docker/d1402f93.sh,Password,1,FN (bỏ sót),0.1721,1,assignment,"-e MYSQL_PASSWORD=""<VALUE>"" \"
+bd14e9cf,server/b16690b7.sh,Password,1,FN (bỏ sót),0.1721,1,assignment,\$DB['PASSWORD'] = '<VALUE>';
+bd14e9cf,docker/d1402f93.sh,Password,1,FN (bỏ sót),0.1721,1,assignment,"-e MYSQL_PASSWORD=""<VALUE>"" \"
+bd14e9cf,docker/4e485f74.sh,Password,1,FN (bỏ sót),0.1721,1,assignment,"-e MYSQL_PASSWORD=""<VALUE>"" \"
+6c73b80a,test/server/515f4ca6.go,URL Credentials,1,FN (bỏ sót),0.1717,1,url,"fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", opts.Host, opts.Port),"
+4dccc5be,spec/a76c5e7f.rb,Password,1,FN (bỏ sót),0.1699,1,assignment,"rsync.<VALUE>  = ""<VALUE>"""
+4dccc5be,spec/a76c5e7f.rb,Password,1,FN (bỏ sót),0.1699,1,assignment,"rsync.<VALUE>  = ""<VALUE>"""
+6c73b80a,conf/server/c40385df.conf,Token,1,FN (bỏ sót),0.1683,1,assignment,token: <VALUE>
+57c424f8,test/src/util/b9dd2cfa.java,Key,1,FN (bỏ sót),0.1683,1,assignment,"private static final String AES_KEY = ""<VALUE>"";"
+57c424f8,test/src/util/9a95c717.java,Key,1,FN (bỏ sót),0.1683,1,assignment,"private static final String AES_KEY = ""<VALUE>"";"
+bd14e9cf,_/af273ae2.sh,Password,1,FN (bỏ sót),0.1674,1,assignment,ntop --set-admin-password=<VALUE>
+6c73b80a,test/cluster/server/7708ebf0.go,URL Credentials,1,FN (bỏ sót),0.1666,1,url,"nc2 := natsConnect(t, fmt.Sprintf(""nats://two:<VALUE>@127.0.0.1:%d"", o2.Port))"
+6c73b80a,test/cluster/server/7708ebf0.go,URL Credentials,1,FN (bỏ sót),0.1666,1,url,"nc1 := natsConnect(t, fmt.Sprintf(""nats://two:<VALUE>@127.0.0.1:%d"", o1.Port))"
+660708f3,_/6e395352.js,Password,1,FN (bỏ sót),0.1659,1,assignment,"'PASSWORD': '<VALUE>',"
+638eb0c6,_/8e4a7d73,URL Credentials,1,FN (bỏ sót),0.1638,1,url,"echo 'export TEST_DATABASE_URL=""postgres://postgres:<VALUE>@localhost:2222/postgres""'"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.1571,1,url,"ncb2bis := natsConnect(t, fmt.Sprintf(""nats://ivan:<VALUE>@127.0.0.1:%d"", o2bis.Port))"
+0436af4a,conf/docs/17ed1848.md,URL Credentials,1,FN (bỏ sót),0.1533,1,url,git config --global credential.httpsProxy http://john.doe:<VALUE>@proxy.contoso.com
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1521,1,regex,"""varargSetterDocumentation"" : ""/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The …"
+81cd05d0,src/resource/model/631b3f02.json,AWS Client ID,1,FN (bỏ sót),0.1521,1,regex,"""fluentSetterDocumentation"" : ""/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The …"
+6d59a88a,test/conf/c088fe17.py,Password,1,FN (bỏ sót),0.1518,1,assignment,"assert passwd == ""<VALUE>"""
+e51ae6e8,mock/src/setting/ae899f6f.java,Key:Password,1,FN (bỏ sót),0.1502,1,assignment,"private String keyManagerPassword = ""<VALUE>"";"
+bd14e9cf,_/ae1fbe6d.sh,Password,1,FN (bỏ sót),0.1489,1,assignment,"pwd=""<VALUE>"""
+3adfbe9d,docs/api/429b10df.md,Password,1,FN (bỏ sót),0.1444,1,assignment,"password: '<VALUE>',"
+bd14e9cf,_/9653e9d6.sh,Password,1,FN (bỏ sót),0.1408,1,assignment,"mysqlrootpwd=""<VALUE>"""
+bd14e9cf,_/9653e9d6.sh,Password,1,FN (bỏ sót),0.1408,1,assignment,"mysqlrootpwd=""<VALUE>"""
+4dccc5be,spec/0e464c7a.rb,Password,1,FN (bỏ sót),0.1408,1,assignment,"rsync.<VALUE>            = ""<VALUE>"""
+c2d95db7,_/a3046da0.example,Key:Secret,1,FN (bỏ sót),0.1395,1,assignment,MAILU_SECRET_KEY=<VALUE>
+d94d550a,test/974c8da2.py,Token,1,FN (bỏ sót),0.1389,1,assignment,"""refresh_token"":""<VALUE>"","
+e13d78bf,test/350e0682,NTLM Token,1,FN (bỏ sót),0.138,1,token,REPLY AUTH 334 <VALUE>
+bd14e9cf,_/44faa4ce.bat,Password,1,FN (bỏ sót),0.136,1,assignment,"""D:\MySQL Server 5.5\bin\mysqldump.exe"" --opt -u test1 --password=<VALUE> test1 > D:\backup\%name%\test1_%name%.sql"
+6482c382,_/41f75e90.yml,URL Credentials,1,FN (bỏ sót),0.135,1,url,Value: mongodb://<VALUE>:<VALUE>@127.0.0.1:27017
+6482c382,_/41f75e90.yml,URL Credentials,1,FN (bỏ sót),0.135,1,url,Value: mongodb://<VALUE>:<VALUE>@127.0.0.1:27017
+fa71ac83,test/7593a72b.js,Password,1,FN (bỏ sót),0.1349,1,assignment,"repsw: '<VALUE>',"
+c2d95db7,conf/be5fd676.conf,URL Credentials,1,FN (bỏ sót),0.1287,1,assignment,"#mongodb_uri = mongodb://grayloguser:<VALUE>@mongo:27017,mongo:27018,mongo:<VALUE>"
+c2d95db7,conf/be5fd676.conf,URL Credentials,1,FN (bỏ sót),0.1285,1,url,#mongodb_uri = mongodb://grayloguser:<VALUE>@mongo:27017/graylog
+0436af4a,test/src/client/8a1f6cd5.cs,Password,1,FN (bỏ sót),0.1269,1,assignment,"const string proxyPass   = ""<VALUE>"";"
+0436af4a,test/src/client/8a1f6cd5.cs,Password,1,FN (bỏ sót),0.1269,1,assignment,"const string proxyPass   = ""<VALUE>"";"
+57c424f8,_/7345865e.md,Password,1,FN (bỏ sót),0.1266,1,assignment,"docker run -e ""SPRING_PROFILES_ACTIVE=mysql"" -e ""spring.datasource.url=<VALUE>"" -e ""spring.datasource.password=<VALUE>"" …"
+ab473e6e,test/c543476d.json,Password,1,FN (bỏ sót),0.1263,1,assignment,"""password"":""<VALUE>"","
+0436af4a,test/src/conf/61d643c5.cs,Secret,1,FN (bỏ sót),0.1225,1,assignment,"const string expectedClientSecret = ""<VALUE>"";"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.118,1,assignment,"{""login"": ""<VALUE>"", ""password"": ""<VALUE>""},"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.118,1,assignment,"{""login"": ""<VALUE>"", ""password"": ""<VALUE>""},"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.118,1,assignment,"{""login"": ""<VALUE>"", ""password"": ""<VALUE>""},"
+e13d78bf,test/b29da158,Password,1,FN (bỏ sót),0.1171,1,assignment,"-x http://%HOSTIP:%HTTPPORT http://firsthost.com -L -H ""Authorization: Basic %b64[joe:secret]b64%"" -H ""Cookie: userpwd=<…"
+f295f04f,test/1266b54d.js,Password,1,FN (bỏ sót),0.1168,1,assignment,"pass: '<VALUE>',"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password2"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password2"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password2"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password2"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password2"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1096,1,assignment,"""password1"": ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.1084,1,url,"url1, _ := url.Parse(""nats-route://user:<VALUE>@10.4.5.6:4223"")"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.1077,1,url,"nc1 := natsConnect(t, fmt.Sprintf(""nats://user:<VALUE>@127.0.0.1:%d"", o.Port))"
+6c73b80a,test/conf/server/0b4f7b7b.conf,Password,1,FN (bỏ sót),0.1064,1,assignment,password: <VALUE>
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.1024,1,url,"bURL := fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.1024,1,url,"aURL := fmt.Sprintf(""nats://clientA:<VALUE>@127.0.0.1:%d"", oa.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.1024,1,url,"aURL := fmt.Sprintf(""nats://clientA:<VALUE>@127.0.0.1:%d"", oa.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.1024,1,url,"bURL := fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/515f4ca6.go,URL Credentials,1,FN (bỏ sót),0.1021,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://<VALUE>:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+0436af4a,docs/a9108d0e.md,Password:URL Credentials,1,FN (bỏ sót),0.1021,1,url,export GCM_HTTP_PROXY=http://john.doe:<VALUE>@proxy.contoso.com
+4dccc5be,spec/0e464c7a.rb,Password,1,FN (bỏ sót),0.101,1,assignment,"rsync.rsync_password = ""<VALUE>"""
+4dccc5be,spec/0e464c7a.rb,Password,1,FN (bỏ sót),0.101,1,assignment,"rsync.rsync_password = ""<VALUE>"""
+4dccc5be,spec/0e464c7a.rb,Password,1,FN (bỏ sót),0.101,1,assignment,"rsync.rsync_password = ""<VALUE>"""
+4dccc5be,spec/0e464c7a.rb,Password,1,FN (bỏ sót),0.101,1,assignment,"rsync.rsync_password = ""<VALUE>"""
+81cd05d0,src/resource/model/bf6d4af2.json,Password,1,FN (bỏ sót),0.1006,1,assignment,"""LocalConsolePassword"" : ""<VALUE>"""
+3adfbe9d,docs/5aa56212.md,Password,1,FN (bỏ sót),0.1005,1,assignment,"+   password: '<VALUE>',"
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.1003,1,assignment,"""password2"": ""<VALUE>"","
+81cd05d0,src/resource/model/6f8a2a14.json,Token,1,FN (bỏ sót),0.0984,1,assignment,"""SessionToken"" : ""<VALUE>"","
+e51ae6e8,mock/src/setting/ae899f6f.java,Password,1,FN (bỏ sót),0.0973,1,assignment,"private String trustStorePassword = ""<VALUE>"";"
+e13d78bf,test/1a382b82,NTLM Token,1,FN (bỏ sót),0.0971,1,token,REPLY %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64% 334 <VALUE>
+e13d78bf,test/431fe03a,NTLM Token,1,FN (bỏ sót),0.0971,1,token,REPLY %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64% + <VALUE>
+e13d78bf,test/eea5731d,NTLM Token,1,FN (bỏ sót),0.0971,1,token,REPLY %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64% + <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/83ef9380,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/ae420af2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/ae420af2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/4eb61cb1,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/f0232b8d,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/83ef9380,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/0422c446,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/f0232b8d,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/8346f9d2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>%CR
+e13d78bf,test/4eb61cb1,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>%CR
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/2b8b71ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/2b8b71ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/238543ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/e15b3f9a,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/238543ce,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/212a7370,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/212a7370,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/719ccb64,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/719ccb64,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/8346f9d2,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/9b82666e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/9b82666e,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/760f11c6,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/5dafded8,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/86117696,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/6c32ca01,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/3fe76704,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/bd707d49,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/0ac5a03d,NTLM Token,1,FN (bỏ sót),0.0965,1,token,REPLY AUTHENTICATE + <VALUE>
+e13d78bf,test/51914b63,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/51914b63,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/3fe76704,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>%CR
+e13d78bf,test/bd707d49,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/34d86ede,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/34d86ede,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/1536d0d4,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/1536d0d4,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/d8b3eb71,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/d8b3eb71,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/86117696,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/5dafded8,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/330eb500,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>%CR
+e13d78bf,test/330eb500,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/54a9d151,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/54a9d151,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/d7a1c6f5,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/d7a1c6f5,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/12e5ea65,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/12e5ea65,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/59b9c876,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/59b9c876,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>
+e13d78bf,test/66577be9,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/66577be9,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+e13d78bf,test/760f11c6,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,Proxy-Authenticate: NTLM <VALUE>%CR
+e13d78bf,test/6c32ca01,NTLM Token:Bearer Authorization:Auth,1,FN (bỏ sót),0.0965,1,token,WWW-Authenticate: NTLM <VALUE>
+93ff401b,docs/8b7f0e63.html,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+93ff401b,tool/docs/1b3e7e9a.html,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+93ff401b,_/f0681755.md,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+93ff401b,security/43635a19.md,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+93ff401b,tool/docs/48ac1fdf.html,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+93ff401b,security/docs/4f425485.html,JSON Web Token,1,FN (bỏ sót),0.096,1,token,<VALUE>
+e51ae6e8,mock/src/setting/browser/17b51a61.java,Password,1,FN (bỏ sót),0.0959,1,assignment,"public static final String DEFAULT_CA_KESTORE_PASSWORD = ""<VALUE>"";"
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0954,1,url,"url1, _ := url.Parse(""nats-route://user:<VALUE>@127.0.0.1:4224"")"
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0954,1,url,"url3, _ := url.Parse(""nats-route://user:<VALUE>@127.0.0.1:4223"")"
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0954,1,url,"url2, _ := url.Parse(""nats-route://user:<VALUE>@127.0.0.1:4223"")"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0946,1,assignment,"""setterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the available o…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0946,1,assignment,"""setterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the available o…"
+6d59a88a,_/2e746c9e.py,Password,1,FN (bỏ sót),0.0939,1,assignment,"assert config.sudo.password == ""<VALUE>"""
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0898,1,assignment,"""CONNECT {pass:<VALUE>\r\n"","
+0436af4a,test/src/92b8ee86.cs,Password,1,FN (bỏ sót),0.0898,1,assignment,"const string testPassword = ""<VALUE>"";"
+0436af4a,test/src/92b8ee86.cs,Password,1,FN (bỏ sót),0.0898,1,assignment,"const string testPassword = ""<VALUE>"";"
+0436af4a,test/src/92b8ee86.cs,Password,1,FN (bỏ sót),0.0898,1,assignment,"const string testPassword = ""<VALUE>"";"
+8d217d6c,test/5e3278b1.php,Nonce,1,FN (bỏ sót),0.089,1,assignment,"'https://127.0.0.1/admin/admin-ajax.php?id=<VALUE>;action=edit&amp;keyword=1a&amp;nonce=<VALUE>',"
+f295f04f,test/456f5110.js,Auth:Nonce,1,FN (bỏ sót),0.0873,1,assignment,"oauth_nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Auth:Nonce,1,FN (bỏ sót),0.0873,1,assignment,"oauth_nonce: '<VALUE>',"
+f295f04f,test/456f5110.js,Auth:Nonce,1,FN (bỏ sót),0.0873,1,assignment,"oauth_nonce: '<VALUE>',"
+93ff401b,tool/docs/794bcafe.html,JSON Web Token,1,FN (bỏ sót),0.0849,1,token,<VALUE>
+93ff401b,conf/e5748f4f.md,JSON Web Token,1,FN (bỏ sót),0.0846,1,token,<VALUE>
+93ff401b,tool/7c61cf7f.md,JSON Web Token,1,FN (bỏ sót),0.0846,1,token,<VALUE>
+93ff401b,tool/4ea67d48.md,JSON Web Token,1,FN (bỏ sót),0.0846,1,token,<VALUE>
+0436af4a,test/src/client/4433e6a4.cs,Auth,1,FN (bỏ sót),0.0842,1,assignment,"const string expectedAuthCode = ""<VALUE>"";"
+b6b2487d,_/56f78c25.postinst,Secret,1,FN (bỏ sót),0.0835,1,assignment,TURN_SECRET=`<VALUE>`
+6d59a88a,_/2e746c9e.py,Password,1,FN (bỏ sót),0.0831,1,assignment,"assert config.connect_kwargs.password == ""<VALUE>"""
+81cd05d0,src/7d168d5c.java,Key,1,FN (bỏ sót),0.0821,1,assignment,"String CRYPTO_KEY_V2 = ""<VALUE>"";"
+0436af4a,docs/a9108d0e.md,Password:URL Credentials,1,FN (bỏ sót),0.0802,1,url,SET GCM_HTTP_PROXY=http://john.doe:<VALUE>@proxy.contoso.com
+ab473e6e,_/cc3633ac.py,Password,1,FN (bỏ sót),0.0802,1,assignment,"# add: {""server_port"": 8000, ""password"": ""<VALUE>""}"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"s1Url := fmt.Sprintf(""nats://ivan:<VALUE>@127.0.0.1:%d"", o1.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"s2Url := fmt.Sprintf(""nats://ivan:<VALUE>@127.0.0.1:%d"", o2.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"s1Url := fmt.Sprintf(""nats://ivan:<VALUE>@127.0.0.1:%d"", o1.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"s2Url := fmt.Sprintf(""nats://ivan:<VALUE>@127.0.0.1:%d"", o2.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"bURL = fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob.Port)"
+6c73b80a,test/server/dc47d09f.go,URL Credentials,1,FN (bỏ sót),0.0799,1,url,"bURL = fmt.Sprintf(""nats://clientB:<VALUE>@127.0.0.1:%d"", ob.Port)"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0782,1,assignment,"""getterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the available o…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0782,1,assignment,"""getterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the available o…"
+81cd05d0,src/resource/model/462783ad.json,UUID,1,FN (bỏ sót),0.0782,1,assignment,"""documentation"":""<p>A unique identifier that specifies the AWS WAF web ACL, if any, to associate with this distribution.…"
+bd14e9cf,_/f70c7062.md,Password:Auth,1,FN (bỏ sót),0.078,1,assignment,set from=<VALUE> smtp=smtp.163.com set smtp-auth-user=<VALUE> smtp-auth-password=<VALUE> smtp-auth=login
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/f02052a6.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"":""<p>A gateway response of a given response type and status code, with optional response parameters and m…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0776,1,assignment,"""documentation"" : ""<p>A gateway response of a given response type and status code, with optional response parameters and…"
+6c73b80a,test/client/adb4a090.go,Token,1,FN (bỏ sót),0.0776,1,assignment,"const testToken = ""<VALUE>"""
+bd14e9cf,_/cc99cf26.sh,Password,1,FN (bỏ sót),0.0765,1,assignment,update user set <VALUE>=<VALUE>('<VALUE>') where user='root'
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.0762,1,assignment,"users [{user: two, <VALUE>: <VALUE>}]"
+6c73b80a,test/cluster/server/7708ebf0.go,Password,1,FN (bỏ sót),0.0762,1,assignment,"users [{user: one, <VALUE>: <VALUE>}]"
+8d217d6c,test/db79c851.php,URL Credentials,1,FN (bỏ sót),0.0754,1,url,"array( 'http://Ozh:<VALUE>@example.com:1337#OMG' ),"
+a0abd87c,_/5246398e.py,Token,1,FN (bỏ sót),0.0747,1,assignment,'token': <VALUE>
+4dccc5be,spec/f012e074.rb,Password,1,FN (bỏ sót),0.0741,1,assignment,"mail.password             = ""<VALUE>"""
+4dccc5be,spec/f012e074.rb,Password,1,FN (bỏ sót),0.0741,1,assignment,"mail.password             = ""<VALUE>"""
+e0b41e26,sample/2539a395.yaml,Password,1,FN (bỏ sót),0.0722,1,assignment,password: <VALUE>
+e0b41e26,mock/9ce19240.yaml,Password,1,FN (bỏ sót),0.0722,1,assignment,password: <VALUE>
+bd14e9cf,_/fb685b23.sh,Password,1,FN (bỏ sót),0.0721,1,assignment,"[root@operation ops]# curl -k https://192.168.56.102:<VALUE>  -H ""Accept: application/x-yaml"" -d username='<VALUE>' -d p…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0711,1,assignment,"""documentation"" : ""<p>The offering identifier filter value. Specify this parameter to show only the available offering t…"
+6c73b80a,test/server/88763956.go,Password:URL Credentials,1,FN (bỏ sót),0.0711,1,url,"url: ""nats://leaf:<VALUE>@127.0.0.1:%d"""
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0711,1,assignment,"""documentation"" : ""<p>The offering identifier filter value. Specify this parameter to show only the available offering t…"
+81cd05d0,src/resource/model/82290d65.json,UUID,1,FN (bỏ sót),0.0711,1,assignment,"""documentation"":""<p>The offering identifier filter value. Specify this parameter to show only the available offering tha…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0711,1,assignment,"""documentation"" : ""<p>The offering identifier filter value. Specify this parameter to show only the available offering t…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0711,1,assignment,"""documentation"" : ""<p>The offering identifier filter value. Specify this parameter to show only the available offering t…"
+e72eb979,test/e5f60a76.html,URL Credentials,1,FN (bỏ sót),0.071,1,url,"shouldBe(""build('юзер', 'пароль').toString()"", '""http://%D1%8E%D0%B7%D0%B5%D1%80:<VALUE>@www.apple.com/""');"
+e72eb979,test/bf541b26.html,URL Credentials,1,FN (bỏ sót),0.071,1,url,"shouldBe(""build('юзер', 'пароль').toString()"", '""http://%D1%8E%D0%B7%D0%B5%D1%80:<VALUE>@www.apple.com/""');"
+bd14e9cf,_/cc99cf26.sh,Password,1,FN (bỏ sót),0.068,1,assignment,update user set <VALUE>=<VALUE>('<VALUE>') where user='root';
+81cd05d0,src/resource/model/096e5c06.json,UUID,1,FN (bỏ sót),0.0661,1,assignment,"""documentation"":""<p>The offering identifier filter value. Use this parameter to show only the available offering that ma…"
+81cd05d0,src/resource/model/970588b6.json,UUID,1,FN (bỏ sót),0.065,1,assignment,"""KeyArn"" : ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"""
+6c73b80a,test/conf/d59cf806.go,Password,1,FN (bỏ sót),0.0624,1,assignment,"""password"": ""<VALUE>"","
+389fd795,example/secret/0623d5cf.go,Token:Auth,1,FN (bỏ sót),0.0586,1,assignment,//	export GITHUB_AUTH_TOKEN=<VALUE>
+41d10ede,test/41d180f6.py,Password,1,FN (bỏ sót),0.0585,1,assignment,"passwd=""<VALUE>"","
+57c424f8,src/conf/secret/4053b8df.java,Secret:Key,1,FN (bỏ sót),0.0581,1,assignment,"public SecretProperties secretProperties(@Value(""${shenyu.aes.secret.key:<VALUE>}"") final String key) {"
+e13d78bf,test/5227c4c2,Auth,1,FN (bỏ sót),0.0579,1,assignment,"REPLY %b64[n,a=user,%01host=<VALUE> <VALUE> A002 OK AUTHENTICATE completed"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.0577,1,url,"remotes = [{url: ""nats-leaf://wron:<VALUE>@%s:%d""}]"
+23689bd1,docs/7fa12c29.md,Key:Secret,1,FN (bỏ sót),0.0572,1,token,"const secretKey = createSecretKey(Buffer.from('<VALUE>', 'hex'))"
+b6b2487d,_/56f78c25.postinst,Auth:Password,1,FN (bỏ sót),0.0564,1,assignment,JICOFO_AUTH_PASSWORD=`<VALUE>`
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.0551,1,assignment,"{""login"": ""<VALUE>"", ""password"": ""<VALUE>""},"
+6c73b80a,test/44141ad0.go,URL Credentials,1,FN (bỏ sót),0.0548,1,url,"url := fmt.Sprintf(""nats://sys:<VALUE>@%s:%d"", o.Host, o.Port)"
+6c73b80a,test/server/88763956.go,URL Credentials,1,FN (bỏ sót),0.0548,1,url,"fmt.Sprintf(""nats://user:<VALUE>@127.0.0.1:%d"", slo2.Port),"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0546,1,assignment,CONFLUENCE_POSTGRES_PASSWORD=<VALUE>
+4dccc5be,template/b9311aeb,URL Credentials,1,FN (bỏ sót),0.0532,1,url,post.uri = 'https://user:<VALUE>@your.domain.com:8443/path'
+e72eb979,test/bf541b26.html,URL Credentials,1,FN (bỏ sót),0.0528,1,url,"shouldBe(""build('user', ' \""#><?`').toString()"", '""http://user:<VALUE>@www.apple.com/""');"
+e72eb979,test/e5f60a76.html,URL Credentials,1,FN (bỏ sót),0.0528,1,url,"shouldBe(""build('user', ' \""#><?`').toString()"", '""http://user:<VALUE>@www.apple.com/""');"
+6c73b80a,test/server/515f4ca6.go,URL Credentials,1,FN (bỏ sót),0.0496,1,url,"fmt.Sprintf(""nats://gone:<VALUE>@%s:%d"", opts.Host, opts.Port),"
+bd14e9cf,_/fb685b23.sh,API:Password:Salt,1,FN (bỏ sót),0.0495,1,assignment,curl -sSk https://localhost:<VALUE> -H 'Accept: application/x-yaml' -d username=saltapi -d <VALUE>=<VALUE> -d eauth=pam
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0481,1,assignment,SONARQUBE_POSTGRES_PASSWORD=<VALUE>
+23689bd1,src/23c7d6d0.ts,Secret:Key,1,FN (bỏ sót),0.0472,1,token,"* const secretKey = createSecretKey(Buffer.from('<VALUE>', 'hex'))"
+6c73b80a,test/opt/server/728925ac.go,Token,1,FN (bỏ sót),0.0458,1,assignment,token: <VALUE>
+6c73b80a,test/opt/server/728925ac.go,Token,1,FN (bỏ sót),0.0458,1,assignment,token: <VALUE>
+c2d95db7,sample/conf/f7a7d349.env,Auth:Key,1,FN (bỏ sót),0.044,1,assignment,WEAVER_AUTH_KEY=<VALUE>
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.044,1,assignment,"(1, 'spowell0@noaa.gov', '$2a$06$.Ryt.S6xCN./QmTx3r9Meu/nsk.4Ypfuj.o9qIqv4p3iipCWY45Bi'), -- Password: '<VALUE>'"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0423,1,assignment,"""varargSetterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the avail…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0423,1,assignment,"""fluentSetterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the avail…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0423,1,assignment,"""varargSetterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the avail…"
+81cd05d0,src/resource/model/631b3f02.json,UUID,1,FN (bỏ sót),0.0423,1,assignment,"""fluentSetterDocumentation"" : ""/**<p>The offering identifier filter value. Specify this parameter to show only the avail…"
+638eb0c6,example/a8678ed0.sql,Password,1,FN (bỏ sót),0.0421,1,assignment,"(8, 'drodriguez7@mashable.com', '$2a$06$8Wa.RA33V4MrCIKQ1rAJIu7HMJSLjTZLcZY1zrlU4fZrJOIVFtvQS'), -- Password: '<VALUE>'"
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.0419,1,assignment,"Password:    ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,Password,1,FN (bỏ sót),0.0419,1,assignment,"Password:    ""<VALUE>"","
+6c73b80a,test/conf/d59cf806.go,Password,1,FN (bỏ sót),0.0416,1,assignment,"""password"": ""<VALUE>"","
+638eb0c6,_/8e4a7d73,Password,1,FN (bỏ sót),0.0394,1,assignment,docker run --name pg -p 2222:5432 -e POSTGRES_PASSWORD=<VALUE> --rm -it postgres:$1
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0385,1,assignment,"""documentation"" : ""<p>The collection of the <a>GatewayResponse</a> instances of a <a>RestApi</a> as a <code>responseType…"
+81cd05d0,src/resource/api/model/a84a47e9.json,UUID:Token,1,FN (bỏ sót),0.0385,1,assignment,"""documentation"" : ""<p>The collection of the <a>GatewayResponse</a> instances of a <a>RestApi</a> as a <code>responseType…"
+81cd05d0,src/resource/api/model/f02052a6.json,UUID:Token,1,FN (bỏ sót),0.0385,1,assignment,"""documentation"":""<p>The collection of the <a>GatewayResponse</a> instances of a <a>RestApi</a> as a <code>responseType</…"
+bd14e9cf,_/cc99cf26.sh,Password,1,FN (bỏ sót),0.037,1,assignment,"change master to master_host='10.10.10.110',master_port=3306,master_user='<VALUE>',master_password='<VALUE>',master_log_…"
+e13d78bf,docs/lib/opt/cd614536.md,CURL Options,1,FN (bỏ sót),0.0359,1,assignment,"curl_easy_setopt(curl, CURLOPT_PROXYUSERPWD, ""<VALUE>"");"
+6c73b80a,test/conf/d59cf806.go,Password,1,FN (bỏ sót),0.0353,1,assignment,"test(t, ""password: <VALUE>"", ex)"
+6c73b80a,conf/server/32a8e48e.creds,JSON Web Token,1,FN (bỏ sót),0.0344,1,token,<VALUE>
+93ff401b,tool/10c8e7a2.md,JSON Web Token,1,FN (bỏ sót),0.0344,1,token,<VALUE>
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0339,1,url,"url := fmt.Sprintf(""nats://ngs:<VALUE>@%s:%d"", opts.Host, opts.Port)"
+e13d78bf,test/lib/8c945c0c.c,CURL Options,1,FN (bỏ sót),0.0339,1,assignment,"easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0339,1,url,"url := fmt.Sprintf(""nats://ngs:<VALUE>@%s:%d"", opts.Host, opts.Port)"
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0339,1,url,"url := fmt.Sprintf(""nats://ngs:<VALUE>@%s:%d"", opts.Host, opts.Port)"
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0339,1,url,"url := fmt.Sprintf(""nats://dlc:<VALUE>@%s:%d"", opts.Host, opts.Port)"
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0329,1,url,"routeFlag := ""nats-route://ruser:<VALUE>@127.0.0.1:8246, nats-route://ruser:<VALUE>@127.0.0.1:8266"""
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0314,1,url,"url = fmt.Sprintf(""nats://dlc:<VALUE>@%s:%d"", opts.Host, opts.Port)"
+638eb0c6,test/src/a3b98aa9.js,JSON Web Token:Bearer Authorization,1,FN (bỏ sót),0.0275,1,token,"'Bearer <VALUE>',"
+b6b2487d,_/56f78c25.postinst,Secret,1,FN (bỏ sót),0.0258,1,assignment,"#     component_secret = ""<VALUE>"""
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0258,1,url,"ncl, err := nats.Connect(fmt.Sprintf(""nats://svc:<VALUE>@%s:%d"", opts.Host, opts.Port), nats.Name(""latency""))"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0251,1,assignment,JUPYTERHUB_POSTGRES_PASSWORD=<VALUE>
+e13d78bf,test/lib/8c945c0c.c,CURL Options,1,FN (bỏ sót),0.0249,1,assignment,"easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+81cd05d0,src/resource/model/bf6d4af2.json,Key:Product Activation Key,1,FN (bỏ sót),0.0245,1,assignment,"""ActivationKey"" : ""<VALUE>"","
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0212,1,url,"expectedURL, _ = url.Parse(""nats-route://ruser:<VALUE>@127.0.0.1:7246"")"
+3b7cbdd3,test/conf/da24b355.py,URL Credentials,1,FN (bỏ sót),0.0208,1,url,"file.write(""DATABASE_URL=postgres://user:<VALUE>@localhost/dbname\n"")"
+e13d78bf,docs/lib/opt/60e86c00.md,CURL Options,1,FN (bỏ sót),0.0204,1,token,"curl_easy_setopt(curl, <VALUE>, ""<VALUE>"");"
+6c73b80a,test/server/88763956.go,Password:URL Credentials,1,FN (bỏ sót),0.0189,1,url,"nc1, err := nats.Connect(fmt.Sprintf(""nats://user:<VALUE>@127.0.0.1:%d"", slo1.Port))"
+5d8870b3,_/1550ec65.md,Password,1,FN (bỏ sót),0.0184,1,assignment,grant_type=password&username=johndoe&password=<VALUE>
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0178,1,url,"ncr, err := nats.Connect(fmt.Sprintf(""nats://svc:<VALUE>@%s:%d"", opts.Host, opts.Port), nats.Name(""responder""))"
+81cd05d0,src/resource/model/d7225510.json,AWS S3 Bucket,1,FN (bỏ sót),0.0177,1,assignment,"""documentation"":""<VALUE>""https://<VALUE>/EC2/ec2-clt.pdf#UsingVirtualMachinesinAmazonEC2\"">Importing a VM to Amazon EC2<…"
+f295f04f,test/317baecd.js,Password,1,FN (bỏ sót),0.0177,1,assignment,pass: '<VALUE>'
+81cd05d0,src/resource/model/02fd2d8d.json,AWS S3 Bucket,1,FN (bỏ sót),0.0177,1,assignment,"""documentation"" : ""<VALUE>""https://<VALUE>/EC2/ec2-clt.pdf#UsingVirtualMachinesinAmazonEC2\"">Importing a VM to Amazon EC…"
+81cd05d0,src/resource/model/d7225510.json,AWS S3 Bucket,1,FN (bỏ sót),0.0174,1,assignment,"""documentation"":""<VALUE>""https://<VALUE>/EC2/ec2-clt.pdf#importing-your-volumes-into-amazon-ebs\"">Importing Disks to Ama…"
+81cd05d0,src/resource/model/02fd2d8d.json,AWS S3 Bucket,1,FN (bỏ sót),0.0174,1,assignment,"""documentation"" : ""<VALUE>""https://<VALUE>/EC2/ec2-clt.pdf#importing-your-volumes-into-amazon-ebs\"">Importing Disks to A…"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0163,1,assignment,# Cassandra user password. Default: <VALUE>
+5aefaef8,_/dc02cd9b.md,UUID,1,FN (bỏ sót),0.0128,1,assignment,[<u>https://console.cloud.google.com/cloud-build/builds/<VALUE>?project=<VALUE></u>](https://console.cloud.google.com/cl…
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0127,1,assignment,GITLAB_POSTGRES_PASSWORD=<VALUE>
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://dlc:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc2, err := nats.Connect(fmt.Sprintf(""nats://client:<VALUE>@%s:%d"", opts.Host, opts.Port), nats.UseOldRequestStyle())"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc2, err := nats.Connect(fmt.Sprintf(""nats://client:<VALUE>@%s:%d"", opts.Host, opts.Port), nats.UseOldRequestStyle())"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://svc:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://svc:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+6c73b80a,test/client/server/e1e39b80.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://ivan:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc2, err := nats.Connect(fmt.Sprintf(""nats://client:<VALUE>@%s:%d"", opts.Host, opts.Port), nats.UseOldRequestStyle())"
+6c73b80a,test/1258dc58.go,URL Credentials,1,FN (bỏ sót),0.0115,1,url,"nc, err := nats.Connect(fmt.Sprintf(""nats://svc:<VALUE>@%s:%d"", opts.Host, opts.Port))"
+d2926eb1,_/038f6de7.sql,BASE64 Private Key,1,FN (bỏ sót),0.011,1,token,"INSERT INTO `tool_alipay_config` VALUES (1, '2016091700532697', 'utf-8', 'JSON', 'https://openapi.alipaydev.com/gateway.…"
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0108,1,url,"routeFlag := ""nats-route://ruser:<VALUE>@127.0.0.1:8246"""
+6c73b80a,test/opt/server/728925ac.go,URL Credentials,1,FN (bỏ sót),0.0108,1,url,"routeFlag := ""nats-route://ruser:<VALUE>@127.0.0.1:7246"""
+6c73b80a,test/633f9ac2.go,URL Credentials,1,FN (bỏ sót),0.0091,1,url,"sl, slOpts := runSolicitLeafServerToURL(fmt.Sprintf(""nats-leaf://ngs:<VALUE>@%s:%d"", opts.LeafNode.Host, opts.LeafNode.P…"
+0436af4a,test/src/d2b2603a.cs,Key,1,FN (bỏ sót),0.0089,1,assignment,"string otherKey = <VALUE>(""<VALUE>"");"
+6c73b80a,test/conf/a0ebfc5c.conf,URL Credentials,1,FN (bỏ sót),0.0086,1,url,nats-route://ruser:<VALUE>@127.0.0.1:5246
+6c73b80a,test/conf/b78f1942.conf,URL Credentials,1,FN (bỏ sót),0.0086,1,url,nats-route://ruser:<VALUE>@127.0.0.1:5244
+6c73b80a,conf/server/893086b1.conf,URL Credentials,1,FN (bỏ sót),0.0072,1,url,nats-route://ruser:<VALUE>@127.0.0.1:7244
+6c73b80a,conf/server/c2c3c972.conf,URL Credentials,1,FN (bỏ sót),0.0072,1,url,nats-route://ruser:<VALUE>@127.0.0.1:7246
+81cd05d0,src/resource/model/ec810633.json,AWS S3 Bucket,1,FN (bỏ sót),0.0071,1,assignment,"""documentation"":""<VALUE>""http://aws.amazon.com/elasticbeanstalk/\"">AWS Elastic Beanstalk</a> details page. The location …"
+81cd05d0,src/resource/model/2e00c691.json,AWS S3 Bucket,1,FN (bỏ sót),0.0071,1,assignment,"""documentation"" : ""<VALUE>""http://aws.amazon.com/elasticbeanstalk/\"">AWS Elastic Beanstalk</a> details page. The locatio…"
+e72eb979,test/api/944cf5d6.cpp,PEM Private Key,1,FN (bỏ sót),0.006,1,assignment,static const gchar certificate_data[] = <VALUE>(-----BEGIN RSA PRIVATE KEY-----
+e72eb979,test/api/20a78ed9.cpp,PEM Private Key,1,FN (bỏ sót),0.006,1,assignment,static const gchar certificate_data[] = <VALUE>(-----BEGIN RSA PRIVATE KEY-----
+f295f04f,test/80c369ce.js,PEM Private Key,1,FN (bỏ sót),0.0056,1,regex,'<VALUE>\n' +
+5aefaef8,_/1294feee.md,Firebase Domain,1,FN (bỏ sót),0.005,1,token,"*   [Jennifer, Jared, others?] Phil Wittrock’s [proposal for kubectl docs](https://groups.google.com/forum/#!<VALUE>) [[…"
+6c73b80a,test/conf/cluster/6a77588c.conf,Password,1,FN (bỏ sót),0.0049,1,assignment,password: <VALUE>
+6c73b80a,test/conf/b78f1942.conf,Password,1,FN (bỏ sót),0.0049,1,assignment,password: <VALUE>
+e0b41e26,test/util/c72880b5.js,PEM Private Key:Key,1,FN (bỏ sót),0.0046,1,token,key: '-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEA1QxXJcx3H5rk/ZHphnmCKTl8pY5TGVg0XsRw33y3kG+AUeZV\nD1Dp0YXFfHzpnUb…
+5aefaef8,_/906fe97f.md,UUID,1,FN (bỏ sót),0.0039,1,assignment,I've been a [CNCF Ambassador](https://www.cncf.io/people/ambassadors/) since November 2023. I was a mentor in the LFX pr…
+bd14e9cf,server/b16690b7.sh,Password,1,FN (bỏ sót),0.0036,1,assignment,"echo ""数据库默认root密码<VALUE>123321;<VALUE>-Database name:<VALUE>/User:<VALUE>/Password:<VALUE>"""
+bd14e9cf,server/b16690b7.sh,Password,1,FN (bỏ sót),0.0026,1,assignment,sed -i '/# DBPassword=/a\DBPassword=<VALUE>' /usr/local/<VALUE>/etc/<VALUE>_server.conf
+e72eb979,test/tool/server/script/abe9fa11.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+f295f04f,test/server/browser/8a9ab6e4.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+638eb0c6,test/src/assets/07044481.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+c2d95db7,secure/f39e5717,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+f295f04f,test/7d56b825.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+f295f04f,test/client/de10bb98.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+e72eb979,test/conf/a2d9e676.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+e72eb979,test/tool/server/script/05d30bd7.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+f295f04f,test/server/53f2639b.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+3d82970b,test/08273ac2.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+81a41883,test/conf/secret/78f83363.yml,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+81a41883,test/conf/secret/78f83363.yml,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+6c73b80a,test/conf/4c790ff2.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+81cd05d0,src/secret/resource/model/334b19eb.json,Password,1,FN (bỏ sót),0.0013,1,assignment,"""SecretString"" : ""<VALUE>""username\"":\""david\"",\n  \""password\"":\""<VALUE>\""\n}\n"","
+81a41883,docs/4ca53116.md,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+81a41883,test/conf/secret/9854d83a.yml,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+6c73b80a,test/conf/bae09b47.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+e72eb979,test/conf/eb54d3ea.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+3d82970b,test/4a698eba.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+5aefaef8,_/837bff4a.md,UUID,1,FN (bỏ sót),0.0008,1,assignment,I'm going to be a mentor in the upcoming LFX Term 3: <VALUE> for [the Kubernetes project](https://mentorship.lfx.linuxfo…
+6c73b80a,conf/server/95b298e5.conf,Password,1,FN (bỏ sót),0.0008,1,assignment,"{user: bob, password: <VALUE>, permissions: <VALUE>}"
+e13d78bf,docs/lib/opt/8f002bd1.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PASSWORD, ""<VALUE>"");"
+e13d78bf,test/lib/5bd553ae.c,CURL Options,1,FN (bỏ sót),0.0,0,,"easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+e13d78bf,docs/lib/opt/6e0676f3.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PROXYPASSWORD, ""<VALUE>"");"
+e72eb979,test/tool/resource/5d893a33.pem,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+e13d78bf,docs/lib/opt/4810faee.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+e13d78bf,docs/lib/opt/d4e5afcc.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+e13d78bf,test/lib/613e10f2.c,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PASSWORD, ""<VALUE>"");"
+e13d78bf,test/lib/feb7eb56.c,CURL Options,1,FN (bỏ sót),0.0,0,,"easy_setopt(curl, CURLOPT_PROXYPASSWORD, ""<VALUE>"");"
+e13d78bf,example/docs/74107ad8.c,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PASSWORD, ""<VALUE>"");"
+5aefaef8,_/1e6a90be.md,UUID,1,FN (bỏ sót),0.0,0,,- SIG Docs has a [dashboard](https://datastudio.google.com/u/0/reporting/<VALUE>/page/567IC) available with site analyti…
+5aefaef8,_/47afce2e.md,Dropbox App secret,1,FN (bỏ sót),0.0,0,,* [@mukesh-dua/@<VALUE>] CPU Reservation for Infrastructure Services Deployed in Kubernete
+e13d78bf,test/42a7642a.c,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_USERPWD, ""<VALUE>"");"
+e13d78bf,docs/lib/opt/ee676f44.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PASSWORD, ""<VALUE>"");"
+5aefaef8,_/7a8532d3.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5aefaef8,_/902339d9.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5aefaef8,_/902339d9.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5aefaef8,_/902339d9.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5aefaef8,_/cd7262e8.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5d8870b3,test/ecd8a360.js,Basic Authorization,1,FN (bỏ sót),0.0,0,,".set('Authorization', 'Basic <VALUE>')"
+e13d78bf,docs/lib/opt/19cd1b58.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PASSWORD, ""<VALUE>"");"
+e13d78bf,docs/lib/opt/84e572af.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PROXYPASSWORD, ""<VALUE>"");"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{username: leaf, <VALUE>word: <VALUE>}"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{username: user, <VALUE>word: <VALUE>}"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{username: leaf, <VALUE>word: <VALUE>}"
+81cd05d0,test/src/util/server/62255727.java,Key:Secret,1,FN (bỏ sót),0.0,0,,"+ ""\""SecretAccessKey\"":\""<VALUE>\"","""
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [ {user: svc, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [ {user: svc, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [ {user: svc, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [ {user: svc, <VALUE>word: <VALUE>} ]"
+5aefaef8,_/829abc0d.md,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- [Building On-Ramps for Non-Code Contributors in Open Source](https://program.<VALUE>.de/berlin-buzzwords-2023/talk/VEQ…
+5aefaef8,_/6f3aa1de.md,UUID,1,FN (bỏ sót),0.0,0,,- The [site analytics dashboard](https://datastudio.google.com/u/0/reporting/<VALUE>/page/567IC) is featured as part of …
+93ff401b,conf/cluster/0c5a8c1e.md,CMD Password,1,FN (bỏ sót),0.0,0,,nats server req jetstream --user admin --password <VALUE> --help
+5aefaef8,_/86c4147e.md,UUID,1,FN (bỏ sót),0.0,0,,- SIG Docs has a dashboard available with [site analytics](https://lookerstudio.google.com/u/0/reporting/<VALUE>/page/56…
+5aefaef8,conf/bf0ba262.md,Dropbox App secret,1,FN (bỏ sót),0.0,0,,<VALUE>: let the minion do the same thing that kube-register currently does
+5aefaef8,_/ee134964.md,UUID,1,FN (bỏ sót),0.0,0,,* [https://people.communitybridge.org/project/<VALUE>](https://people.communitybridge.org/project/<VALUE>)
+93ff401b,conf/cluster/0c5a8c1e.md,CMD Password,1,FN (bỏ sót),0.0,0,,nats server report jetstream --user admin --password <VALUE>
+5aefaef8,_/a2b60f9b.md,Dropbox App secret,1,FN (bỏ sót),0.0,0,,1. <VALUE>
+5aefaef8,_/467f6811.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: client, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [ {user: svc, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: client, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: client, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: client, <VALUE>word: <VALUE>} ]"
+6c73b80a,test/1258dc58.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: client, <VALUE>word: <VALUE>} ]"
+57c424f8,test/src/conf/f23d7ddd.java,Password,1,FN (bỏ sót),0.0,0,,"""shenyu.sync.<VALUE>.password=<VALUE>"","
+57c424f8,test/src/40578f34.java,Key,1,FN (bỏ sót),0.0,0,,"secretProperties.setKey(""<VALUE>"");"
+93ff401b,conf/cluster/0c5a8c1e.md,CMD Password,1,FN (bỏ sót),0.0,0,,nats server req jetstream --user admin --password <VALUE> --leader
+d94d550a,test/app/fc789d4d.py,PEM Private Key,1,FN (bỏ sót),0.0,0,,"""certificate…[đã che]"
+93ff401b,conf/cluster/0c5a8c1e.md,CMD Password,1,FN (bỏ sót),0.0,0,,nats server raft step-down --user admin --password <VALUE>
+d94d550a,test/61f17933.py,AWS S3 Bucket,1,FN (bỏ sót),0.0,0,,"""https://<VALUE>/c/photos/2013/Nov/25/tutorials-avatar-1563784409-6_avatar.png"""
+d94d550a,test/61f17933.py,AWS S3 Bucket,1,FN (bỏ sót),0.0,0,,"""https://<VALUE>/c/photos/2013/Nov/25/tutorials-avatar-1563784409-6_avatar.png"",  # noqa"
+5aefaef8,conf/195cee0e.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+5aefaef8,_/467f6811.yaml,Dropbox App secret,1,FN (bỏ sót),0.0,0,,- <VALUE>
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"ACC2: { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"S2ACC2 { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{user: ""user"", pass: ""<VALUE>"", connection_types: [""%s""]}"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{user: ""leaf"", pass: ""<VALUE>"", connection_types: [""%s""]}"
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.0,0,,"{user: <VALUE>, password: <VALUE>}"
+5aefaef8,_/0c4a2902.md,UUID,1,FN (bỏ sót),0.0,0,,*   https://groups.google.com/d/msgid/kubernetes-sig-auth/<VALUE>%40googlegroups.com
+57c424f8,test/src/9c3fe3aa.java,Key,1,FN (bỏ sót),0.0,0,,"jwtProperties.setKey(""<VALUE>"");"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"ACC1: { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+c2d95db7,docker/init/30730ae3.sh,SQL Password,1,FN (bỏ sót),0.0,0,,#        CREATE USER myuser WITH PASSWORD '<VALUE>';
+c2d95db7,docker/init/26876d81.sh,SQL Password,1,FN (bỏ sót),0.0,0,,#        CREATE USER myuser WITH PASSWORD '<VALUE>';
+c2d95db7,docker/init/144e9765.sh,SQL Password,1,FN (bỏ sót),0.0,0,,#        CREATE USER myuser WITH PASSWORD '<VALUE>';
+c2d95db7,conf/docker/init/e5b8b06d.sh,SQL Password,1,FN (bỏ sót),0.0,0,,#        CREATE USER myuser WITH PASSWORD '<VALUE>';
+638eb0c6,_/eca12c0a.md,SQL Password,1,FN (bỏ sót),0.0,0,,CREATE ROLE me WITH LOGIN SUPERUSER; -- PASSWORD '<VALUE>'
+638eb0c6,_/04b06f40.md,SQL Password,1,FN (bỏ sót),0.0,0,,CREATE ROLE app_admin WITH LOGIN PASSWORD <VALUE>;
+c9201a51,_/b3356305.md,UUID,1,FN (bỏ sót),0.0,0,,![OAuth2 Proxy Architecture](https://cloud.githubusercontent.com/assets/45028/8027702/<VALUE>.png)
+d94d550a,test/717f39b8.py,Password,1,FN (bỏ sót),0.0,0,,"reverse(""account_login""), {""login"": ""doe"", ""password"": ""<VALUE>""}"
+638eb0c6,example/d4451bab.md,CMD Secret,1,FN (bỏ sót),0.0,0,,--jwt-secret <VALUE> \
+c9201a51,_/b3356305.md,UUID,1,FN (bỏ sót),0.0,0,,![Sign In Page](https://cloud.githubusercontent.com/assets/45028/4970624/<VALUE>.png)
+bd14e9cf,_/af273ae2.sh,SQL Password,1,FN (bỏ sót),0.0,0,,"mysql -u root -pdbadmin -e ""CREATE USER '<VALUE>'@'localhost' IDENTIFIED BY '<VALUE>';"""
+bd14e9cf,_/9653e9d6.sh,Password,1,FN (bỏ sót),0.0,0,,"read -p ""(Default password: <VALUE>):"" mysqlrootpwd"
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0,0,,CLICKHOUSE_PASSWORD=<VALUE>
+c2d95db7,_/a3046da0.example,Password,1,FN (bỏ sót),0.0,0,,RABBITMQ_DEFAULT_PASS=<VALUE>
+e13d78bf,docs/lib/opt/889ba527.md,CURL Options,1,FN (bỏ sót),0.0,0,,"curl_easy_setopt(curl, CURLOPT_PROXYPASSWORD, ""<VALUE>"");"
+f295f04f,test/2eb01c91.js,Basic Authorization,1,FN (bỏ sót),0.0,0,,"t.equal(req.headers['proxy-authorization'], 'Basic <VALUE>')"
+e72eb979,test/cdf7bcd1.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+fa71ac83,conf/9aa3c9b2.js,Password,1,FN (bỏ sót),0.0,0,,pass: '<VALUE>'
+e72eb979,_/d272f92a.php,Secret:Key,1,FN (bỏ sót),0.0,0,,"* define('SECRET_KEY', '<VALUE>');"
+f295f04f,test/317baecd.js,Auth:Basic Authorization,1,FN (bỏ sót),0.0,0,,? 'auth: Basic <VALUE>'
+0436af4a,test/src/1cf81e7e.cs,Password,1,FN (bỏ sót),0.0,0,,"var newCredential = new GitCredential(""alice"", ""<VALUE>"");"
+f295f04f,test/010a05a8.js,Auth:Basic Authorization,1,FN (bỏ sót),0.0,0,,"'Proxy-Authorization: Basic <VALUE>',"
+e72eb979,test/tool/resource/6bd361c2.pem,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+f295f04f,test/2eb01c91.js,Basic Authorization,1,FN (bỏ sót),0.0,0,,"t.equal(req.headers.authorization, 'Basic <VALUE>')"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"S1ACC2: { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"S2ACC1 { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+4dccc5be,spec/0690f4f4.rb,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+4dccc5be,spec/0690f4f4.rb,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+4dccc5be,spec/0690f4f4.rb,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+4dccc5be,spec/0690f4f4.rb,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/server/1a13a17c.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: <VALUE>, password: <VALUE>}]"
+6c73b80a,test/server/1a13a17c.go,Password,1,FN (bỏ sót),0.0,0,,"users: [{user: <VALUE>, password: <VALUE>}]"
+c2d95db7,conf/be5fd676.conf,Password,1,FN (bỏ sót),0.0,0,,# Default password: <VALUE>
+c2d95db7,docker/8e165a9d.sh,Password,1,FN (bỏ sót),0.0,0,,"if [ ""${password}"" == ""<VALUE>"" ]; then"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {pass:<VALUE> ,   password=  <VALUE>}"","
+bd14e9cf,_/cc99cf26.sh,Password,1,FN (bỏ sót),0.0,0,,RemotePasswd=<VALUE>
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"S1ACC1: { users = [{user: ""<VALUE>"", password: ""<VALUE>""}] }"
+6c73b80a,test/server/88763956.go,Password,1,FN (bỏ sót),0.0,0,,"{username: user, <VALUE>word: <VALUE>}"
+b6b2487d,_/e1b00c5f.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.store.password=<VALUE>
+b6b2487d,_/e1b00c5f.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.alias.password=<VALUE>
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {pass:[REDACTED],   password =  <VALUE>}"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {pass:[REDACTED],   password=  <VALUE>}"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""password\"":\""<VALUE>\"",}\r\n"","
+6c73b80a,test/633f9ac2.go,Password,1,FN (bỏ sót),0.0,0,,pass: <VALUE>
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""pass\"":\""<VALUE>\"",}\r\n"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {pass:<VALUE> ,   password =  <VALUE>}"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {user = hello, password =  <VALUE>}"","
+6c73b80a,conf/server/b406db25.pem,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+41d10ede,test/41d180f6.py,Password,1,FN (bỏ sót),0.0,0,,"passwd=""<VALUE>"","
+41d10ede,test/util/9e08e8c7.py,Password,1,FN (bỏ sót),0.0,0,,"POSTGRES_PASSWORD = getenv(""PGPASSWORD"", ""<VALUE>"")"
+389fd795,test/be0a3914.go,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+81cd05d0,src/secret/resource/model/334b19eb.json,Password,1,FN (bỏ sót),0.0,0,,"""SecretString"" : ""{\""username\"":\""david\"",\""password\"":\""<VALUE>\""}"""
+81cd05d0,src/secret/resource/model/334b19eb.json,Password,1,FN (bỏ sót),0.0,0,,"""SecretString"" : ""{\""username\"":\""david\"",\""password\"":\""<VALUE>\""}"""
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""user\"":\""<VALUE>\"",\""pass\"":\""<VALUE>\""}\r\n"","
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.0,0,,"{user: <VALUE>, password: <VALUE>}"
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.0,0,,"{user: <VALUE>, password: <VALUE>}"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT 	 {\""echo\"":true,\""verbose\"":false,\""pedantic\"":false,\""user\"":\""<VALUE>\"",\""pass\"":\""<VALUE>\"",\""tls_required\…"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"connectOp := []byte(""CONNECT {\""user\"":\""derek\"",\""pass\"":\""<VALUE>\""}\r\n"")"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""user\"":\""derek\"",\""pass\"":\""<VALUE>\""}\r\n"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""user\"":\""derek\"",\""pass\"":  \""<VALUE>\""}\r\n"","
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""user\"":\""derek\"",\""pass\"":    \""<VALUE>\""     }\r\n"","
+6c73b80a,conf/server/28b5b2e9.conf,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"*        <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"* <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"*         <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"* <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"*        <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,test/src/4d678f09.java,PEM Private Key,1,FN (bỏ sót),0.0,0,,"""-----BEGIN …[đã che]"
+b133f43d,docker/146cfc3e.yml,Password,1,FN (bỏ sót),0.0,0,,MYSQL_PASSWORD: <VALUE>
+b133f43d,example/a844bf5e.p8,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+b133f43d,example/8082c3b6.p8,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/server/edc1c568.go,Password,1,FN (bỏ sót),0.0,0,,"pass = ""<VALUE>"""
+6c73b80a,test/conf/server/edc1c568.go,Password,1,FN (bỏ sót),0.0,0,,"{ user: ""hello"", pass: ""<VALUE>"" },"
+6c73b80a,test/conf/server/edc1c568.go,Password,1,FN (bỏ sót),0.0,0,,"password = ""<VALUE>"""
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'RSA',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'RSA',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'EC',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/94864ff4.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/rest/9d43c1e9.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'RSA',"
+35c273e2,test/src/secure/805bb559.java,Credential,1,FN (bỏ sót),0.0,0,,"final Credential inputDelta = new Credential(""<VALUE>"", ""42"");"
+e51ae6e8,test/mock/src/e0aee1bb.java,CMD Password,1,FN (bỏ sót),0.0,0,,"""--keystore-password"", ""<VALUE>"","
+e51ae6e8,test/mock/src/e0aee1bb.java,CMD Password,1,FN (bỏ sót),0.0,0,,"""--key-manager-password"", ""<VALUE>"""
+e51ae6e8,docs/8bde0aac.md,UUID,1,FN (bỏ sót),0.0,0,,![social sharing buttons](https://cloud.githubusercontent.com/assets/1376749/5860522/<VALUE>.png)
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""echo\"":true,\""verbose\"":false,\""pedantic\"":false,\""user\"":\""<VALUE>\"",\""pass\"":\""<VALUE>\"",\""tls_required\"":…"
+6c73b80a,test/server/3f79ca86.go,Password,1,FN (bỏ sót),0.0,0,,"""CONNECT {\""echo\"":true,\""verbose\"":false,\""pedantic\"":false,\""user\"":\""<VALUE>\"",\""pass\"":\""<VALUE>\"",\""tls_required\"":…"
+e72eb979,test/0cd2be61.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e51ae6e8,test/mock/src/c2eb794b.java,Basic Authorization,1,FN (bỏ sót),0.0,0,,"withHeader(""Authorization"", ""BASIC <VALUE>"")).statusCode(), is(200));"
+e72eb979,test/0da0ad54.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"":""RSA"","
+e72eb979,test/12872550.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e72eb979,test/46678b1a.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e72eb979,test/54768d4d.html,Auth:Password,1,FN (bỏ sót),0.0,0,,"testRunner.setAuthenticationPassword(""<VALUE>"");"
+e72eb979,test/144d9be7.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e72eb979,test/33126a51.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'EC',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'EC',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'EC',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'EC',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+e72eb979,test/54768d4d.html,Auth:Password,1,FN (bỏ sót),0.0,0,,"testRunner.setAuthenticationPassword(""<VALUE>"");"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'RSA',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'RSA',"
+e72eb979,test/5d69d25f.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e72eb979,test/64381bf2.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""oct"","
+e72eb979,test/64381bf2.html,JWK,1,FN (bỏ sót),0.0,0,,"shouldBe(""ex…[đã che]"
+e72eb979,test/6a27766b.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/6a27766b.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/704c9861.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/77c30f85.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"":""RSA"","
+e72eb979,test/84a82484.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/8b1c60ef.html,Auth:Password,1,FN (bỏ sót),0.0,0,,"testRunner.setAuthenticationPassword(""<VALUE>"");"
+e72eb979,test/8b1c60ef.html,Auth:Password,1,FN (bỏ sót),0.0,0,,"testRunner.setAuthenticationPassword(""<VALUE>"");"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+23689bd1,test/b5304871.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+23689bd1,test/5211fcfa.mjs,JWK,1,FN (bỏ sót),0.0,0,,await t.thro…[đã che]
+23689bd1,test/5211fcfa.mjs,JWK,1,FN (bỏ sót),0.0,0,,"kty: 'oct',"
+e72eb979,test/8cc9bd80.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+e72eb979,test/8cc9bd80.html,JWK,1,FN (bỏ sót),0.0,0,,"shouldBe(""ex…[đã che]"
+e72eb979,test/9c21a036.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+fa71ac83,test/a654b738.js,Password,1,FN (bỏ sót),0.0,0,,var pass = '<VALUE>';
+e72eb979,test/9cdb14b5.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+6c73b80a,conf/server/81102334.pem,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/33d9fd63.conf,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+6c73b80a,test/conf/client/b06c1c4b.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+0436af4a,test/src/4856a9ca.cs,UUID,1,FN (bỏ sót),0.0,0,,"[InlineData(true, ""https://login.microsoftonline.com/<VALUE>"","
+e72eb979,test/d192dee2.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+e72eb979,test/d6daabc1.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/e3c52d87.html,JWK,1,FN (bỏ sót),0.0,0,,"""kty"": ""oct""…[đã che]"
+e72eb979,test/e23515f4.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.0,0,,"{user: notused, password: <VALUE>}"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"* <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+81cd05d0,src/secret/model/b2182b6e.java,Password,1,FN (bỏ sót),0.0,0,,"* <code>""[{\""username\"":\""bob\""},{\""password\"":\""<VALUE>\""}]""</code>"
+6c73b80a,test/server/515f4ca6.go,Password,1,FN (bỏ sót),0.0,0,,"{user: gone, password: <VALUE>}"
+6c73b80a,test/conf/server/6b9d8dff.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/client/49ab3fd1.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/client/5f7e2196.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/server/17e59380.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/client/0151100f.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/client/c389958d.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+6c73b80a,test/conf/client/a53ee4cf.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+e72eb979,test/be3a80f0.html,JWK,1,FN (bỏ sót),0.0,0,,"kty: ""RSA"","
