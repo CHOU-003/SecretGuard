@@ -1,0 +1,84 @@
+{
+  "machine": {
+    "he_dieu_hanh": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "so_nhan_logic": 16,
+    "python": "3.14.0"
+  },
+  "n_lines": 5000,
+  "source": "creddata",
+  "split": "val",
+  "repeat": 3,
+  "throughput": {
+    "Regex": {
+      "median_s": 0.2100205000024289,
+      "min_s": 0.2065950999967754,
+      "max_s": 0.22341929998947307,
+      "ms_per_1000_lines": 42.00410000048577,
+      "lines_per_s": 23807.199773080127
+    },
+    "Regex + Entropy": {
+      "median_s": 0.22222219995455816,
+      "min_s": 0.20447100000455976,
+      "max_s": 0.23534230003133416,
+      "ms_per_1000_lines": 44.44443999091163,
+      "lines_per_s": 22500.00225460121
+    },
+    "Chỉ trích candidate": {
+      "median_s": 0.5155322000500746,
+      "min_s": 0.49964799999725074,
+      "max_s": 0.5946195000433363,
+      "ms_per_1000_lines": 103.10644001001492,
+      "lines_per_s": 9698.71522964878
+    },
+    "Pipeline ML đầy đủ": {
+      "median_s": 2.2493239999748766,
+      "min_s": 2.2015288999537006,
+      "max_s": 2.29067680001026,
+      "ms_per_1000_lines": 449.8647999949754,
+      "lines_per_s": 2222.8900772213547
+    }
+  },
+  "pipeline_phases": {
+    "trich_candidate_s": 0.5797572999726981,
+    "tinh_feature_s": 1.2634467000025325,
+    "dung_bang_s": 0.10866600001463667,
+    "du_doan_s": 0.24956819997169077,
+    "so_candidate": 6040
+  },
+  "pipeline_consistent": true,
+  "file_latency": {
+    "lines": 200,
+    "median_ms": 160.01474997028708,
+    "p95_ms": 219.41012997122013
+  },
+  "model_load_s": {
+    "min": 0.130365899996832,
+    "median": 0.1437959999893792
+  },
+  "end_to_end": {
+    "main.py (Python, gồm khởi động và nạp mô hình)": {
+      "median_s": 7.8172598000383005,
+      "min_s": 7.546987299981993,
+      "max_s": 8.002025599998888,
+      "ms_per_1000_lines": 7817259.8000383,
+      "lines_per_s": 0.12792206291968197,
+      "scanned": {}
+    },
+    "Gitleaks (8.30.1)": {
+      "median_s": 61.7108973999857,
+      "min_s": 55.56223649997264,
+      "max_s": 64.92952780000633,
+      "ms_per_1000_lines": 61710897.3999857,
+      "lines_per_s": 0.016204593388399368
+    },
+    "TruffleHog (trufflehog 3.99.7, không verify)": {
+      "median_s": 2.071920600021258,
+      "min_s": 2.031776499992702,
+      "max_s": 2.084635899984278,
+      "ms_per_1000_lines": 2071920.600021258,
+      "lines_per_s": 0.4826439777613775
+    }
+  },
+  "end_to_end_target": "repo nhỏ tự dựng (20 file x ~200 dòng)"
+}
