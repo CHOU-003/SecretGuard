@@ -1,0 +1,128 @@
+{
+  "synthetic": {
+    "source": "synthetic",
+    "sizes": {
+      "train": {
+        "dong": 2948,
+        "repo": 56,
+        "ti_le_secret": 0.371438263229308,
+        "dong_duy_nhat": 2948
+      },
+      "val": {
+        "dong": 602,
+        "repo": 12,
+        "ti_le_secret": 0.42358803986710963,
+        "dong_duy_nhat": 602
+      },
+      "test": {
+        "dong": 602,
+        "repo": 12,
+        "ti_le_secret": 0.4152823920265781,
+        "dong_duy_nhat": 602
+      }
+    },
+    "repo_overlap": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "text_overlap": {
+      "train->val": {
+        "dong_trung": 0,
+        "ti_le_dong": 0.0,
+        "van_ban_duy_nhat_trung": 0,
+        "khac_nhan": 0,
+        "ti_le_secret_trong_dong_trung": null
+      },
+      "train->test": {
+        "dong_trung": 0,
+        "ti_le_dong": 0.0,
+        "van_ban_duy_nhat_trung": 0,
+        "khac_nhan": 0,
+        "ti_le_secret_trong_dong_trung": null
+      },
+      "val->test": {
+        "dong_trung": 0,
+        "ti_le_dong": 0.0,
+        "van_ban_duy_nhat_trung": 0,
+        "khac_nhan": 0,
+        "ti_le_secret_trong_dong_trung": null
+      }
+    },
+    "within_split_duplicate_share": {
+      "train": 0.0,
+      "val": 0.0,
+      "test": 0.0
+    },
+    "label_conflict_texts": 0,
+    "checks": {
+      "overlap_repo_bang_0": "PASS",
+      "moi_tap_du_2_lop": "PASS",
+      "trung_noi_dung_train_voi_val_test": "PASS",
+      "xung_dot_nhan_toan_bo": "PASS"
+    }
+  },
+  "creddata": {
+    "source": "creddata",
+    "sizes": {
+      "train": {
+        "dong": 45113,
+        "repo": 234,
+        "ti_le_secret": 0.25726508988539887,
+        "dong_duy_nhat": 28946
+      },
+      "val": {
+        "dong": 11775,
+        "repo": 50,
+        "ti_le_secret": 0.15906581740976644,
+        "dong_duy_nhat": 7690
+      },
+      "test": {
+        "dong": 7438,
+        "repo": 51,
+        "ti_le_secret": 0.22304382898628664,
+        "dong_duy_nhat": 4621
+      }
+    },
+    "repo_overlap": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "text_overlap": {
+      "train->val": {
+        "dong_trung": 322,
+        "ti_le_dong": 0.027346072186836518,
+        "van_ban_duy_nhat_trung": 133,
+        "khac_nhan": 0,
+        "ti_le_secret_trong_dong_trung": 0.11801242236024845
+      },
+      "train->test": {
+        "dong_trung": 551,
+        "ti_le_dong": 0.0740790535090078,
+        "van_ban_duy_nhat_trung": 200,
+        "khac_nhan": 2,
+        "ti_le_secret_trong_dong_trung": 0.1724137931034483
+      },
+      "val->test": {
+        "dong_trung": 215,
+        "ti_le_dong": 0.0289056197902662,
+        "van_ban_duy_nhat_trung": 31,
+        "khac_nhan": 2,
+        "ti_le_secret_trong_dong_trung": 0.3488372093023256
+      }
+    },
+    "within_split_duplicate_share": {
+      "train": 0.35836676789395516,
+      "val": 0.3469214437367304,
+      "test": 0.37873084162409254
+    },
+    "label_conflict_texts": 98,
+    "checks": {
+      "overlap_repo_bang_0": "PASS",
+      "moi_tap_du_2_lop": "PASS",
+      "trung_noi_dung_train_voi_val_test": "CẢNH BÁO",
+      "xung_dot_nhan_toan_bo": "THÔNG TIN"
+    }
+  }
+}

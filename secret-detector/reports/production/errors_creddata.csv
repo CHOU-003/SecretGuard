@@ -1,0 +1,969 @@
+repo,file_path,type,label,loai_loi,score,co_candidate,nguon_candidate,text_da_che
+71455799,test/pkg/d5838101.json,Key:UUID,0,FP (báo nhầm),0.9947,1,assignment,"""key_id"": ""<VALUE>"","
+71455799,test/pkg/2f5ec5c9.json,Key:UUID,0,FP (báo nhầm),0.9947,1,assignment,"""key_id"": ""<VALUE>"","
+71455799,test/pkg/ecba24d2.tfstate,Key:UUID,0,FP (báo nhầm),0.9947,1,assignment,"""key_id"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9947,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9947,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9947,1,assignment,"""KeyId"": ""<VALUE>"""
+71455799,test/pkg/2f5ec5c9.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+71455799,test/pkg/ecba24d2.tfstate,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+71455799,test/pkg/d5838101.json,Key:UUID,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+6ac1fb2d,src/example/f69e2f88.json,UUID,0,FP (báo nhầm),0.9904,1,assignment,"""IPSetId"": ""<VALUE>"","
+71455799,test/pkg/ecba24d2.tfstate,Key:UUID,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+6ac1fb2d,src/example/2cff9fd7.json,UUID,0,FP (báo nhầm),0.9904,1,assignment,"""IPSetId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""KeyId"": ""<VALUE>"""
+71455799,test/pkg/2f5ec5c9.json,Key:UUID,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+71455799,test/pkg/d5838101.json,UUID:Key,0,FP (báo nhầm),0.9904,1,assignment,"""key_id"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9892,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+71455799,test/pkg/44c4dfed.go,Key:UUID,0,FP (báo nhầm),0.9888,1,token,"{KeyId: aws.String(""<VALUE>"")},"
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9863,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9863,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9863,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9863,1,assignment,"""KeyId"": ""<VALUE>"""
+71455799,test/pkg/641033fd.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6c3ee8a9.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/641033fd.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6dace32a.tfstate,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6dace32a.tfstate,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/641033fd.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6c3ee8a9.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6dace32a.tfstate,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+71455799,test/pkg/6c3ee8a9.json,Key:UUID,0,FP (báo nhầm),0.972,1,assignment,"""target_key_id"": ""<VALUE>"""
+fdbe07ac,test/41aa31d4,Password,0,FP (báo nhầm),0.9707,1,regex,"--password=""<VALUE>"""
+6ac1fb2d,src/example/e8312de5.json,Secret,0,FP (báo nhầm),0.9667,1,assignment,"""SECRET_HASH"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9597,1,assignment,"""DestinationKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.9584,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9584,1,assignment,"""KeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9582,1,assignment,"""KeyId"": ""<VALUE>"","
+71455799,test/pkg/44c4dfed.go,Key:UUID,0,FP (báo nhầm),0.9582,1,token,"{KeyId: aws.String(""<VALUE>"")},"
+fc8343f4,vendor/3a831bdb.go,UUID,0,FP (báo nhầm),0.958,1,assignment,"// Examples: '<VALUE>', '0001'"
+fc8343f4,vendor/182d7cd5.go,UUID,0,FP (báo nhầm),0.958,1,assignment,"// Examples: '<VALUE>', '0001'"
+fc8343f4,vendor/e780ebc8.go,UUID,0,FP (báo nhầm),0.958,1,assignment,"// Examples: '<VALUE>', '0001'"
+fc8343f4,vendor/cc8ec946.go,UUID,0,FP (báo nhầm),0.958,1,assignment,"// Examples: '<VALUE>', '0001'"
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9578,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID,0,FP (báo nhầm),0.9578,1,assignment,"""TargetKeyId"": ""<VALUE>"""
+6ac1fb2d,src/example/261cfdda.json,Token,0,FP (báo nhầm),0.9544,1,assignment,"""VerificationToken"": ""<VALUE>"""
+71455799,test/pkg/44c4dfed.go,Key:UUID,0,FP (báo nhầm),0.9485,1,token,"{KeyId: aws.String(""<VALUE>"")},"
+fc8343f4,test/pkg/b7933f0e.go,Key,0,FP (báo nhầm),0.9436,1,assignment,"const ecdsaKeyID = ""<VALUE>"""
+a8bdca79,test/src/util/1a5f2491.java,Other,0,FP (báo nhầm),0.9413,1,token,"params.put(""oauth_nonce"", ""<VALUE>"");"
+a8bdca79,test/src/util/1a5f2491.java,Other,0,FP (báo nhầm),0.9413,1,token,"params.put(""oauth_nonce"", ""<VALUE>"");"
+a8bdca79,test/src/util/1a5f2491.java,Other,0,FP (báo nhầm),0.9353,1,token,"oauthParams.put(""oauth_nonce"", ""<VALUE>"");"
+6ac1fb2d,src/example/d2557e09.json,AWS Client ID:Key,0,FP (báo nhầm),0.9151,1,regex,"""AccessKeyId"": ""<VALUE>"","
+6ac1fb2d,src/example/d2557e09.json,AWS Client ID,0,FP (báo nhầm),0.9087,1,regex,"""UserId"": ""<VALUE>:my-role-session-name"""
+fc8343f4,test/pkg/b7933f0e.go,Key,0,FP (báo nhầm),0.9035,1,assignment,"{KeyID: ""<VALUE>"", PublicKey: ecPublic},"
+fc8343f4,test/pkg/b7933f0e.go,Key,0,FP (báo nhầm),0.9035,1,assignment,"{KeyID: ""<VALUE>"", PublicKey: ecPublic},"
+6ac1fb2d,src/example/d2557e09.json,AWS Client ID,0,FP (báo nhầm),0.9024,1,regex,"""UserId"": ""<VALUE>"""
+fc8343f4,test/pkg/b7933f0e.go,Key,0,FP (báo nhầm),0.8866,1,assignment,"const rsaKeyID = ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,UUID:Key,0,FP (báo nhầm),0.8773,1,assignment,"""KeyId"": ""<VALUE>"""
+b76321b2,test/6e71e03f.js,Password,0,FP (báo nhầm),0.8558,1,assignment,"password: '<VALUE>',"
+b76321b2,test/6e71e03f.js,Password,0,FP (báo nhầm),0.8558,1,assignment,"password: '<VALUE>',"
+fc8343f4,util/vendor/4cf2897e.go,UUID:Key,0,FP (báo nhầm),0.8208,1,token,"var keyGUID = []byte(""<VALUE>"")"
+fc8343f4,test/src/conf/pkg/api/opt/server/f2f067d6.go,Key,0,FP (báo nhầm),0.8191,1,assignment,"`errState=<nil>, errGen=failed to encrypt DEK, error: broken, statusKeyIDHash=""<VALUE>"", ` +"
+c41bb134,test/spec/68cbce99.hs,Secret:Key,0,FP (báo nhầm),0.8022,1,assignment,"let secret = Just $ encodeUtf8 [str|{""alg"":""RS256"",""e"":""AQAB"",""key_ops"":[""verify""],""kty"":""RSA"",""n"":""<VALUE>"",""use"":""sig""…"
+49b08818,fixture/100a3d7b.yml,UUID,1,FN (bỏ sót),0.7982,1,assignment,name: 'https://ci.example.com/go/api/agents/<VALUE>'
+49b08818,fixture/100a3d7b.yml,UUID,1,FN (bỏ sót),0.7982,1,assignment,url: 'https://ci.example.com/go/api/agents/<VALUE>'
+49b08818,fixture/00a89c86.yml,UUID,1,FN (bỏ sót),0.7982,1,assignment,url: 'https://ci.example.com/go/api/agents/<VALUE>'
+fc8343f4,test/util/pkg/b629d1a5.go,UUID,1,FN (bỏ sót),0.7976,1,token,"""/var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~iscsi/mypv"","
+fc8343f4,test/util/pkg/b629d1a5.go,UUID,1,FN (bỏ sót),0.7976,1,token,"""/var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~iscsi/mypv"","
+71455799,test/pkg/bfb503da.go,Key:AWS Client ID,1,FN (bỏ sót),0.7975,1,regex,"AccessKeyId: aws.String(""<VALUE>""),"
+71455799,test/pkg/bfb503da.go,Key:AWS Client ID,1,FN (bỏ sót),0.7975,1,regex,"AccessKeyId: aws.String(""<VALUE>""),"
+71455799,test/pkg/8d6d06be.go,AWS Client ID:Key,1,FN (bỏ sót),0.7975,1,regex,"AccessKeyId: aws.String(""<VALUE>""),"
+6ea17253,src/d3374fdd.manifest,UUID,1,FN (bỏ sót),0.7967,1,assignment,"<supportedOS Id=""{<VALUE>}"" />"
+fc8343f4,test/src/client/d9ef6f40,UUID,1,FN (bỏ sót),0.7933,1,assignment,"[{""object"":{""apiVersion"":""v1"",""kind"":""ServiceAccount"",""metadata"":{""creationTimestamp"":""2024-09-18T14:06:40Z"",""name"":""foo…"
+fc8343f4,test/src/conf/pkg/kube/5eb7ac2c.go,Password,1,FN (bỏ sót),0.7906,1,assignment,"""--password=<VALUE>"","
+fc8343f4,resource/vendor/89dc8839.go,UUID,1,FN (bỏ sót),0.7897,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:task/<VALUE>'
+fc8343f4,vendor/cc8ec946.go,UUID,1,FN (bỏ sót),0.7897,1,assignment,"// 'arn:aws:ecs:us-west-1:123456789123:task/<VALUE>',"
+fc8343f4,resource/vendor/03ded01c.go,UUID,1,FN (bỏ sót),0.7897,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:task/<VALUE>'
+b6263275,_/54d4476d.md,UUID,1,FN (bỏ sót),0.7866,1,assignment,Cookie: jenkins-timestamper-offset=-28800000; Hm_lvt_8346bb07e7843cd10a2ee33017b3d627=1583249520; NX-ANTI-CSRF-TOKEN=0.1…
+a59f7e20,client/b309deb1.md,Secret,1,FN (bỏ sót),0.7828,1,assignment,clientSecret: <VALUE>
+fc8343f4,vendor/cc8ec946.go,UUID,1,FN (bỏ sót),0.7814,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:container/<VALUE>'
+fc8343f4,resource/vendor/89dc8839.go,UUID,1,FN (bỏ sót),0.7814,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:container/<VALUE>'
+fc8343f4,resource/vendor/03ded01c.go,UUID,1,FN (bỏ sót),0.7814,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:container/<VALUE>'
+b88a4e51,setting/37a6d23b.py,Key:Secret,1,FN (bỏ sót),0.7812,1,assignment,SECRET_KEY = '<VALUE>'
+6ac1fb2d,src/example/security/63240134.json,AWS Client ID,1,FN (bỏ sót),0.7737,1,regex,"""CreatedBy"": ""<VALUE>:TEST-16MJ75L9VBK14"","
+6ac1fb2d,src/example/security/63240134.json,AWS Client ID,1,FN (bỏ sót),0.7737,1,regex,"""CreatedBy"": ""<VALUE>:TEST-16MJ75L9VBK14"","
+6ac1fb2d,src/example/security/63240134.json,AWS Client ID,1,FN (bỏ sót),0.7737,1,regex,"""CreatedBy"": ""<VALUE>:TEST-16MJ75L9VBK14"","
+6ac1fb2d,src/example/security/63240134.json,AWS Client ID,1,FN (bỏ sót),0.7737,1,regex,"""CreatedBy"": ""<VALUE>:TEST-16MJ75L9VBK14"","
+5504e505,fixture/spec/dcf5e142,Secret,1,FN (bỏ sót),0.773,1,assignment,consumer_secret: <VALUE>
+5504e505,fixture/spec/dcf5e142,Secret,1,FN (bỏ sót),0.773,1,assignment,consumer_secret: <VALUE>
+5504e505,fixture/spec/4b4c548d,Secret,1,FN (bỏ sót),0.773,1,assignment,consumer_secret: <VALUE>
+98a9ba4e,tool/docs/app/99d3c5a8.md,Token:API:Key,1,FN (bỏ sót),0.7713,1,assignment,"""news_api_key"": ""<VALUE>""  // sample key"
+b6263275,src/9eef4790.properties,Key,1,FN (bỏ sót),0.7695,1,assignment,webflow.signing.key=<VALUE>
+cfdcc4f3,_/7e5c5a58.yml,Key,1,FN (bỏ sót),0.7685,1,assignment,"APP_KEY: ""<VALUE>"""
+55aa4858,conf/app/7506d301.conf,Secret,1,FN (bỏ sót),0.7678,1,assignment,application.secret=<VALUE>
+55aa4858,resource/app/build/8214a561.conf,Secret,1,FN (bỏ sót),0.7678,1,assignment,application.secret=<VALUE>
+fc8343f4,vendor/cc8ec946.go,UUID,1,FN (bỏ sót),0.7675,1,assignment,// 'arn:aws:ecs:us-west-1:123456789123:task/my-cluster/task-id/<VALUE>'
+a8bdca79,src/b7495e52.java,Token,1,FN (bỏ sót),0.7672,1,assignment,* https://openapi.baidu.com/rest/2.0/passport/users/getInfo?access_token=<VALUE>
+6ac1fb2d,src/example/4d194c35.php,UUID:Token,1,FN (bỏ sót),0.7664,1,assignment,"return [ 'version' => '1.0', 'examples' => [ 'CreateCluster' => [ [ 'input' => [ 'version' => '1.10', 'name' => 'prod', …"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.7656,1,token,"'<VALUE>',"
+fc8343f4,test/util/conf/kube/init/app/a317b100.yaml,Token,1,FN (bỏ sót),0.7654,1,assignment,"- token: ""<VALUE>"""
+fc8343f4,test/util/conf/kube/init/app/7b899772.yaml,Token,1,FN (bỏ sót),0.7654,1,assignment,"- token: ""<VALUE>"""
+fc8343f4,test/util/conf/kube/init/app/7b899772.yaml,Token,1,FN (bỏ sót),0.7654,1,assignment,"- token: ""<VALUE>"""
+6aae1316,_/3ab46ee2.yml,Token,1,FN (bỏ sót),0.7648,1,regex,TOKEN='<VALUE>'
+fc8343f4,test/src/pkg/api/server/cea53d7f.go,Secret,1,FN (bỏ sót),0.7648,1,assignment,"in:   apiserver.Key{Name: ""foo"", Secret: ""<VALUE>""},"
+b6263275,_/a57047f0.md,UUID,1,FN (bỏ sót),0.7639,1,assignment,Cookie: jenkins-timestamper-offset=-28800000; Hm_lvt_8346bb07e7843cd10a2ee33017b3d627=1583249520; NX-ANTI-CSRF-TOKEN=0.0…
+b6263275,_/a57047f0.md,UUID,1,FN (bỏ sót),0.7639,1,assignment,Cookie: jenkins-timestamper-offset=-28800000; Hm_lvt_8346bb07e7843cd10a2ee33017b3d627=1583249520; NX-ANTI-CSRF-TOKEN=0.0…
+fc8343f4,test/src/pkg/api/server/cea53d7f.go,Secret,1,FN (bỏ sót),0.7631,1,assignment,"in:   apiserver.Key{Name: ""foo"", Secret: ""<VALUE>""},"
+98a9ba4e,tool/docs/app/99d3c5a8.md,Token:Key,1,FN (bỏ sót),0.7626,1,assignment,"""bing_subscription_key"": ""<VALUE>""  // sample key"
+fc8343f4,resource/vendor/512dff69.go,UUID,1,FN (bỏ sót),0.7613,1,assignment,// Examples: 'logs/main/<VALUE>'
+fc8343f4,resource/vendor/eb3cdab6.go,UUID,1,FN (bỏ sót),0.7613,1,assignment,// Examples: 'logs/main/<VALUE>'
+fc8343f4,vendor/cc8ec946.go,UUID,1,FN (bỏ sót),0.7613,1,assignment,// Examples: 'logs/main/<VALUE>'
+fc8343f4,resource/vendor/89dc8839.go,UUID,1,FN (bỏ sót),0.7613,1,assignment,// Examples: 'logs/main/<VALUE>'
+fc8343f4,resource/vendor/03ded01c.go,UUID,1,FN (bỏ sót),0.7613,1,assignment,// Examples: 'logs/main/<VALUE>'
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7612,1,assignment,"v1.DockerConfigKey: []byte(`{""test.registry.io"": {""auth"": ""<VALUE>""}}`),"
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7612,1,assignment,"v1.DockerConfigKey: []byte(`{""test.registry.io"": {""auth"": ""<VALUE>""}}`),"
+fc8343f4,api/kube/app/14126f76.go,Token,1,FN (bỏ sót),0.7591,1,assignment,"//	- token: ""<VALUE>"""
+fc8343f4,api/kube/app/5c925db2.go,Token,1,FN (bỏ sót),0.7591,1,assignment,"//	- token: ""<VALUE>"""
+6ac1fb2d,src/example/90f24111.json,Secret,1,FN (bỏ sót),0.759,1,assignment,"""SharedSecret"": ""<VALUE>"""
+fc8343f4,test/src/pkg/api/ef65a18f.go,Key,1,FN (bỏ sót),0.7587,1,assignment,"input: Set{""Key"": ""<VALUE>""},"
+6ac1fb2d,src/example/cf1af7f0.json,Secret,1,FN (bỏ sót),0.752,1,assignment,"""clientSecret"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Secret,1,FN (bỏ sót),0.752,1,assignment,"""clientSecret"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Secret,1,FN (bỏ sót),0.752,1,assignment,"""clientSecret"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Secret,1,FN (bỏ sót),0.752,1,assignment,"""clientSecret"": ""<VALUE>"","
+c41bb134,test/conf/other/505b2696.config,Secret,1,FN (bỏ sót),0.7512,1,regex,"jwt-secret = ""<VALUE>"""
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.748,1,assignment,"v1.DockerConfigKey: []byte(`{""foobar.io"": {""auth"": ""<VALUE>""}}`),"
+4aaa1466,app/8b8bfb75.js,API:Key,1,FN (bỏ sót),0.7425,1,assignment,"""apiKey"": ""<VALUE>"""
+fc8343f4,test/src/client/cbf683bc.go,Key,1,FN (bỏ sót),0.7373,1,assignment,"key:  ""<VALUE>"","
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/72a36d10001a8ef832f9cfa5-artsy-eigen-108-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/c2d81b100051057a2563bfa5-artsy-eigen-108-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/f3d81b100051057a7563bfa5-artsy-eigen-109-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/ae046d10001a8ef8fd0acfa5-artsy-eigen-116-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/f0146d10001a8ef84e0acfa5-artsy-eigen-117-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/fd936d10001a8ef821f9cfa5-artsy-eigen-104-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/6fc81b100051057a2463bfa5-artsy-eigen-103-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/78c81b100051057a0263bfa5-artsy-eigen-0-0?X-Amz-…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/be936d10001a8ef821f9cfa5-artsy-eigen-105-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/cd046d10001a8ef8fd0acfa5-artsy-eigen-115-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/e5936d10001a8ef81fe9cfa5-artsy-eigen-0-0?X-Amz-…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/db046d10001a8ef8cd0acfa5-artsy-eigen-113-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/14a36d10001a8ef8a2f9cfa5-artsy-eigen-109-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/dfc81b100051057a5463bfa5-artsy-eigen-104-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/40d81b100051057a8463bfa5-artsy-eigen-106-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/4f191b100051057aec73bfa5-artsy-eigen-114-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/f3d81b100051057a7563bfa5-artsy-eigen-109-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/f5d81b100051057aa563bfa5-artsy-eigen-111-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/50291b100051057a3d73bfa5-artsy-eigen-117-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/8f191b100051057a0d73bfa5-artsy-eigen-116-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/ffc81b100051057a5463bfa5-artsy-eigen-105-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/a6f81b100051057a3073bfa5-artsy-eigen-112-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/50291b100051057a3d73bfa5-artsy-eigen-117-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/8f191b100051057a0d73bfa5-artsy-eigen-116-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/61d81b100051057ae463bfa5-artsy-eigen-107-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/5f191b100051057a0d73bfa5-artsy-eigen-115-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/1ac81b100051057a9263bfa5-artsy-eigen-101-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/3f191b100051057adc73bfa5-artsy-eigen-113-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/40d81b100051057a8463bfa5-artsy-eigen-106-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/4f191b100051057aec73bfa5-artsy-eigen-114-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/1ac81b100051057a9263bfa5-artsy-eigen-101-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/3f191b100051057adc73bfa5-artsy-eigen-113-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/a6f81b100051057a3073bfa5-artsy-eigen-112-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/b5d81b100051057aa563bfa5-artsy-eigen-110-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/a1a36d10001a8ef802f9cfa5-artsy-eigen-107-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/dfc81b100051057a5463bfa5-artsy-eigen-104-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/15a36d10001a8ef8e2f9cfa5-artsy-eigen-110-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/37936d10001a8ef86fe9cfa5-artsy-eigen-101-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/c2d81b100051057a2563bfa5-artsy-eigen-108-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/b5d81b100051057aa563bfa5-artsy-eigen-110-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/25a36d10001a8ef8e2f9cfa5-artsy-eigen-111-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/34d36d10001a8ef85ff9cfa5-artsy-eigen-112-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/3d936d10001a8ef8f0f9cfa5-artsy-eigen-103-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/00a36d10001a8ef8a1f9cfa5-artsy-eigen-106-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/61d81b100051057ae463bfa5-artsy-eigen-107-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/6ec81b100051057a8363bfa5-artsy-eigen-102-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/78c81b100051057a0263bfa5-artsy-eigen-0-0?X-Amz-…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/f5d81b100051057aa563bfa5-artsy-eigen-111-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/6fc81b100051057a2463bfa5-artsy-eigen-103-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/ffc81b100051057a5463bfa5-artsy-eigen-105-0?X-Am…"
+6aae1316,fixture/spec/build/a9ce2831.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/5f191b100051057a0d73bfa5-artsy-eigen-115-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/7b936d10001a8ef830f9cfa5-artsy-eigen-102-0?X-Am…"
+6aae1316,fixture/spec/build/e038314c.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/6ec81b100051057a8363bfa5-artsy-eigen-102-0?X-Am…"
+6aae1316,fixture/spec/build/22ac2671.json,AWS Client ID,1,FN (bỏ sót),0.7305,1,regex,"""output_url"" : ""https://circle-production-action-output.s3.amazonaws.com/8c046d10001a8ef8dd0acfa5-artsy-eigen-114-0?X-Am…"
+c41bb134,test/conf/setting/9279daa5.config,Secret,1,FN (bỏ sót),0.7302,1,regex,"jwt-secret = ""<VALUE>"""
+fc8343f4,test/util/conf/kube/app/2c4fb397.go,Token,1,FN (bỏ sót),0.7283,1,assignment,token: <VALUE>
+fc8343f4,test/util/conf/kube/app/2c4fb397.go,Token,1,FN (bỏ sót),0.7283,1,assignment,token: <VALUE>
+fc8343f4,test/pkg/kube/7297f08c.go,Auth,1,FN (bỏ sót),0.7266,1,assignment,"v1.DockerConfigJsonKey: []byte(`{""auths"": {""` + repo + `"": {""auth"": ""<VALUE>""}}}`),"
+71455799,test/pkg/23621a2f.json,UUID,1,FN (bỏ sót),0.724,1,assignment,"""kms_key_id"": ""arn:aws:kms:eu-west-3:929327065333:key/<VALUE>"","
+6ac1fb2d,src/example/30f07a2d.json,UUID,1,FN (bỏ sót),0.7198,1,assignment,"""KmsKeyId"": ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,JSON Web Token:Azure Access Token,1,FN (bỏ sót),0.7198,1,assignment,"""assertion"": ""<VALUE>"","
+6ac1fb2d,src/example/30f07a2d.json,UUID,1,FN (bỏ sót),0.7198,1,assignment,"""KmsKeyId"": ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+6ac1fb2d,src/example/30f07a2d.json,UUID,1,FN (bỏ sót),0.7198,1,assignment,"""KmsKeyId"": ""arn:aws:kms:us-east-1:012345678912:key/<VALUE>"","
+71455799,test/pkg/2f5ec5c9.json,UUID,1,FN (bỏ sót),0.7142,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/ecba24d2.tfstate,UUID,1,FN (bỏ sót),0.7142,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+fc8343f4,api/kube/app/fuzz/36e47938.go,Secret,1,FN (bỏ sót),0.7142,1,regex,"obj.Token = &bootstraptokenv1.BootstrapTokenString{ID: ""uvxdac"", Secret: ""<VALUE>""}"
+71455799,test/pkg/d5838101.json,UUID,1,FN (bỏ sót),0.7142,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+fc8343f4,test/src/pkg/api/server/cea53d7f.go,Secret,1,FN (bỏ sót),0.7139,1,assignment,"in:   apiserver.Key{Secret: ""<VALUE>""},"
+fc8343f4,test/pkg/kube/fb2b1206.go,Auth,1,FN (bỏ sót),0.7112,1,assignment,"dockerCfg := map[string]map[string]string{""index.docker.io/v1/"": {""email"": ""passed-email"", ""auth"": ""<VALUE>""}}"
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7105,1,assignment,"v1.DockerConfigJsonKey: []byte(`{""auths"": {""test.registry.io"": {""auth"": ""<VALUE>""}}}`),"
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7105,1,assignment,"v1.DockerConfigJsonKey: []byte(`{""auths"": {""test.registry.io"": {""auth"": ""<VALUE>""}}}`),"
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7105,1,assignment,"v1.DockerConfigJsonKey: []byte(`{""auths"": {""test.registry.io"": {""auth"": ""<VALUE>""}}}`),"
+fc8343f4,test/secret/pkg/690529d7.go,Auth,1,FN (bỏ sót),0.7105,1,assignment,"v1.DockerConfigJsonKey: []byte(`{""auths"": {""foobar.io"": {""auth"": ""<VALUE>""}}}`),"
+49b08818,fixture/5759a792.r,Password,1,FN (bỏ sót),0.7087,1,assignment,`password` = '<VALUE>'
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.7047,1,token,"62 25 7:1 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-test rw,relatime shared:38 - ext4 …"
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.7047,1,token,"62 25 7:1 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-test rw,relatime shared:38 - ext4 …"
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.7043,1,token,"95 25 7:1 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-test rw,relatime shared:38 - ext4 …"
+6ac1fb2d,src/example/dfc4bf62.json,UUID,1,FN (bỏ sót),0.7032,1,assignment,"""url"": ""https://prod-us-west-2-uploads.s3-us-west-2.amazonaws.com/arn%3Aaws%3Adevicefarm%3Aus-west-2%3A123456789101%3Apr…"
+fc8343f4,resource/vendor/512dff69.go,UUID,1,FN (bỏ sót),0.7001,1,assignment,// stream:logs/main/<VALUE>'
+fc8343f4,resource/vendor/eb3cdab6.go,UUID,1,FN (bỏ sót),0.7001,1,assignment,// stream:logs/main/<VALUE>'
+5504e505,spec/82f3200a.rb,Secret,1,FN (bỏ sót),0.6975,1,assignment,"'secret' => '<VALUE>',"
+5504e505,spec/82f3200a.rb,Secret,1,FN (bỏ sót),0.6975,1,assignment,"'secret' => '<VALUE>',"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.6935,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%40google.com?secret=<VALUE>&algorithm=SHA256'
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.6935,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%40google.com?secret=<VALUE>&algorithm=SHA512'
+fc8343f4,test/kube/app/1966268c.go,Key,1,FN (bỏ sót),0.6901,1,assignment,certificateKey: <VALUE>
+cfdcc4f3,_/a390b1d7.yml,Token,1,FN (bỏ sót),0.686,1,regex,"cloudflare_token: ""<VALUE>"""
+fc8343f4,test/24738c01.go,Token,1,FN (bỏ sót),0.6856,1,assignment,"token := ""<VALUE>"" // Fake token for testing."
+fc8343f4,test/24738c01.go,Token,1,FN (bỏ sót),0.6856,1,assignment,"token := ""<VALUE>"" // Fake token for testing."
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.6847,1,token,"62 25 0:46 /vol1/foo /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-test rw,relatime shared:3…"
+fc8343f4,test/util/pkg/b629d1a5.go,UUID,1,FN (bỏ sót),0.6843,1,token,"`840 60 8:0 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~iscsi/mypv rw,relatime shared:421 - ext4 /dev/sda rw,c…"
+b6263275,src/f31843d1.properties,Key,1,FN (bỏ sót),0.6834,1,assignment,tgc.signing.key=<VALUE>
+784d78e8,docs/8762af8b.md,Password,1,FN (bỏ sót),0.6814,1,assignment,+ 1.使用 `kubectl create secret docker-registry harborkey1 --docker-server=harbor.test.com --docker-username=admin --docke…
+6ac1fb2d,src/example/e8312de5.json,UUID,1,FN (bỏ sót),0.678,1,assignment,"""KMSKeyID"": ""arn:aws:kms:us-east-1:123456789012:key/<VALUE>"","
+5504e505,fixture/spec/dcf5e142,Token,1,FN (bỏ sót),0.6757,1,assignment,token: <VALUE>
+5504e505,fixture/spec/dcf5e142,Token,1,FN (bỏ sót),0.6757,1,assignment,token: <VALUE>
+5504e505,fixture/spec/4b4c548d,Token,1,FN (bỏ sót),0.6757,1,assignment,token: <VALUE>
+71455799,test/pkg/23621a2f.json,UUID,1,FN (bỏ sót),0.6749,1,assignment,"""performance_insights_kms_key_id"": ""arn:aws:kms:eu-west-3:929327065333:key/<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,Token,1,FN (bỏ sót),0.673,1,assignment,"""GrantToken"": ""<VALUE>"""
+fc8343f4,test/util/api/kube/app/5ced3281.go,Secret,1,FN (bỏ sót),0.6726,1,regex,"{token: ""123456.<VALUE>"", expectedError: false, bts: &BootstrapTokenString{ID: ""123456"", Secret: ""<VALUE>""}},"
+fc8343f4,test/util/api/kube/app/5ced3281.go,Secret,1,FN (bỏ sót),0.6699,1,regex,"{`""123456.<VALUE>""`, &BootstrapTokenString{ID: ""123456"", Secret: ""<VALUE>""}, false},"
+fdbe07ac,test/2ebef03a.go,Password,1,FN (bỏ sót),0.6689,1,assignment,"c.Password = ""<VALUE>"""
+fdbe07ac,test/2ebef03a.go,Password,1,FN (bỏ sót),0.6689,1,assignment,"c.Password = ""<VALUE>"""
+fdbe07ac,test/2ebef03a.go,Password,1,FN (bỏ sót),0.6689,1,assignment,"c.Password = ""<VALUE>"""
+fdbe07ac,test/2ebef03a.go,Password,1,FN (bỏ sót),0.6689,1,assignment,"c.Password = ""<VALUE>"""
+98a9ba4e,tool/docs/app/99d3c5a8.md,Key:API,1,FN (bỏ sót),0.6656,1,assignment,"""morning_news_api_key"": ""<VALUE>""  // sample key"
+49b08818,fixture/c0c4ebcf.txt,Token,1,FN (bỏ sót),0.6652,1,assignment,curl -X GET --header 'Accept: application/json' --header 'user-token: <VALUE>' 'http://localhost:8080/api/retail/books/l…
+6ac1fb2d,src/example/e8312de5.json,UUID,1,FN (bỏ sót),0.6645,1,assignment,"""KMSKeyID"": ""arn:aws:kms:us-east-1:767671399759:key/<VALUE>"","
+b6263275,src/9eef4790.properties,Key:Secret,1,FN (bỏ sót),0.6645,1,assignment,# ticket.signing.secretkey=<VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/f2f067d6.go,Secret,1,FN (bỏ sót),0.6631,1,assignment,"{Name: ""key2"", Secret: ""<VALUE>""},"
+fc8343f4,test/src/conf/pkg/api/opt/server/f2f067d6.go,Secret,1,FN (bỏ sót),0.6631,1,assignment,"{Name: ""key2"", Secret: ""<VALUE>""},"
+5504e505,fixture/spec/ef007d88,Auth:Token,1,FN (bỏ sót),0.6574,1,assignment,oauth_token=<VALUE>&oauth_token_secret=2EEfA6BG3ly3sR3RjE0IBSnlQu4ZrUzPiYKmrkVU&user_id=6253282&screen_name=twitterapi
+fc8343f4,test/secret/35a514ec.yaml,Password,1,FN (bỏ sót),0.6564,1,assignment,password: <VALUE>
+6aae1316,fixture/spec/7d88565f.json,UUID,1,FN (bỏ sót),0.6474,1,assignment,"""imageUrl"": ""https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=<VALUE>"","
+6aae1316,fixture/spec/7d88565f.json,UUID,1,FN (bỏ sót),0.6474,1,assignment,"""imageUrl"": ""https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=<VALUE>"","
+6aae1316,fixture/spec/7d88565f.json,UUID,1,FN (bỏ sót),0.6474,1,assignment,"""imageUrl"": ""https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=<VALUE>"","
+fc8343f4,test/util/api/kube/app/5ced3281.go,Secret,1,FN (bỏ sót),0.6454,1,regex,"{id: ""123456"", secret: ""<VALUE>"", expectedError: false, bts: &BootstrapTokenString{ID: ""123456"", Secret: ""<VALUE>""}},"
+6ac1fb2d,src/example/f4ccf252.json,Token,1,FN (bỏ sót),0.6447,1,assignment,"""NextToken"": ""<VALUE>"""
+6ac1fb2d,src/example/756f925b.json,Token,1,FN (bỏ sót),0.6446,1,assignment,"""NextToken"": ""<VALUE>"","
+6ac1fb2d,src/example/bd83fc77.json,Token,1,FN (bỏ sót),0.6446,1,assignment,"""NextToken"": ""<VALUE>"","
+6ac1fb2d,src/example/eed03d1b.json,Token,1,FN (bỏ sót),0.6446,1,assignment,"""NextToken"": ""<VALUE>"","
+fc8343f4,test/src/ca76c478.go,UUID,1,FN (bỏ sót),0.6425,1,assignment,"VolumePath: "" [vsanDatastore] <VALUE>/kubernetes-dynamic-pvc-"" + string(uuid.NewUUID()+"".vmdk""),"
+6aae1316,_/3ab46ee2.yml,Token,1,FN (bỏ sót),0.6383,1,assignment,TOKEN+='<VALUE>'
+fc8343f4,test/src/conf/pkg/api/opt/server/f2f067d6.go,Secret,1,FN (bỏ sót),0.6302,1,assignment,"{Name: ""key1"", Secret: ""<VALUE>""},"
+fc8343f4,test/src/conf/pkg/api/opt/server/f2f067d6.go,Secret,1,FN (bỏ sót),0.6302,1,assignment,"{Name: ""key1"", Secret: ""<VALUE>""},"
+a8bdca79,src/b7495e52.java,Token,1,FN (bỏ sót),0.6293,1,assignment,* https://openapi.baidu.com/rest/2.0/passport/users/getInfo?access_token=<VALUE>
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.6262,1,token,"77 25 252:0 /mnt/disks/vol2 /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-1fb30a1c rw,relati…"
+fc8343f4,test/kube/app/1966268c.go,Key,1,FN (bỏ sót),0.6261,1,assignment,"CertificateKey: ""<VALUE>"","
+fc8343f4,test/59ac16d4.go,UUID,1,FN (bỏ sót),0.6233,1,token,//	/var/lib/kubelet/pods/<VALUE>/volumeDevices/kubernetes.io~aws-ebs/pvc-5f9f80f5-c90b-4586-9966-83f91711e1c0
+71455799,test/pkg/6c3ee8a9.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/6dace32a.tfstate,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/6c3ee8a9.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/641033fd.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/6dace32a.tfstate,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/6dace32a.tfstate,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/641033fd.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/6c3ee8a9.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/641033fd.json,UUID,1,FN (bỏ sót),0.6221,1,assignment,"""target_key_arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+49b08818,fixture/341ddfa2.ex,Password,1,FN (bỏ sót),0.6214,1,assignment,"body: ~s|{""userName"":""username123"",""password"":""<VALUE>"", ""authLoginDomain"":""local""}|"
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.6191,1,token,"228 25 0:76 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-8f263585 rw,relatime shared:41 -…"
+c25fb835,secret/0298c785.yml,Password,1,FN (bỏ sót),0.6169,1,assignment,rootPassword: <VALUE>
+fdbe07ac,test/vendor/285a035f.go,Key,1,FN (bỏ sót),0.6119,1,assignment,"EncryptionKey: ""<VALUE>"","
+43e1f4ea,test/src/conf/resource/78c35381.json,Auth,1,FN (bỏ sót),0.6058,1,assignment,"""auth"": ""<VALUE>"""
+6aae1316,lib/spec/0e1cae4f.rb,API:Token,1,FN (bỏ sót),0.6045,1,assignment,"""DANGER_GITLAB_API_TOKEN"" => ""<VALUE>"""
+6aae1316,spec/a21f5d95.rb,API:Token,1,FN (bỏ sót),0.6045,1,assignment,"""DANGER_GITLAB_API_TOKEN"" => ""<VALUE>"""
+6aae1316,spec/a21f5d95.rb,API:Token,1,FN (bỏ sót),0.6045,1,assignment,"""DANGER_GITLAB_API_TOKEN"" => ""<VALUE>"""
+6aae1316,lib/spec/0e1cae4f.rb,API:Token,1,FN (bỏ sót),0.6045,1,assignment,"""DANGER_GITLAB_API_TOKEN"" => ""<VALUE>"""
+6ac1fb2d,src/example/security/63240134.json,Token,1,FN (bỏ sót),0.6029,1,assignment,"""NextToken"": ""<VALUE>"""
+5504e505,fixture/spec/4e6a9de0,Auth:Token,1,FN (bỏ sót),0.6016,1,assignment,oauth_token=<VALUE>&oauth_token_secret=Kd75W4OQfb2oJTV0vzGzeXftVAwgMnEK9MumzYcM&oauth_callback_confirmed=true
+784d78e8,docker/46c9c020,Password,1,FN (bỏ sót),0.597,1,assignment,"PASS=""<VALUE>"""
+fc8343f4,test/src/pkg/api/server/4d55d83d.go,Credential:Key,1,FN (bỏ sót),0.5929,1,assignment,"user.CredentialIDKey: {""<VALUE>""},"
+71455799,test/pkg/2f5ec5c9.json,UUID,1,FN (bỏ sót),0.5914,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/d5838101.json,UUID,1,FN (bỏ sót),0.5914,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/ecba24d2.tfstate,UUID,1,FN (bỏ sót),0.5914,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+fc8343f4,test/src/pkg/api/server/4d55d83d.go,Credential:Key,1,FN (bỏ sót),0.5902,1,assignment,"user.CredentialIDKey: {""<VALUE>""},"
+4f40bf46,app/3b3ed452.json,Firebase Domain,1,FN (bỏ sót),0.5902,1,assignment,"""firebase_url"": ""https://<VALUE>"","
+fc8343f4,test/src/pkg/api/server/4d55d83d.go,Credential:Key,1,FN (bỏ sót),0.5902,1,assignment,"user.CredentialIDKey: {""<VALUE>""},"
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.5886,1,assignment,"""subjectToken"": ""<VALUE>"","
+b6263275,src/9eef4790.properties,Key,1,FN (bỏ sót),0.5867,1,assignment,webflow.encryption.key=<VALUE>
+fc8343f4,test/59ac16d4.go,UUID,1,FN (bỏ sót),0.5858,1,token,//	/var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~secret/default-token-rphdt
+fc8343f4,test/src/pkg/api/server/4d55d83d.go,Credential:Key,1,FN (bỏ sót),0.5853,1,assignment,"user.CredentialIDKey: {""<VALUE>""},"
+8bc560cd,doc/aa120f99.html,Secret:OTP / 2FA Secret,1,FN (bỏ sót),0.5825,1,assignment,"<pre class=""code""><span class='hotp identifier id'>hotp</span><span class='dot token'>.</span><span class='provisioning_…"
+8bc560cd,doc/9beec570.html,Secret:OTP / 2FA Secret,1,FN (bỏ sót),0.5825,1,assignment,"<pre class=""code""><span class='hotp identifier id'>hotp</span><span class='dot token'>.</span><span class='provisioning_…"
+d2d68c6f,build/49a96e7e.gradle,URL Credentials,1,FN (bỏ sót),0.5804,1,url,"buildConfigField 'String', 'SENTRY_DSN', 'https://0263d6473bd24a9ba40e25aa5fb0a242:<VALUE>@sentry.io/233260'"
+fc8343f4,vendor/d7f414b5.md,Key,1,FN (bỏ sót),0.5788,1,assignment,[1]: https://spreadsheets.google.com/spreadsheet/viewform?formkey=<VALUE>&ndplr=1
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+6ac1fb2d,src/example/cf1af7f0.json,Token,1,FN (bỏ sót),0.576,1,assignment,"""accessToken"": ""<VALUE>"","
+d2d68c6f,test/src/sample/resource/lang/app/106c3d5b.j,API:Key,1,FN (bỏ sót),0.5729,1,assignment,"""&media=photos&machine_tag_mode=any&per_page=20&format=json&api_key=<VALUE>""];"
+cfdcc4f3,template/71fd10b0.conf,Password,1,FN (bỏ sót),0.572,1,regex,"# password = ""<VALUE>"""
+cfdcc4f3,_/dec4b5eb.yml,Password,1,FN (bỏ sót),0.5691,1,assignment,"POSTGRES_PASSWORD: ""<VALUE>"""
+a5c3685e,spec/1a188978.rb,Auth:Token,1,FN (bỏ sót),0.5624,1,assignment,"authorization_token: '<VALUE>',"
+71455799,test/pkg/ecba24d2.tfstate,UUID,1,FN (bỏ sót),0.5547,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/d5838101.json,UUID,1,FN (bỏ sót),0.5547,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+71455799,test/pkg/2f5ec5c9.json,UUID,1,FN (bỏ sót),0.5547,1,assignment,"""arn"": ""arn:aws:kms:eu-west-3:047081014315:key/<VALUE>"","
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.5509,1,token,"56 25 252:0 /mnt/disks/vol1 /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-test rw,relatime s…"
+c2eb9e71,api/71bf72fd.yml,API:Key,1,FN (bỏ sót),0.5468,1,assignment,api_key: <VALUE>
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.5456,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Provider1:Alice%20Smith?secret=<VALUE>&issuer=Provider1'
+6aae1316,lib/spec/server/31cb2a2e.rb,Auth:Basic Authorization,1,FN (bỏ sót),0.5453,1,assignment,":headers => {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Authorization'=>'Basic <VAL…"
+fc8343f4,test/src/pkg/api/server/4d55d83d.go,Credential:Key,1,FN (bỏ sót),0.5445,1,assignment,"user.CredentialIDKey: {""<VALUE>""},"
+71455799,test/resource/pkg/004bbc21.tf,Password,1,FN (bỏ sót),0.5418,1,assignment,"password             = ""<VALUE>"""
+71455799,test/pkg/f9312afb.tf,Password,1,FN (bỏ sót),0.5418,1,assignment,"password             = ""<VALUE>"""
+6ac1fb2d,src/example/30f07a2d.json,UUID,1,FN (bỏ sót),0.5391,1,assignment,"""KmsKeyId"": ""arn:aws:fsx:us-east-1:012345678912:key/<VALUE>"","
+cfdcc4f3,_/7be6987d.yml,Password,1,FN (bỏ sót),0.5384,1,assignment,"krusader_vnc_password: ""<VALUE>"""
+fc8343f4,test/src/util/026683af.go,UUID,1,FN (bỏ sót),0.5353,1,token,"196 25 0:76 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~local-volume/local-pv-8f263585 rw,relatime shared:41 -…"
+cfdcc4f3,_/7be6987d.yml,Password,1,FN (bỏ sót),0.5291,1,assignment,"password: ""<VALUE>"""
+46a1f50f,lib/65081627.rb,Token,1,FN (bỏ sót),0.529,1,assignment,":access_token => '<VALUE>',"
+6ac1fb2d,src/example/6afa54fa.php,Token,1,FN (bỏ sót),0.5262,1,assignment,"return [ 'version' => '1.0', 'examples' => [ 'GetExecutionPreview' => [ [ 'input' => [ 'ExecutionPreviewId' => '<VALUE>'…"
+d2d68c6f,test/src/sample/resource/lang/app/106c3d5b.j,API:Key,1,FN (bỏ sót),0.5223,1,assignment,"var request = [CPURLRequest requestWithURL:""http://www.flickr.com/services/rest/?method=flickr.interestingness.getList&p…"
+784d78e8,docs/59bb2be3.md,URL Credentials,1,FN (bỏ sót),0.5181,1,url,http://admin:<VALUE>@jenkins.local.com/project/k8s-test
+49b08818,fixture/22a38fb8.txt,Password,1,FN (bỏ sót),0.5166,1,assignment,"curl -v -H ""Content-Type: application/json"" -H ""X-API-Version: 200"" -d '{""userName"":""username123"",""password"":""<VALUE>"", …"
+fc8343f4,test/0c4b4dbd.go,Secret,1,FN (bỏ sót),0.5107,1,assignment,"oldSecret    = ""<VALUE>"""
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.5103,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%40google.com?secret=<VALUE>'
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.5102,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.5079,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Alice_Smith?secret=<VALUE>'
+fc8343f4,test/conf/pkg/8fd94ef5.go,Auth,1,FN (bỏ sót),0.5072,1,assignment,"input: []byte(`{""username"": ""foo"", ""password"": ""bar"", ""auth"": ""<VALUE>"", ""email"": ""foo@example.com""}`),"
+b76321b2,docker/e45e45ba.yml,Password,1,FN (bỏ sót),0.5045,1,assignment,MYSQL_ALLOW_EMPTY_PASSWORD: <VALUE>
+fc8343f4,test/util/api/kube/app/5ced3281.go,Secret,1,FN (bỏ sót),0.4992,1,regex,"{id: ""123456"", secret: ""<VALUE>"", expectedError: true, bts: nil}, // invalid token secret"
+6ac1fb2d,src/example/2284eb1e.json,UUID,1,FN (bỏ sót),0.4917,1,assignment,"""instructionsUrl"": ""https://catalog.us-east-1.prod.workshops.aws/workshops/<VALUE>/en-US/2-foundation/lab1-create"","
+8bc560cd,lib/spec/9e8b926c.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.4893,1,assignment,.to eq 'otpauth://totp/mark%40percival?secret=<VALUE>'
+00408ef6,lib/8a4d2e16.c,Nonce,1,FN (bỏ sót),0.4877,1,assignment,"nonce=""<VALUE>"", uri=""/64"", response=""<VALUE>"""
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.4829,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/%20%20alice%40google.com?secret=<VALUE>'
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.4829,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%2B1234%40google.com?secret=<VALUE>'
+43e1f4ea,test/src/modul/a6f3081b.java,Password,1,FN (bỏ sót),0.4794,1,assignment,"private static final String ELASTICSEARCH_PASSWORD = ""<VALUE>"";"
+fc8343f4,src/pkg/api/server/55dffdf4.go,Secret,1,FN (bỏ sót),0.475,1,assignment,secret: <VALUE>
+fc8343f4,src/pkg/api/server/50bae975.go,Secret,1,FN (bỏ sót),0.475,1,assignment,secret: <VALUE>
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.4734,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v0\"",\""ClaimInfo…"
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.4734,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""ClaimInfo…"
+fc8343f4,test/pkg/d001c809.go,Key,1,FN (bỏ sót),0.4632,1,assignment,"wantKeyset: `<VALUE>`,"
+fc8343f4,test/pkg/d001c809.go,Key,1,FN (bỏ sót),0.4632,1,assignment,"wantKeyset: `<VALUE>`,"
+fc8343f4,test/pkg/d001c809.go,Key,1,FN (bỏ sót),0.4632,1,assignment,"wantKeyset:      `<VALUE>`,"
+fc8343f4,test/pkg/d001c809.go,Key,1,FN (bỏ sót),0.4632,1,assignment,"wantKeyset: `<VALUE>`,"
+f5e5719b,test/internal/9ebaf615.go,Secret,1,FN (bỏ sót),0.4616,1,token,"secret := splitHexString(""<VALUE>"")"
+a8bdca79,test/src/util/1a5f2491.java,Auth:Nonce,1,FN (bỏ sót),0.4605,1,token,"assertEquals(""OAuth oauth_verifier=\""lYou4gxfA6S5KioUa8VF8HCShzA2nSxp\"", oauth_nonce=\""<VALUE>\"", oauth_signature=\""<VAL…"
+92f440ce,test/8d704628.php,Password,1,FN (bỏ sót),0.4391,1,assignment,private const PASSWORD = '<VALUE>';
+fc8343f4,_/35c41f50.md,UUID,1,FN (bỏ sót),0.438,1,token,"* I0109 11:17:59.430113       1 vsphere.go:1334] The canonical volume path for the newly created vSphere volume is ""[vsa…"
+cfdcc4f3,_/7e5c5a58.yml,Password,1,FN (bỏ sót),0.4362,1,assignment,"DB_PASSWORD: ""<VALUE>"""
+8c3c80e8,test/30a13d20.js,Password,1,FN (bỏ sót),0.4303,1,assignment,"password: '<VALUE>',"
+8c3c80e8,test/30a13d20.js,Password,1,FN (bỏ sót),0.4303,1,assignment,"password: '<VALUE>',"
+43e1f4ea,test/src/conf/resource/7aef3c2b.json,Auth,1,FN (bỏ sót),0.4302,1,assignment,"""auth"": ""<VALUE>"""
+43e1f4ea,test/src/conf/resource/c0b5ffb3.json,Auth,1,FN (bỏ sót),0.4302,1,assignment,"""auth"": ""<VALUE>"""
+784d78e8,cluster/template/25820bb5.j2,Password,1,FN (bỏ sót),0.4246,1,assignment,adminPassword: <VALUE>
+c25fb835,secret/0ea8ab87.yml,Password,1,FN (bỏ sót),0.4219,1,assignment,db-password: <VALUE>
+c25fb835,secret/e194e1c4.yml,Password,1,FN (bỏ sót),0.4219,1,assignment,db-password: <VALUE>
+0401c075,conf/0795adfe.ini,Password,1,FN (bỏ sót),0.4164,1,assignment,password=<VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/6367a50f.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/6367a50f.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/98f18019.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/secret/5e347550.go,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/98f18019.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/214d6b90.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/214d6b90.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/secret/pkg/api/opt/server/aa6e1ad7.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/secret/5e347550.go,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/c9a5e69c.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/bb9e4104.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/bb9e4104.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/util/b35209d3.go,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2155.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2191.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2191.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2155.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/util/b35209d3.go,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/secret/pkg/api/opt/server/aa6e1ad7.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/858d7960.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/dea86a23.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/dea86a23.yaml,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+fc8343f4,test/cf16f4f8.go,Secret,1,FN (bỏ sót),0.4057,1,assignment,secret: <VALUE>
+c25fb835,secret/c0c412f9.yml,Password,1,FN (bỏ sót),0.4042,1,assignment,password: <VALUE>
+c25fb835,secret/0298c785.yml,Password,1,FN (bỏ sót),0.4042,1,assignment,password: <VALUE>
+a8bdca79,test/src/util/1a5f2491.java,Auth:Nonce,1,FN (bỏ sót),0.4022,1,token,"assertEquals(""OAuth oauth_nonce=\""<VALUE>\"", oauth_signature=\""yHHq2J1W5QLAO8gGipnY1V%2Bzxqk%3D\"", oauth_token=\""1961977…"
+fc8343f4,lib/etc/cb1b0cba.sh,Key,1,FN (bỏ sót),0.3911,1,assignment,"curl -fs -X POST ""${KUBE_INTEGRATION_ETCD_URL}/v3/kv/put"" -d '{""key"": ""<VALUE>"", ""value"": """"}'"
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3911,1,token,"901 101 8:1 /dir1 /var/lib/kubelet/pods/<VALUE>/volume-subpaths/vol1/subpath1/1 rw,relatime shared:290 - ext4 /dev/sdd r…"
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.3865,1,assignment,"""SessionToken"": ""<VALUE>"""
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3854,1,token,"900 100 8:48 /dir1 /var/lib/kubelet/pods/<VALUE>/volume-subpaths/vol1/subpath1/0 rw,relatime shared:290 - ext4 /dev/sdd …"
+a8bdca79,test/src/util/1a5f2491.java,Auth:Nonce,1,FN (bỏ sót),0.3838,1,token,"assertEquals(""OAuth oauth_nonce=\""<VALUE>\"", oauth_signature=\""%2BL5Jq%2FTaKubge04cWw%2B4yfjFlaU%3D\"", oauth_callback=\""…"
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.3835,1,assignment,"- ""Authorization: <VALUE>"""
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3825,1,token,698 186 0:41 /tmp1/dir1 /var/lib/kubelet/pods/<VALUE>/volume-subpaths/vol1/subpath1/0 rw shared:26 - tmpfs tmpfs rw
+b6263275,src/resource/app/b204a7df.properties,Password:Key,1,FN (bỏ sót),0.3749,1,assignment,#server.ssl.key-password=<VALUE>
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3749,1,token,"818 77 8:40 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~gce-pd/vol1 rw,relatime shared:290 - ext4 /dev/sdc rw,…"
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3749,1,token,"819 78 8:48 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~gce-pd/vol1 rw,relatime shared:290 - ext4 /dev/sdd rw,…"
+fc8343f4,test/src/conf/pkg/api/opt/server/98f18019.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/98f18019.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/214d6b90.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/214d6b90.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/6367a50f.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/6367a50f.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/secret/pkg/api/opt/server/aa6e1ad7.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/secret/pkg/api/opt/server/aa6e1ad7.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2191.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2191.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2155.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/b7fa2155.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/bb9e4104.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/dea86a23.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/dea86a23.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+fc8343f4,test/src/conf/pkg/api/opt/server/bb9e4104.yaml,Secret,1,FN (bỏ sót),0.3745,1,assignment,secret: <VALUE>
+b82c1b9d,conf/fixture/build/0dfb6fbd.yml,Password,1,FN (bỏ sót),0.3738,1,assignment,password: <VALUE>
+cfdcc4f3,_/7e5c5a58.yml,Password,1,FN (bỏ sót),0.3728,1,assignment,"MYSQL_ROOT_PASSWORD: ""<VALUE>"""
+cfdcc4f3,_/7e5c5a58.yml,Password,1,FN (bỏ sót),0.3728,1,assignment,"MYSQL_PASSWORD: ""<VALUE>"""
+fc8343f4,test/src/pkg/kube/52a9cfae.go,UUID,1,FN (bỏ sót),0.3693,1,assignment,"testJSON := `'{""kind"":""SerializedReference"",""apiVersion"":""v1"",""reference"":{""kind"":""ReplicationController"",""namespace"":""d…"
+fc8343f4,test/src/resource/pkg/88753679.go,Password,1,FN (bỏ sót),0.3678,1,assignment,DB_PASSWORD: <VALUE>
+c41bb134,test/fixture/e9d57348.sql,Secret,1,FN (bỏ sót),0.3596,1,regex,ALTER ROLE postgrest_test_authenticator IN DATABASE :DBNAME SET pgrst.jwt_secret = '<VALUE>';
+71455799,test/pkg/87378121.tfstate,Password,1,FN (bỏ sót),0.3503,1,assignment,"""password"": ""<VALUE>"","
+c41bb134,test/28ae4445.hs,Password,1,FN (bỏ sót),0.343,1,assignment,"[json| { ""password"": ""<VALUE>"" } |]"
+c41bb134,test/30516eac.hs,Password,1,FN (bỏ sót),0.343,1,assignment,"[json| { ""password"": ""<VALUE>"" } |]"
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.3423,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+8c3c80e8,_/6b688a3f.lua,Secret,1,FN (bỏ sót),0.3416,1,assignment,"--	component_secret = ""<VALUE>"""
+c41bb134,test/fixture/e9d57348.sql,Auth:Secret,1,FN (bỏ sót),0.3397,1,regex,ALTER ROLE other_authenticator SET pgrst.jwt_secret = '<VALUE>';
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.3355,1,assignment,"""WebIdentityToken"": ""<VALUE>"""
+fc8343f4,test/src/pkg/api/server/e77bcab2.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/348a3e28.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/e77bcab2.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/e77bcab2.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/348a3e28.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/e77bcab2.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/348a3e28.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/pkg/api/server/348a3e28.go,Token,1,FN (bỏ sót),0.3335,1,assignment,"token: ""<VALUE>"","
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3313,1,token,902 102 8:1 /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~empty-dir/vol1/dir1 /var/lib/kubelet/pods/<VALUE>/volume…
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.3313,1,token,903 103 8:1 /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~empty-dir/vol2/dir1 /var/lib/kubelet/pods/<VALUE>/volume…
+fc8343f4,api/kube/app/5c925db2.go,Key,1,FN (bỏ sót),0.3313,1,assignment,"//	certificateKey: ""<VALUE>"""
+fc8343f4,api/kube/app/14126f76.go,Key,1,FN (bỏ sót),0.3313,1,assignment,"//	certificateKey: ""<VALUE>"""
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.3236,1,assignment,"""SessionToken"": ""<VALUE>"""
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3235,1,assignment,"expectedCheckpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""C…"
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3235,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""ClaimInfo…"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.3216,1,assignment,expect(uri.to_s).to eq 'otpauth://hotp/alice%40google.com?secret=<VALUE>&counter=17'
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3206,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""ClaimInfo…"
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3206,1,assignment,"expectedCheckpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""C…"
+f06251db,src/resource/app/c3ca6306.properties,Password:Auth,1,FN (bỏ sót),0.3136,1,assignment,auth.password=<VALUE>
+6ac1fb2d,src/example/security/63240134.json,Token,1,FN (bỏ sót),0.3127,1,assignment,"""NextToken"": ""<VALUE>"","
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.3124,1,assignment,"- ""Authorization: <VALUE>"""
+b82c1b9d,conf/fixture/build/0dfb6fbd.yml,URL Credentials,1,FN (bỏ sót),0.3124,1,url,"url: {{envOr ""TEST_DATABASE_URL"" ""<VALUE>://<VALUE>:<VALUE>@127.0.0.1:5432/coke_test?sslmode=disable""}}"
+6aae1316,lib/spec/7add020c.rb,Token,1,FN (bỏ sót),0.3063,1,assignment,"download_url = ""https://gitlab.com/api/v4/projects/1/repository/files/Dangerfile/raw?private_token=<VALUE>&ref=master"""
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3056,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""Entries\""…"
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3056,1,assignment,"expectedCheckpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""C…"
+fc8343f4,test/pkg/kube/96772dcc.go,UUID,1,FN (bỏ sót),0.3056,1,assignment,"checkpointContent: `{""Data"":""{\""kind\"":\""DRACheckpoint\"",\""apiVersion\"":\""checkpoint.dra.kubelet.k8s.io/v1\"",\""ClaimInfo…"
+c41bb134,test/fixture/e9d57348.sql,Auth:Secret,1,FN (bỏ sót),0.3054,1,regex,ALTER ROLE postgrest_test_authenticator SET pgrst.jwt_secret = '<VALUE>';
+43e1f4ea,test/src/server/modul/b5ec5339.java,Password,1,FN (bỏ sót),0.3027,1,regex,"static final String DEFAULT_PASSWORD = ""<VALUE>"";"
+cfdcc4f3,_/7be6987d.yml,Password,1,FN (bỏ sót),0.2971,1,assignment,<VALUE>_password: <VALUE>
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.2895,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+49b08818,fixture/python/0fa02ca1.py,Password:Auth,1,FN (bỏ sót),0.2893,1,assignment,"'auth_pwd': '<VALUE>',"
+49b08818,fixture/cf5e135b.json,Password:Auth,1,FN (bỏ sót),0.2893,1,assignment,"""auth_pwd"": ""<VALUE>"","
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.2834,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+f5e5719b,test/internal/a8ac38a1.go,Token,1,FN (bỏ sót),0.2769,1,assignment,"Expect(p.String()).To(Equal(""&wire.TransportParameters{OriginalDestinationConnectionID: deadbeef, InitialSourceConnectio…"
+680ef0c1,test/client/0402e6b2.go,API:Password,1,FN (bỏ sót),0.2736,1,assignment,"clientConfig.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/client/0402e6b2.go,API:Password,1,FN (bỏ sót),0.2736,1,assignment,"clientConfig.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/1914ca3b.go,Token,1,FN (bỏ sót),0.2722,1,regex,"tokProvider:          newTokenProvider(&AccessToken{Token: ""<VALUE>""}, ErrTokenFailure),"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.272,1,token,"let auth = authHeaderJWT ""<VALUE>"" in"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.272,1,token,"let auth = authHeaderJWT ""<VALUE>"" in"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.272,1,token,"let auth = authHeaderJWT ""<VALUE>"" in"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.272,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+b82c1b9d,internal/2950491b.go,Password,1,FN (bỏ sót),0.2714,1,assignment,"Password:     <VALUE>,"
+49b08818,fixture/100a3d7b.yml,Password,1,FN (bỏ sót),0.2679,1,assignment,url_<VALUE>: <VALUE>
+b6263275,src/resource/app/b204a7df.properties,Password:Key,1,FN (bỏ sót),0.266,1,assignment,#server.ssl.key-store-password=<VALUE>
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.2633,1,token,"134 23 0:58 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~nfs/nfs1 rw,relatime shared:89 - nfs4 172.18.4.223:/sr…"
+43e1f4ea,test/src/modul/905e446c.java,Password,1,FN (bỏ sót),0.2579,1,assignment,"private String password = ""<VALUE>"";"
+4f40bf46,app/34c598c9.json,Firebase Domain,1,FN (bỏ sót),0.2563,1,assignment,"""firebase_url"": ""https://<VALUE>"","
+a5c3685e,spec/cae6b4a2.rb,Auth:Key,1,FN (bỏ sót),0.2542,1,assignment,"OAuth\ oauth_consumer_key=""<VALUE>"",.*"
+49b08818,fixture/python/17c30e05.py,Key,1,FN (bỏ sót),0.2435,1,assignment,"'cadataKey': '<VALUE>',"
+49b08818,fixture/24013877.r,Key,1,FN (bỏ sót),0.2435,1,assignment,"'cadataKey' = '<VALUE>',"
+b6263275,src/f31843d1.properties,Password:Key,1,FN (bỏ sót),0.2432,1,assignment,# cas.webflow.keystore.password=<VALUE>
+fc8343f4,test/0c4b4dbd.go,Secret,1,FN (bỏ sót),0.2402,1,assignment,"oldSecretVal = ""<VALUE>"""
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Password,1,FN (bỏ sót),0.2401,1,assignment,truststore_password: <VALUE>
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.2399,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.2397,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%40google.com?secret=<VALUE>&digits=8'
+fdbe07ac,test/vendor/285a035f.go,Key,1,FN (bỏ sót),0.2386,1,assignment,"EncryptionKey: ""<VALUE>"","
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Key,1,FN (bỏ sót),0.2381,1,assignment,client-key-data: <VALUE>
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Key,1,FN (bỏ sót),0.2381,1,assignment,client-key-data: <VALUE>
+b6263275,src/2483a0a8.java,Key,1,FN (bỏ sót),0.2376,1,assignment,"String aesKey = ""<VALUE>"";"
+b6263275,src/2a92f882.java,Key,1,FN (bỏ sót),0.2376,1,assignment,"String aesKey = ""<VALUE>"";"
+b6263275,src/64c83f9f.java,Key,1,FN (bỏ sót),0.2376,1,assignment,"String aesKey = ""<VALUE>"";"
+b6263275,src/9a2542c8.java,Key,1,FN (bỏ sót),0.2376,1,assignment,"String aesKey = ""<VALUE>"";"
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.2363,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+c2eb9e71,api/71bf72fd.yml,Password,1,FN (bỏ sót),0.235,1,assignment,password: <VALUE>
+c2eb9e71,api/71bf72fd.yml,Password,1,FN (bỏ sót),0.235,1,assignment,password: <VALUE>
+c2eb9e71,api/71bf72fd.yml,Password,1,FN (bỏ sót),0.235,1,assignment,password: <VALUE>
+cfdcc4f3,_/1d286840.yml,Password,1,FN (bỏ sót),0.2323,1,assignment,miniflux_admin_password: <VALUE>
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.2307,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Example:alice%40google.com?secret=<VALUE>&issuer=Example'
+cfdcc4f3,docs/app/c0060087.md,Password,1,FN (bỏ sót),0.2276,1,assignment,"password: ""<VALUE>"""
+49b08818,fixture/f12dd9ee.txt,Password,1,FN (bỏ sót),0.2269,1,assignment,curl -X POST -F 'username=davidwalsh' -F 'password=<VALUE>' http://domain.tld/post-to-me.php
+fc8343f4,test/4d723f8f,Key,1,FN (bỏ sót),0.2265,1,assignment,key = <VALUE>
+2035b073,_/2f5f759c.py,Password,1,FN (bỏ sót),0.2229,1,regex,"password = ""<VALUE>"""
+5f75c372,test/example/38773716.go,Password,1,FN (bỏ sót),0.2142,1,assignment,"<VALUE> := ""<VALUE>"""
+784d78e8,docs/cluster/dca0818e.md,Password,1,FN (bỏ sót),0.2134,1,assignment,password: <VALUE>
+784d78e8,cluster/cfeff289.yaml,Password,1,FN (bỏ sót),0.2134,1,assignment,password: <VALUE>
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.2132,1,assignment,"- ""Authorization: <VALUE>"""
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.2132,1,assignment,"- ""Authorization: <VALUE>"""
+6aae1316,lib/spec/f43bde42.rb,Token,1,FN (bỏ sót),0.2129,1,assignment,":headers => {'Accept'=>'application/json', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'Content-Type'=…"
+6a132a15,test/fixture/afd27e84.json,UUID,1,FN (bỏ sót),0.2098,1,assignment,"""body"": ""![scdl](https://cloud.githubusercontent.com/assets/10487353/5695887/<VALUE>.png)\r\n\r\n\r\nTraceback (most rec…"
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.2087,1,token,"347 60 0:71 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~nfs/vol2 rw,relatime shared:170 - nfs 172.17.0.3:/expo…"
+b82c1b9d,conf/fixture/build/0dfb6fbd.yml,URL Credentials,1,FN (bỏ sót),0.2078,1,url,"url: {{envOr ""DATABASE_URL"" ""<VALUE>://<VALUE>:<VALUE>@127.0.0.1:5432/coke_production?sslmode=disable""}}"
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+df70e863,test/pkg/384d8831.go,Auth:Token,1,FN (bỏ sót),0.2072,1,assignment,oauth_token: <VALUE>
+f5e5719b,test/9d9c3767.go,Token,1,FN (bỏ sót),0.207,1,assignment,"""stateless_reset_token"": ""<VALUE>"","
+8bc560cd,lib/spec/451af7c5.rb,Secret:OTP / 2FA Secret,1,FN (bỏ sót),0.2069,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/alice%40google.com?secret=<VALUE>&period=35'
+fdbe07ac,doc/94dfa401.md,Password,1,FN (bỏ sót),0.206,1,assignment,"--<VALUE>=""<VALUE>"" \"
+6ac1fb2d,test/ef382249.php,Secret,1,FN (bỏ sót),0.2034,1,assignment,"""clientSecret"" => ""<VALUE>"","
+6ac1fb2d,test/ef382249.php,Secret,1,FN (bỏ sót),0.2034,1,assignment,"""clientSecret"" => ""<VALUE>"","
+cfdcc4f3,_/dec4b5eb.yml,URL Credentials,1,FN (bỏ sót),0.2003,1,url,"DATABASE_URL: ""postgres://miniflux:<VALUE>@db/miniflux?sslmode=disable"""
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Key:Password,1,FN (bỏ sót),0.1986,1,assignment,key_password: <VALUE>
+8bc560cd,lib/spec/451af7c5.rb,Secret:OTP / 2FA Secret,1,FN (bỏ sót),0.196,1,assignment,expect(uri.to_s).to eq'otpauth://totp/ACME%20Co:john.doe%40email.com?secret=<VALUE>&issuer=ACME%20Co&algorithm=SHA512&di…
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.1936,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Big_Corporation:alice%40bigco.com?secret=<VALUE>&issuer=Big_Corporation'
+a8bdca79,_/f94e9c95.md,Token,1,FN (bỏ sót),0.193,1,assignment,"Note, that since [v1.14.0](https://gitee.com/yadong.zhang/JustAuth/releases/v1.14.0) JustAuth has been integrated by def…"
+fc8343f4,_/549522f6.md,UUID,1,FN (bỏ sót),0.193,1,token,* Node's providerID will now follow the Azure resource ID format (`azure:///subscriptions/<id>/resourceGroups/<rg>/provi…
+c41bb134,test/b032808b.hs,Secret,1,FN (bỏ sót),0.1927,1,assignment,"[json| { ""secret"": ""<VALUE>"", ""owner"": ""hacker"" } |]"
+2c47a91c,test/conf/194590ed.json,Password,1,FN (bỏ sót),0.1872,1,assignment,"""client_pwd"": ""<VALUE>"","
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Key:Password,1,FN (bỏ sót),0.1822,1,assignment,keystore_password: <VALUE>
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Key:Password,1,FN (bỏ sót),0.1822,1,assignment,keystore_password: <VALUE>
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Key:Password,1,FN (bỏ sót),0.1822,1,assignment,keystore_password: <VALUE>
+fc8343f4,test/src/rest/client/2e9a5251.go,Secret,1,FN (bỏ sót),0.1806,1,assignment,"Config: map[string]string{""secret"": ""<VALUE>""},"
+fc8343f4,test/src/conf/rest/client/a9119ede.go,Secret,1,FN (bỏ sót),0.1806,1,assignment,"Config: map[string]string{""secret"": ""<VALUE>""},"
+fc8343f4,test/src/conf/rest/client/a9119ede.go,Secret,1,FN (bỏ sót),0.1806,1,assignment,"Config: map[string]string{""secret"": ""<VALUE>""},"
+fc8343f4,test/pkg/bc8a0587.go,Key,1,FN (bỏ sót),0.1803,1,assignment,"key:       ""<VALUE>"","
+fc8343f4,test/pkg/bc8a0587.go,Key,1,FN (bỏ sót),0.1803,1,assignment,"key:       ""<VALUE>"","
+fc8343f4,test/pkg/bc8a0587.go,Key,1,FN (bỏ sót),0.1803,1,assignment,"key:       ""<VALUE>"","
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.1793,1,assignment,"""kubelet-api-support"": {""Authorization: <VALUE>"", ""X-Custom-Header: 987""},"
+fc8343f4,test/src/pkg/api/server/cea53d7f.go,Secret,1,FN (bỏ sót),0.1789,1,assignment,"in:   apiserver.Key{Name: ""foo"", Secret: ""<VALUE>""},"
+6aae1316,lib/spec/f43bde42.rb,Token,1,FN (bỏ sót),0.1786,1,assignment,"expect(url).to eq(""https://gitlab.com/api/v4/projects/1/repository/files/Dangerfile/raw?ref=master&private_token=<VALUE>…"
+6aae1316,lib/spec/f43bde42.rb,Token,1,FN (bỏ sót),0.1786,1,assignment,"expect(url).to eq(""https://gitlab.com/api/v4/projects/1/repository/files/Dangerfile/raw?ref=master&private_token=<VALUE>…"
+43e1f4ea,test/src/modul/a49832bc.java,Password,1,FN (bỏ sót),0.176,1,assignment,"private static final String PASSWORD = ""<VALUE>"";"
+49b08818,fixture/013e55dd.r,Password:Auth,1,FN (bỏ sót),0.1721,1,assignment,"`auth_pwd` = '<VALUE>',"
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.1693,1,assignment,"""SessionToken"": ""<VALUE>"""
+c41bb134,test/b032808b.hs,Secret,1,FN (bỏ sót),0.1693,1,assignment,"[json|[{""owner"":""jroe"",""secret"":""<VALUE>""}]|]"
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.1693,1,assignment,"""SessionToken"": ""<VALUE>"""
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.1622,1,token,"188 24 0:58 / /var/lib/kubelet/pods/<VALUE>/volume-subpaths/nfs1/subpath1/0 rw,relatime shared:89 - nfs4 172.18.4.223:/s…"
+2c47a91c,sample/conf/fc5f13dd.js,Password,1,FN (bỏ sót),0.1605,1,assignment,"client_pwd: '<VALUE>',"
+0401c075,conf/0795adfe.ini,Password,1,FN (bỏ sót),0.1584,1,assignment,password=<VALUE>
+c41bb134,test/30516eac.hs,Password,1,FN (bỏ sót),0.1576,1,assignment,"[json| { ""password"": ""<VALUE>"" } |]"
+b6263275,src/f31843d1.properties,Key:Password,1,FN (bỏ sót),0.1575,1,assignment,# cas.webflow.keypassword=<VALUE>
+0ce78112,docker/e4acf921.yml,Password,1,FN (bỏ sót),0.1564,1,token,- POSTGRES_PASSWORD=<VALUE>
+c41bb134,test/b032808b.hs,Secret,1,FN (bỏ sót),0.1559,1,assignment,"[json| { ""secret"": ""<VALUE>"" } |]"
+680ef0c1,test/1914ca3b.go,Token,1,FN (bỏ sót),0.1489,1,regex,"Token:      ""<VALUE>"","
+6aae1316,lib/spec/f43bde42.rb,Token,1,FN (bỏ sót),0.1485,1,assignment,"expect(url).to eq(""https://gitlab.com/api/v4/projects/group%2Fsecret_project/repository/files/Dangerfile/raw?ref=master&…"
+6aae1316,lib/spec/f43bde42.rb,Token,1,FN (bỏ sót),0.1483,1,assignment,"expect(url).to eq(""https://gitlab.com/api/v4/projects/1/repository/files/path%2FDangerfile/raw?ref=develop&private_token…"
+b88a4e51,setting/37a6d23b.py,Password,1,FN (bỏ sót),0.1474,1,assignment,INCEPTION_REMOTE_BACKUP_PASSWORD = '<VALUE>'
+43e1f4ea,test/src/example/conf/resource/modul/8a248cc4.yaml,Password,1,FN (bỏ sót),0.1438,1,assignment,# truststore_password: <VALUE>
+4bd9eea8,src/resource/app/4088651d.yml,Password,1,FN (bỏ sót),0.1404,1,assignment,password: <VALUE>
+cfdcc4f3,_/f91dce9f.yml,Password,1,FN (bỏ sót),0.1372,1,assignment,"nextcloud_sql_password: ""<VALUE>"""
+5504e505,fixture/spec/dcf5e142,Secret,1,FN (bỏ sót),0.1365,1,assignment,secret: <VALUE>
+5504e505,fixture/spec/4b4c548d,Secret,1,FN (bỏ sót),0.1365,1,assignment,secret: <VALUE>
+5504e505,fixture/spec/dcf5e142,Secret,1,FN (bỏ sót),0.1365,1,assignment,secret: <VALUE>
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.1287,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', digest: '<VALUE>')"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.1287,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', digest: '<VALUE>')"
+4bd9eea8,test/src/resource/app/abb8cb7f.yml,Password,1,FN (bỏ sót),0.1244,1,assignment,password: <VALUE>
+c41bb134,test/b155aa73.hs,JSON Web Token:Bearer Authorization,1,FN (bỏ sót),0.1196,1,token,"[json|""Bearer <VALUE>""|]"
+5f75c372,example/04a02b14.tf,Password,1,FN (bỏ sót),0.1165,1,assignment,"<VALUE> = ""<VALUE>"""
+fc8343f4,src/pkg/api/server/de8a853b.go,Token,1,FN (bỏ sót),0.1146,1,assignment,"//	      ""access_token"": ""<VALUE>"""
+fc8343f4,test/src/conf/rest/client/a9119ede.go,Password,1,FN (bỏ sót),0.1127,1,assignment,"Password:    ""<VALUE>"","
+fc8343f4,test/src/conf/rest/client/a9119ede.go,Password,1,FN (bỏ sót),0.1127,1,assignment,"Password:    ""<VALUE>"","
+cfdcc4f3,_/f91dce9f.yml,Password,1,FN (bỏ sót),0.1116,1,regex,"nextcloud_sql_root_password: ""<VALUE>"""
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.1107,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', issuer: '<VALUE>')"
+6aae1316,lib/spec/7add020c.rb,Token,1,FN (bỏ sót),0.1084,1,assignment,"download_url_custom = ""https://gitlab.com/api/v4/projects/1/repository/files/path%2Fto%2FDangerfile/raw?private_token=<V…"
+c41bb134,test/b032808b.hs,Secret,1,FN (bỏ sót),0.1083,1,assignment,"[json|[{""owner"":""jdoe"",""secret"":""<VALUE>""}]|]"
+680ef0c1,test/1914ca3b.go,Password,1,FN (bỏ sót),0.1065,1,assignment,"conf.Net.SASL.Password = ""<VALUE>"""
+ffea718f,example/10a4ff6a.cs,Password,1,FN (bỏ sót),0.1065,1,assignment,"//    Password = ""<VALUE>"","
+680ef0c1,test/1914ca3b.go,Password,1,FN (bỏ sót),0.1065,1,assignment,"conf.Net.SASL.Password = ""<VALUE>"""
+0064e882,test/d841edb7.cs,Password,1,FN (bỏ sót),0.1063,1,assignment,"private const string CertificatePassword = ""<VALUE>"";"
+f5e5719b,test/internal/77ef818c.go,Token,1,FN (bỏ sót),0.1053,1,assignment,"Expect(buf.String()).To(ContainSubstring(""\t<- &wire.NewConnectionIDFrame{SequenceNumber: 42, ConnectionID: deadbeef, St…"
+43e1f4ea,docs/c3312677.html,Token,1,FN (bỏ sót),0.1052,1,assignment,<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon=…
+a5c3685e,spec/fe4d8de1.rb,Password,1,FN (bỏ sót),0.1021,1,assignment,CLOUDFOUNDRY_PASSWORD: '<VALUE>'
+0ce78112,_/b3356305.md,Password,1,FN (bỏ sót),0.1016,1,token,docker run --network haknet --name msfdb -e POSTGRES_PASSWORD=<VALUE> -d postgres
+0ce78112,docker/2b56a3f9.md,Password,1,FN (bỏ sót),0.1016,1,token,docker run --network haknet --name msfdb -e POSTGRES_PASSWORD=<VALUE> -d postgres
+0ce78112,docker/2b56a3f9.md,Password,1,FN (bỏ sót),0.1016,1,token,docker run --network haknet --name msfdb -e POSTGRES_PASSWORD=<VALUE> -d postgres
+c2eb9e71,template/fabf1c08.html,Password,1,FN (bỏ sót),0.0981,1,assignment,"curl -X POST -d ""email=new_user@mydomail.com"" -d ""password=<VALUE>"" https://{{hostname}}/admin/mail/users/add"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0949,1,token,"let auth = authHeaderJWT ""<VALUE>"" in"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0949,1,token,"let auth = authHeaderJWT ""<VALUE>"" in"
+784d78e8,docs/cluster/dca0818e.md,Password,1,FN (bỏ sót),0.0938,1,assignment,password: <VALUE>
+fc8343f4,test/src/pkg/api/server/e2a26d16.go,Key,1,FN (bỏ sót),0.0909,1,assignment,"keyWithoutAuds := ""<VALUE>"""
+fc8343f4,test/conf/kube/951ced58.go,Auth,1,FN (bỏ sót),0.0898,1,assignment,"""custom-static-pod"":   {""Authorization: <VALUE>"", ""X-Custom-Header: 345""},"
+fdbe07ac,test/vendor/84760b8a.go,Password,1,FN (bỏ sót),0.0897,1,assignment,"&Config{User: ""user"", Passwd: ""<VALUE>"", Net: ""tcp"", Addr: ""127.0.0.1:3306"", Collation: ""utf8mb4_general_ci"", Loc: time.…"
+fdbe07ac,test/vendor/2b6903fb.go,Password,1,FN (bỏ sót),0.0897,1,assignment,"&Config{User: ""user"", Passwd: ""<VALUE>"", Net: ""tcp"", Addr: ""127.0.0.1:3306"", Collation: ""utf8mb4_general_ci"", Loc: time.…"
+fc8343f4,test/src/rest/client/2e9a5251.go,Password,1,FN (bỏ sót),0.0877,1,assignment,"Password: ""<VALUE>"","
+fc8343f4,test/src/rest/client/2e9a5251.go,Password,1,FN (bỏ sót),0.0877,1,assignment,"Password: ""<VALUE>"","
+fc8343f4,test/src/rest/client/2e9a5251.go,Password,1,FN (bỏ sót),0.0877,1,assignment,"Password: ""<VALUE>"","
+fc8343f4,test/src/rest/client/2e9a5251.go,Password,1,FN (bỏ sót),0.0877,1,assignment,"Password: ""<VALUE>"","
+fc8343f4,test/src/rest/client/2e9a5251.go,Password,1,FN (bỏ sót),0.0877,1,assignment,"Password: ""<VALUE>"","
+71455799,_/b3356305.md,Token,1,FN (bỏ sót),0.0874,1,assignment,"<img src=""https://codecov.io/gh/cloudskiff/driftctl/branch/main/graph/badge.svg?token=<VALUE>""/>"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0846,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0846,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+c41bb134,test/b155aa73.hs,JSON Web Token,1,FN (bỏ sót),0.0832,1,token,"request methodPost ""/rpc/get_guc_value"" [authHeaderJWT ""<VALUE>""]"
+fc8343f4,test/src/util/426e46b9.go,UUID,1,FN (bỏ sót),0.0831,1,token,"187 23 0:58 / /var/lib/kubelet/pods/<VALUE>/volumes/kubernetes.io~nfs/nfs2 rw,relatime shared:96 - nfs4 172.18.4.223:/sr…"
+6ac1fb2d,src/example/90f24111.json,UUID,1,FN (bỏ sót),0.0759,1,assignment,"""KeyArn"": ""arn:aws:kms:us-east-2:111122223333:key/<VALUE>"","
+fc8343f4,test/secret/f9d90627.yaml,Key:BASE64 encoded PEM Private Key,1,FN (bỏ sót),0.0734,1,assignment,tls.key: <VALUE>
+6ac1fb2d,src/example/d2557e09.json,Token,1,FN (bỏ sót),0.0699,1,assignment,"""SessionToken"": ""<VALUE>"""
+49b08818,fixture/4b49490b.m,Password:Auth,1,FN (bỏ sót),0.0686,1,assignment,"body = 'version=1.2&auth_user=fdgxf&auth_pwd=<VALUE>&json_data={ ""operation"": ""core/get"", ""class"": ""Software"", ""key"": ""k…"
+fdbe07ac,vendor/979c6430.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/979c6430.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/fa3932ec.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/fa3932ec.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/979c6430.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/979c6430.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/fa3932ec.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+fdbe07ac,vendor/fa3932ec.yml,Password,1,FN (bỏ sót),0.0677,1,assignment,- docker run -d -p 127.0.0.1:3307:3306 --name mysqld -e MYSQL_DATABASE=gotest -e MYSQL_USER=gotest -e MYSQL_PASSWORD=<VA…
+6ac1fb2d,src/example/41a32939.json,Key:Product Activation Key,1,FN (bỏ sót),0.0662,1,assignment,"""ActivationKey"": ""<VALUE>"","
+49b08818,fixture/00a89c86.yml,Password,1,FN (bỏ sót),0.0644,1,assignment,<VALUE>: <VALUE>
+c41bb134,test/b032808b.hs,JSON Web Token,1,FN (bỏ sót),0.0637,1,token,"[ authHeaderJWT ""<VALUE>"", (""Prefer"", ""return=representation"") ]"
+c41bb134,test/b032808b.hs,JSON Web Token,1,FN (bỏ sót),0.0637,1,token,"[ authHeaderJWT ""<VALUE>"", (""Prefer"", ""return=representation"") ]"
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0629,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0629,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+fc8343f4,test/kube/app/f706fd7c.go,Auth,1,FN (bỏ sót),0.0613,1,assignment,certificate-authority-data: <VALUE>
+fc8343f4,test/etc/1083ad1d.go,Key,1,FN (bỏ sót),0.0596,1,assignment,"Stub:              `{""data"": {""key"": ""<VALUE>""}, ""metadata"": {""name"": ""secret1""}}`,"
+ffea718f,example/10a4ff6a.cs,Password,1,FN (bỏ sót),0.058,1,assignment,"//proxyServer.CertificateManager.<VALUE> = ""<VALUE>"";"
+49b08818,fixture/4625057a.txt,Password:Auth,1,FN (bỏ sót),0.0565,1,assignment,"curl -s 'https://cmdb.litop.local/webservices/rest.php' -d 'version=1.2' -d ""auth_user=fdgxf"" -d ""auth_pwd=<VALUE>"" -d '…"
+00408ef6,lib/8a4d2e16.c,Nonce,1,FN (bỏ sót),0.056,1,assignment,"WWW-Authenticate: Digest realm=""<VALUE>"", nonce=""<VALUE>"""
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Password,1,FN (bỏ sót),0.0544,1,assignment,password: <VALUE>
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Password,1,FN (bỏ sót),0.0544,1,assignment,password: <VALUE>
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Password,1,FN (bỏ sót),0.0544,1,assignment,password: <VALUE>
+fc8343f4,test/src/conf/pkg/kube/9376ca88.go,Password,1,FN (bỏ sót),0.0544,1,assignment,password: <VALUE>
+49b08818,fixture/69676072.ex,Key,1,FN (bỏ sót),0.0522,1,assignment,options: [hackney: [cookies: [~s|X-BackEndCookie=S-1-5-21-1234556-56678-12345-2345=alphanumericstring12345/anotheralphan…
+49b08818,fixture/fb4b2b48.java,Key,1,FN (bỏ sót),0.0522,1,assignment,"httpConn.setRequestProperty(""Cookie"", ""X-BackEndCookie=S-1-5-21-1234556-56678-12345-2345=alphanumericstring12345/another…"
+6a132a15,test/5f9c3c9a.js,Password,1,FN (bỏ sót),0.0521,1,assignment,"password: '<VALUE>',"
+fdbe07ac,test/vendor/84760b8a.go,Password,1,FN (bỏ sót),0.0513,1,assignment,"&Config{User: ""user"", Passwd: ""<VALUE>"", Net: ""tcp"", Addr: ""[de:ad:be:ef::ca:fe]:80"", DBName: ""dbname"", Collation: ""utf8…"
+fdbe07ac,test/vendor/2b6903fb.go,Password,1,FN (bỏ sót),0.0499,1,assignment,"&Config{User: ""user"", Passwd: ""<VALUE>"", Net: ""tcp"", Addr: ""[de:ad:be:ef::ca:fe]:80"", DBName: ""dbname"", Collation: ""utf8…"
+fc8343f4,test/conf/cb41bace.go,Auth:BASE64 encoded PEM Private Key,1,FN (bỏ sót),0.048,1,token,"""auth"": ""<VALUE>"
+fc8343f4,test/33732320.go,Auth:BASE64 encoded PEM Private Key,1,FN (bỏ sót),0.048,1,token,"""auth"": ""<VALUE>"
+680ef0c1,test/conf/4bb821df.go,API:Password,1,FN (bỏ sót),0.0437,1,assignment,"cfg.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/conf/4bb821df.go,API:Password,1,FN (bỏ sót),0.0437,1,assignment,"cfg.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/conf/4bb821df.go,API:Password,1,FN (bỏ sót),0.0437,1,assignment,"cfg.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/conf/4bb821df.go,API:Password,1,FN (bỏ sót),0.0437,1,assignment,"cfg.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+680ef0c1,test/conf/4bb821df.go,API:Password,1,FN (bỏ sót),0.0437,1,assignment,"cfg.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+8c3c80e8,_/6b688a3f.lua,Password,1,FN (bỏ sót),0.0426,1,assignment,"--sql = { driver = ""MySQL"", database = ""prosody"", username = ""prosody"", password = ""<VALUE>"", host = ""localhost"" }"
+8c3c80e8,_/6b688a3f.lua,Password,1,FN (bỏ sót),0.0423,1,assignment,"--sql = { driver = ""PostgreSQL"", database = ""prosody"", username = ""prosody"", password = ""<VALUE>"", host = ""localhost"" }"
+b6263275,src/9eef4790.properties,Password,1,FN (bỏ sót),0.0415,1,assignment,# http.client.truststore.psw=<VALUE>
+b6263275,src/f31843d1.properties,Password,1,FN (bỏ sót),0.0415,1,assignment,# http.client.truststore.psw=<VALUE>
+4f40bf46,app/0c8dd11e.json,Firebase Domain,1,FN (bỏ sót),0.0407,1,assignment,"""firebase_url"": ""https://<VALUE>"","
+4f40bf46,app/601b257a.json,Firebase Domain,1,FN (bỏ sót),0.0407,1,assignment,"""firebase_url"": ""https://<VALUE>"","
+784d78e8,template/629fa222.j2,Password,1,FN (bỏ sót),0.04,1,assignment,#     password: <VALUE>
+b6263275,src/9eef4790.properties,Secret,1,FN (bỏ sót),0.04,1,assignment,# cas.radius.client.sharedsecret=<VALUE>
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.0395,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Big%20Corporation:%20alice%40bigco.com?secret=<VALUE>&issuer=Big%20Corporation'
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret:Secret,1,FN (bỏ sót),0.0395,1,assignment,expect(uri.to_s).to eq 'otpauth://totp/Big%20Corporation:%20alice%40bigco.com?secret=<VALUE>&issuer=Big%20Corporation'
+784d78e8,template/629fa222.j2,Password,1,FN (bỏ sót),0.0392,1,assignment,#     password: <VALUE>
+fc8343f4,util/api/kube/client/app/4a8949ee.go,Auth,1,FN (bỏ sót),0.0384,1,assignment,certificate-authority-data: <VALUE>
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0375,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+92f440ce,test/8078b294.php,Password,1,FN (bỏ sót),0.0366,1,assignment,"'password' => '<VALUE>',"
+00408ef6,lib/8a4d2e16.c,Nonce,1,FN (bỏ sót),0.0359,1,assignment,"Proxy-Authenticate: Digest realm=""<VALUE>"", nonce=""<VALUE>"""
+a5c3685e,_/d5aa232b.yml,Password,1,FN (bỏ sót),0.0359,1,assignment,password: <VALUE>
+fc8343f4,test/4bb370c1.sh,Key,1,FN (bỏ sót),0.0339,1,assignment,"kube::test::if_has_string ""${output_message}"" 'key1: <VALUE>'"
+0401c075,src/a1676f19.c,URL Credentials,1,FN (bỏ sót),0.0334,1,url,* ftp://user:<VALUE>@ftp.my.site:8021/README */
+00408ef6,lib/eee97fd2.c,URL Credentials,1,FN (bỏ sót),0.0334,1,url,* ftp://user:<VALUE>@ftp.my.site:8021/README */
+f37dd3b3,src/init/script/6be06a4a.ts,Password,1,FN (bỏ sót),0.0333,1,assignment,"export const  BO_ADMIN =  { id: USER_ID++, fullname: '<VALUE>', email: '<VALUE>@rap2.com', password: '<VALUE>' }"
+fc8343f4,test/util/kube/app/c5c5b69d.go,Auth,1,FN (bỏ sót),0.0321,1,assignment,"certificateAuthorityData: ""<VALUE>"","
+c41bb134,test/21b750a7.hs,JSON Web Token,1,FN (bỏ sót),0.0308,1,token,"let auth = authHeaderJWT ""<VALUE>"""
+fdbe07ac,test/example/vendor/453cc59c.go,Password,1,FN (bỏ sót),0.0306,1,assignment,"if c.User() == ""<VALUE>"" && string(pass) == ""<VALUE>"" {"
+fc8343f4,test/757c6bfc.go,Secret,1,FN (bỏ sót),0.0305,1,assignment,"wantPrefixForSecrets := ""<VALUE>"""
+49b08818,fixture/ca1b7084.txt,Key,1,FN (bỏ sót),0.0301,1,assignment,curl 'https://localhost/api/service.svc?action=CreateItem&ID=-37&AC=1' -H 'Cookie: <VALUE>; ClientId=LoremIupsum; Privat…
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0298,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', issuer: '<VALUE>')"
+d2d68c6f,test/src/sample/resource/lang/2b7fdeaa.m,Token,1,FN (bỏ sót),0.0294,1,assignment,CGDisplayFadeReservationToken token = <VALUE>;
+a8bdca79,_/f94e9c95.md,Token,1,FN (bỏ sót),0.0287,1,assignment,"<img src=""https://codecov.io/gh/justauth/JustAuth/branch/master/graph/badge.svg?token=<VALUE>"" />"
+a8bdca79,_/b3356305.md,Token,1,FN (bỏ sót),0.0287,1,assignment,"<img src=""https://codecov.io/gh/justauth/JustAuth/branch/master/graph/badge.svg?token=<VALUE>"" />"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0281,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', issuer: '<VALUE>')"
+cfdcc4f3,_/d188fa98.yml,Auth:Password,1,FN (bỏ sót),0.0272,1,assignment,"n8n_basic_auth_password: ""<VALUE>"""
+2c47a91c,conf/e7c9e707.js,Password:URL Credentials,1,FN (bỏ sót),0.024,1,url,"connectionString: 'postgres://user:<VALUE>@localhost:5432', // if default port"
+6ac1fb2d,src/example/affa5301.php,Token,1,FN (bỏ sót),0.0235,1,assignment,"return [ 'version' => '1.0', 'examples' => [ 'DescribeServices' => [ [ 'input' => [ 'FormatVersion' => 'aws_v1', 'MaxRes…"
+d2d68c6f,test/src/92d5842b.kt,Password,1,FN (bỏ sót),0.0222,1,assignment,"val line = ""<VALUE>""<VALUE>\"""""
+2c47a91c,sample/conf/fc5f13dd.js,Password:URL Credentials,1,FN (bỏ sót),0.0215,1,url,"connectionString: 'postgres://user:<VALUE>@localhost:5432', // if default port"
+49b08818,fixture/python/ed043ee1.py,Password,1,FN (bỏ sót),0.0214,1,assignment,"data = '{""userName"":""username123"",""password"":""<VALUE>"", ""authLoginDomain"":""local""}'"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0214,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', issuer: '<VALUE>')"
+784d78e8,template/629fa222.j2,Password,1,FN (bỏ sót),0.0181,1,assignment,#     password: <VALUE>
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0169,1,assignment,"otp = ROTP::TOTP.new('<VALUE>', issuer: '<VALUE>')"
+0401c075,test/src/6489c9cc.cpp,Key,1,FN (bỏ sót),0.0168,1,token,"cipher2.SetKey(""<VALUE>"");"
+0401c075,test/src/6489c9cc.cpp,Key,1,FN (bỏ sót),0.0168,1,token,"cipher1.SetKey(""<VALUE>"");"
+0401c075,test/src/6489c9cc.cpp,Key,1,FN (bỏ sót),0.0168,1,token,"cipher->SetKey(""<VALUE>"");"
+6a132a15,test/fixture/afd27e84.json,Password,1,FN (bỏ sót),0.0153,1,assignment,"""body"": ""I'm using Ubuntu 12.04 server, Django 1.5.5, pyodbc-3.0.7 and I am trying to connect to a MSSQL 2005 server. I'…"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0146,1,assignment,otp = <VALUE>('<VALUE>')
+a5c3685e,_/7a32a448,Password,1,FN (bỏ sót),0.0127,1,assignment,run deis register $controller --username=dpl-user --password=<VALUE> --email=dpl-test@travis-ci.com
+fc8343f4,test/conf/pkg/8fd94ef5.go,Auth,1,FN (bỏ sót),0.0115,1,url,"inputDockerconfigJSONFile := ""{ \""auths\"": { \""http://foo.example.com\"":{\""auth\"":\""<VALUE>\"",\""email\"":\""foo@example.co…"
+49b08818,fixture/c647c1a0.java,Auth:Password,1,FN (bỏ sót),0.0115,1,assignment,"writer.write(""version=1.2&auth_user=fdgxf&auth_pwd=<VALUE>&json_data={ \""operation\"": \""core/get\"", \""class\"": \""Softwar…"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0105,1,assignment,"secret: '<VALUE>',"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0105,1,assignment,"secret: '<VALUE>',"
+fc8343f4,test/sample/pkg/api/server/ea35b662.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,const ecdsaPrivateKey = `<VALUE>
+fc8343f4,test/server/etc/e4d5b05a.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,const ecdsaPrivateKey = `<VALUE>
+fc8343f4,test/kube/server/app/c3f4a451.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,const ecdsaPrivateKey = `<VALUE>
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0105,1,assignment,"secret: '<VALUE>',"
+fc8343f4,test/pkg/b7933f0e.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,const ecdsaPrivateKey = `<VALUE>
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0105,1,assignment,"secret: '<VALUE>',"
+fc8343f4,test/server/24fe8aad.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,const ecdsaPrivateKey = `<VALUE>
+fc8343f4,test/src/client/34fb2d88.go,PEM Private Key,1,FN (bỏ sót),0.0105,1,regex,keyData = `<VALUE>
+0401c075,test/src/6489c9cc.cpp,Key,1,FN (bỏ sót),0.0105,1,token,"cipher2.SetKey(""<VALUE>"");"
+fc8343f4,test/src/util/client/c2b81eb4.go,PEM Private Key,1,FN (bỏ sót),0.0098,1,regex,rsaPrivateKey = `<VALUE>
+fc8343f4,test/src/secret/pkg/kube/63bc723d.go,PEM Private Key,1,FN (bỏ sót),0.0098,1,regex,var rsaKeyPEM = `<VALUE>
+fc8343f4,test/pkg/b7933f0e.go,PEM Private Key,1,FN (bỏ sót),0.0098,1,regex,const rsaPrivateKey = `<VALUE>
+784d78e8,template/629fa222.j2,Password,1,FN (bỏ sót),0.0096,1,assignment,#     password: <VALUE>
+f37dd3b3,src/init/script/6be06a4a.ts,Password,1,FN (bỏ sót),0.0096,1,assignment,"export const BO_MOZHI = { id: USER_ID++, fullname: '墨智', email: '<VALUE>@rap2.com', password: '<VALUE>' }"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0089,1,assignment,"consumer_secret: '<VALUE>',"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0089,1,assignment,"consumer_secret: '<VALUE>',"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0089,1,assignment,"consumer_secret: '<VALUE>',"
+5504e505,spec/c32456d4.rb,Secret,1,FN (bỏ sót),0.0089,1,assignment,"consumer_secret: '<VALUE>',"
+8bc560cd,lib/spec/9e8b926c.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0081,1,assignment,let(:totp)  { ROTP:<VALUE> '<VALUE>' }
+fc8343f4,test/api/server/b5a4e5df.go,PEM Private Key,1,FN (bỏ sót),0.0081,1,regex,ecdsaPrivateKey = `<VALUE>
+fc8343f4,test/src/util/client/c2b81eb4.go,PEM Private Key,1,FN (bỏ sót),0.0081,1,regex,ecdsaPrivateKey = `<VALUE>
+fc8343f4,test/14c09ced.go,PEM Private Key,1,FN (bỏ sót),0.0081,1,regex,ecdsaPrivateKey = `<VALUE>
+fdbe07ac,test/vendor/285a035f.go,PEM Private Key,1,FN (bỏ sót),0.0068,1,regex,"""dsa"": []byte(`<VALUE>"
+680ef0c1,test/913ab04f.go,Key,1,FN (bỏ sót),0.0065,1,assignment,"msg.Key = <VALUE>(""<VALUE>"")"
+680ef0c1,test/913ab04f.go,Key,1,FN (bỏ sót),0.0065,1,assignment,"msg.Key = <VALUE>(""<VALUE>"")"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0063,1,assignment,otp = <VALUE>('<VALUE>')
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0063,1,assignment,otp = <VALUE>('<VALUE>')
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0063,1,assignment,otp = <VALUE>('<VALUE>')
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0063,1,assignment,otp = <VALUE>('<VALUE>')
+b6263275,src/9eef4790.properties,Key:Secret,1,FN (bỏ sót),0.0063,1,assignment,# ticket.encryption.secretkey=<VALUE>
+fdbe07ac,test/vendor/285a035f.go,PEM Private Key,1,FN (bỏ sót),0.0056,1,regex,"""user"": []byte(`<VALUE>"
+fdbe07ac,test/vendor/285a035f.go,PEM Private Key,1,FN (bỏ sót),0.0056,1,regex,"""ecdsa"": []byte(`<VALUE>"
+fdbe07ac,test/vendor/285a035f.go,PEM Private Key,1,FN (bỏ sót),0.0056,1,regex,"""ed25519"": []byte(`<VALUE>"
+6ac1fb2d,src/example/9bc0386d.php,Key:Product Activation Key,1,FN (bỏ sót),0.0053,1,assignment,"return [ 'version' => '1.0', 'examples' => [ 'ActivateGateway' => [ [ 'input' => [ 'ActivationKey' => '<VALUE>', 'Gatewa…"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0052,1,assignment,"otp = <VALUE>('<VALUE>', interval: 35)"
+8bc560cd,lib/spec/451af7c5.rb,OTP / 2FA Secret,1,FN (bỏ sót),0.0052,1,assignment,"otp = <VALUE>('<VALUE>', digits: 8)"
+fc8343f4,test/src/util/pkg/api/server/3b11caa0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/util/client/443bcc11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/util/pkg/api/server/3b11caa0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var caKey = []byte(`<VALUE>
+fc8343f4,test/src/util/pkg/api/server/3b11caa0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var clientKey = []byte(`<VALUE>
+fdbe07ac,test/util/vendor/ea906c9f.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var KeyPem = []byte(`<VALUE>
+fc8343f4,test/src/util/pkg/api/server/9fbe9f11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/util/pkg/api/09ebe223.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var exampleKey = []byte(`<VALUE>
+fc8343f4,test/pkg/kube/4c14683a.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/conf/pkg/api/server/bc4c3d7f.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/util/pkg/api/ae0d89cf.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var exampleKey = []byte(`<VALUE>
+fc8343f4,test/api/server/56d4fed0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var localhostKey = []byte(`<VALUE>
+fc8343f4,test/util/ecaae6d2.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var LocalhostKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/client/60fb642a.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,keyData = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/kube/server/5d2d2cd1.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var svcKey = []byte(`<VALUE>
+fc8343f4,test/api/server/51900ef0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var anotherServerKey = []byte(`<VALUE>
+fc8343f4,test/pkg/be59fcfa.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var clientKey = []byte(`<VALUE>
+fc8343f4,test/src/util/pkg/api/d68711a3.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var localhostKey = []byte(`<VALUE>
+fc8343f4,test/api/server/51900ef0.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/62b57f09.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var clientKey = []byte(`<VALUE>
+fc8343f4,test/src/api/server/cf18e818.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var localhostKey = []byte(`<VALUE>
+fc8343f4,test/pkg/kube/4c14683a.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/util/pkg/api/ae0d89cf.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var localhostKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/62b57f09.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/tool/client/0df74403.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var localhostKey = []byte(`<VALUE>
+fc8343f4,test/pkg/be59fcfa.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/2bc3073e.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var CAKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/09d22ccf.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var clientKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/2bc3073e.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var ClientKey = []byte(`<VALUE>
+fc8343f4,test/src/pkg/api/server/2bc3073e.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var BadCAKey = []byte(`<VALUE>
+fc8343f4,test/src/util/client/443bcc11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/pkg/api/server/09d22ccf.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var serverKey = []byte(`<VALUE>
+fc8343f4,test/src/util/client/443bcc11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/pkg/api/server/2bc3073e.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,var ServerKey = []byte(`<VALUE>
+fc8343f4,test/src/util/client/443bcc11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fc8343f4,test/src/util/client/443bcc11.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"-----END CERTIFICATE-----`, `<VALUE>"
+fdbe07ac,test/vendor/285a035f.go,PEM Private Key,1,FN (bỏ sót),0.0049,1,regex,"""rsa"": []byte(`<VALUE>"
+6a132a15,test/fixture/afd27e84.json,UUID,1,FN (bỏ sót),0.0036,1,assignment,"""body"": ""<VALUE>""),  I get this error:\r\n\r\n![image](https://cloud.githubusercontent.com/assets/6802820/13383200/<VALU…"
+fc8343f4,test/src/pkg/api/server/b912a00b.json,UUID,1,FN (bỏ sót),0.0032,1,assignment,"""fieldsV1"": {""f:metadata"":{""f:generateName"":{},""f:labels"":{""."":{},""f:app"":{},""f:pod-template-hash"":{}},""f:ownerReference…"
+6a132a15,test/fixture/afd27e84.json,UUID,1,FN (bỏ sót),0.0032,1,assignment,"""body"": ""<VALUE>""svg\"" src=\""./diagram.svg\"" /></p>\r\n```\r\n\r\nHowever I get a broken image as seen below\r\n\r\n![im…"
+f5e5719b,test/0204df43.go,Token,1,FN (bỏ sót),0.0023,1,assignment,"Token: <VALUE>{<VALUE>},"
+fc8343f4,test/src/conf/rest/client/a9119ede.go,Key,1,FN (bỏ sót),0.0019,1,assignment,"`&rest.Config{Host:""<VALUE>"", APIPath:""v1"", ContentConfig:rest.ContentConfig{AcceptContentTypes:""application/json"", Cont…"
+fc8343f4,test/src/pkg/api/opt/server/1d20714c,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/1c5123ed.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/1384c204.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/309c8598.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+6a132a15,test/fixture/afd27e84.json,UUID,1,FN (bỏ sót),0.0013,1,assignment,"""body"": ""<VALUE>""I'm attaching a screenshot of the error. I have uninstalled and reinstalled python(x,y) a couple of tim…"
+fc8343f4,test/src/pkg/api/opt/server/9bb426a9,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/a51b2d53.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/client/server/7cdba510,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/431358a4.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/pkg/443acfc3.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fdbe07ac,resource/docker/vendor/67a770f0.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/client/server/9689ad2b,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/a8ee6741.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/202b0aab,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/36006c0a,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/33a8e708.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/etc/45f7a046.go,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/util/client/7de32f08.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/7f1d165f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/7f7f2eb5.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/83f0f7d6.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/kube/client/server/84b85533.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/pkg/client/8fb45c6f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/8fe1ef09.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/35f579d0.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/6fe6b313.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/74579f1a.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/18699e4f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/sample/pkg/api/server/fe70050b.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/5094a3fb.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/kube/server/f7443c35.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/4e0de788.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/util/client/c2b81eb4.go,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/pkg/kube/c1bb492d.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/63727eb3.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/f735396a.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/kube/server/5d2d2cd1.go,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/584ee038.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/60cec41a.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/kube/app/571f031d.go,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/eb3e00a5.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/eebe2234.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/kube/client/server/e2473efe.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/pkg/kube/5710a7a4.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/kube/server/d5c81c09.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/d54eabf8,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/e0e8d242.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/conf/api/server/df7b662f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/d28c8066,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/ef8978c6.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/pkg/client/652c6e13.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/b934eb4e.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/b62406a3.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/b9a7274f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/ba368e6b.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+6a132a15,test/fixture/afd27e84.json,UUID,1,FN (bỏ sót),0.0013,1,assignment,"""body"": ""<VALUE>""no results\"" for a few seconds while search is being performed, and then results are loaded.  However, …"
+fc8343f4,test/src/pkg/api/opt/client/server/274e838c,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/kube/server/app/39aaa55f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/7b609393,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/7937b78d.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/735acb17.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/util/kube/app/c925113f.key,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+43e1f4ea,test/src/resource/client/modul/9c5a78d0.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/034e8914,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/server/b0cdbc51.pem,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/aec03bbc,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/src/pkg/api/opt/server/057fed4f,PEM Private Key,1,FN (bỏ sót),0.0013,1,regex,<VALUE>
+fc8343f4,test/32ed4ce3.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+4bd9eea8,src/resource/app/4088651d.yml,Password,1,FN (bỏ sót),0.0,0,,#login-password: <VALUE>
+4aaa1466,_/d150e692.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.store.password=<VALUE>
+4f40bf46,server/08243e5a.inc,Password,1,FN (bỏ sót),0.0,0,,"$password=""<VALUE>"";"
+4db30bbe,test/server/69692dad.go,Salt,1,FN (bỏ sót),0.0,0,,salt := []byte{<VALUE>}
+fc8343f4,test/conf/kube/3fe2acd6.sh,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+fc8343f4,test/src/resource/pkg/88753679.go,Password,1,FN (bỏ sót),0.0,0,,DB_PASSWORD: <VALUE>
+4aaa1466,_/d150e692.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.alias.password=<VALUE>
+4aaa1466,_/1b7605a4.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.store.password=<VALUE>
+fdbe07ac,vendor/fa3932ec.yml,SQL Password,1,FN (bỏ sót),0.0,0,,"- mysql -uroot -e 'CREATE USER gotest IDENTIFIED BY ""<VALUE>""'"
+fdbe07ac,vendor/979c6430.yml,SQL Password,1,FN (bỏ sót),0.0,0,,"- mysql -uroot -e 'CREATE USER gotest IDENTIFIED BY ""<VALUE>""'"
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/client/vendor/43adee96.go,Password,1,FN (bỏ sót),0.0,0,,"var clientPassword = ""<VALUE>"""
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+0ce78112,docker/6bc48d10.yml,Password,1,FN (bỏ sót),0.0,0,,password:  <VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/build/script/73f8ac38,SQL Password,1,FN (bỏ sót),0.0,0,,"<VALUE>-test-mysql-master -uroot -e ""create user '<VALUE>'@'%' identified by '<VALUE>'"""
+4bd9eea8,src/resource/app/4088651d.yml,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+4bd9eea8,test/src/resource/app/abb8cb7f.yml,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+4db30bbe,test/server/69692dad.go,Salt,1,FN (bỏ sót),0.0,0,,salt := []byte{<VALUE>}
+fc8343f4,test/conf/pkg/8fd94ef5.go,Password,1,FN (bỏ sót),0.0,0,,"Password: ""<VALUE>"","
+55aa4858,conf/app/7506d301.conf,Password,1,FN (bỏ sót),0.0,0,,# http.proxyPassword = <VALUE>
+55aa4858,resource/app/build/8214a561.conf,Password,1,FN (bỏ sót),0.0,0,,# http.proxyPassword = <VALUE>
+fc8343f4,test/src/pkg/api/server/0bbc5352.go,PEM Private Key,1,FN (bỏ sót),0.0,0,,var backendK…[đã che]
+b6263275,src/4126f97d.java,Password:Key,1,FN (bỏ sót),0.0,0,,"bufferedBlockCipherBean.setKeyPassword(""<VALUE>"");"
+49b08818,fixture/python/fbad69af.py,Password,1,FN (bỏ sót),0.0,0,,"'password': (None, '<VALUE>'),"
+784d78e8,docs/aedd861e.md,Password,1,FN (bỏ sót),0.0,0,,dataSource.password = <VALUE>
+43e1f4ea,test/src/resource/modul/8a1d33c6.pem,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+49b08818,fixture/python/197c2ce6.py,Secret,1,FN (bỏ sót),0.0,0,,'secret': '<VALUE>'
+cfdcc4f3,_/c805e326.yml,Password,1,FN (bỏ sót),0.0,0,,"MYSQL_PASSWORD: ""<VALUE>"""
+b6263275,src/4126f97d.java,Password,1,FN (bỏ sót),0.0,0,,"ksFactory.setPassword(""<VALUE>"");"
+784d78e8,docs/cluster/dca0818e.md,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+784d78e8,cluster/cfeff289.yaml,Password,1,FN (bỏ sót),0.0,0,,password: <VALUE>
+4aaa1466,_/1b7605a4.properties,Key:Password,1,FN (bỏ sót),0.0,0,,key.alias.password=<VALUE>
+fc8343f4,test/src/secret/pkg/kube/63bc723d.go,PEM Private Key,1,FN (bỏ sót),0.0,0,,const mismat…[đã che]
+df70e863,test/pkg/1a7980f0.go,Password,1,FN (bỏ sót),0.0,0,,password=<VALUE>
+df70e863,test/pkg/1a7980f0.go,Password,1,FN (bỏ sót),0.0,0,,password=<VALUE>
+f5e5719b,internal/init/b535c2ca.go,Salt,1,FN (bỏ sót),0.0,0,,quicSaltDraft34 = []byte{<VALUE>}
+f5e5719b,test/internal/e4348ea4.key,PEM Private Key,1,FN (bỏ sót),0.0,0,,-----BEGIN P…[đã che]
+680ef0c1,_/879d7ff8.go,Password,1,FN (bỏ sót),0.0,0,,//   passwd    = <VALUE> ; MUST accept up to 255 octets
+f5e5719b,internal/init/b535c2ca.go,Salt,1,FN (bỏ sót),0.0,0,,quicSaltOld     = []byte{<VALUE>}
+df70e863,test/pkg/1a7980f0.go,Password,1,FN (bỏ sót),0.0,0,,password=<VALUE>
+680ef0c1,test/610be7a1.go,Password,1,FN (bỏ sót),0.0,0,,"String password = ""<VALUE>"";"
+680ef0c1,test/1914ca3b.go,API:Password,1,FN (bỏ sót),0.0,0,,"conf.Net.SASL.GSSAPI.Password = ""<VALUE>"""
+fc8343f4,test/src/pkg/kube/ab652502.go,Password,1,FN (bỏ sót),0.0,0,,"""password"": []byte(""<VALUE>""),"
+df70e863,test/pkg/1a7980f0.go,Password,1,FN (bỏ sót),0.0,0,,password=<VALUE>
+cfdcc4f3,_/c805e326.yml,Password,1,FN (bỏ sót),0.0,0,,"MYSQL_ROOT_PASSWORD: ""<VALUE>"""
+cfdcc4f3,_/c805e326.yml,Password,1,FN (bỏ sót),0.0,0,,"DB_PASSWD: ""<VALUE>"""
+b82c1b9d,docker/14fa99bf.build,SQL Password,1,FN (bỏ sót),0.0,0,,"su -c ""psql -c \""ALTER USER <VALUE>  WITH PASSWORD '<VALUE>';\"""" - <VALUE>"
+784d78e8,_/d38b4b1e.yaml,Secret,1,FN (bỏ sót),0.0,0,,# ImagePullSecret: <VALUE>
+fc8343f4,test/util/pkg/e47feb46.go,UUID,1,FN (bỏ sót),0.0,0,,"return fmt.Sprintf(""%s%s"", ""/var/lib/kubelet/plugins/kubernetes.io/csi/volumeDevices/pvc-1d205234-06cd-4fe4-a7ea-0e8f3e2…"
+784d78e8,_/d38b4b1e.yaml,Secret,1,FN (bỏ sót),0.0,0,,# ImagePullSecret: <VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fc8343f4,test/src/pkg/api/server/628f44e1.go,PEM Private Key,1,FN (bỏ sót),0.0,0,,var tsKey = …[đã che]
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fc8343f4,test/src/pkg/client/60fb642a.go,Password,1,FN (bỏ sót),0.0,0,,"config.Password = ""<VALUE>"""
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+0401c075,test/src/6489c9cc.cpp,Key,1,FN (bỏ sót),0.0,0,,"cipher->SetKey(""<VALUE>"");"
+43e1f4ea,test/src/modul/37a088c2.java,Password,1,FN (bỏ sót),0.0,0,,"private String adminPassword = ""<VALUE>"";"
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>
+fdbe07ac,test/vendor/35658be4.go,Auth,1,FN (bỏ sót),0.0,0,,authData := []byte{<VALUE>

@@ -1,0 +1,2 @@
+2026-11-18T22:37:42	models=production	sources=creddata	threshold=0.8
+2026-11-18T22:39:02	benchmark_tools model=production	sources=creddata	warn=0.5	block=0.8
