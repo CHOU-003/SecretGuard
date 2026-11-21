@@ -1,0 +1,5 @@
+@"
+# TC5 - Full repository scan
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=AbCdEfGhIjKlMnOpQrStUvWxYz123456
+"@ | Set-Content test-full-scan.txt
