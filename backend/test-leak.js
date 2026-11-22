@@ -1,3 +1,0 @@
-
-AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
-INTERNAL_TOKEN = os.getenv("INTERNAL_TOKEN")
