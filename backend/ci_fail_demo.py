@@ -1,0 +1,10 @@
+# DEMO ONLY - FAKE SECRETS
+# Do not use these values in production.
+
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+GITHUB_TOKEN = "ghp_1234567890abcdef1234567890abcdef1234"
+
+JWT_SECRET = "demo_jwt_secret_9f8a7b6c5d4e3f2a1b0c"
