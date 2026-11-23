@@ -10,6 +10,9 @@ export function useDashboardData() {
   useEffect(() => {
     let cancelled = false;
 
+
+
+
     async function load() {
       setLoading(true);
       setError('');
