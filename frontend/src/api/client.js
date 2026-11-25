@@ -102,4 +102,39 @@ async function logout() {
   }
 }
 
-export { apiFetch, login, logout, getStoredTokens };
+// Tải file (CSV...) có đính kèm JWT, tự refresh token 1 lần nếu hết hạn
+async function apiDownload(path, filename, retry = true) {
+  const { accessToken } = getStoredTokens();
+
+  const res = await fetch(`${API_URL}${path}`, {
+    headers: accessToken ? { Authorization: `Bearer ${accessToken}` } : {},
+  });
+
+  if (res.status === 401 && retry) {
+    try {
+      await refreshAccessToken();
+      return apiDownload(path, filename, false);
+    } catch {
+      clearTokens();
+      window.location.href = '/login';
+      throw new Error('Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại');
+    }
+  }
+
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.error || `Không thể xuất file (lỗi ${res.status})`);
+  }
+
+  const blob = await res.blob();
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+export { apiFetch, login, logout, getStoredTokens, apiDownload };

@@ -70,3 +70,37 @@ body {
     radial-gradient(45% 30% at 90% 0%, rgba(40, 70, 230, 0.28), transparent 70%),
     radial-gradient(40% 35% at 100% 100%, rgba(45, 35, 225, 0.35), transparent 70%);
 }
+
+/* Select tuỳ chỉnh: bỏ mũi tên mặc định, thêm chevron trắng */
+.field-select {
+  appearance: none;
+  color-scheme: dark;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+/* Danh sách xổ xuống: nền tối, chữ trắng */
+.field-select option {
+  background-color: #0b1437;
+  color: #fff;
+}
+
+/* Ô ngày: icon lịch trắng, to hơn, dễ bấm */
+.field-date {
+  color-scheme: dark;
+}
+.field-date::-webkit-calendar-picker-indicator {
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0.15rem;
+  cursor: pointer;
+  opacity: 1;
+}
+.field-date::-webkit-calendar-picker-indicator:hover {
+  background-color: rgb(255 255 255 / 0.12);
+  border-radius: 0.375rem;
+}

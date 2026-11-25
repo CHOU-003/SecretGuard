@@ -1,6 +1,6 @@
 import StatCard from '../ui/StatCard.jsx';
 import { TargetIcon, LockIcon, WarningIcon, CheckIcon } from '../common/icons.jsx';
-import { dailyCounts } from '../../utils/scanStats.js';
+import { trend } from '../../utils/scanStats.js';
 
 const CARDS = [
   { key: 'total', label: 'Tổng số scan', statKey: 'total_scans', icon: TargetIcon, theme: 'scan', match: () => true },
@@ -13,7 +13,7 @@ export default function StatsGrid({ stats, scans, loading }) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
       {CARDS.map(({ key, label, statKey, icon, theme, match }) => {
-        const series = dailyCounts(scans, match);
+        const { series, delta } = trend(scans, match);
         return (
           <StatCard
             key={key}
@@ -22,7 +22,7 @@ export default function StatsGrid({ stats, scans, loading }) {
             icon={icon}
             theme={theme}
             series={series}
-            delta={loading ? null : series[series.length - 1]}
+            delta={loading ? null : delta}
           />
         );
       })}

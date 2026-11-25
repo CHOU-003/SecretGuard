@@ -35,7 +35,7 @@ async function createScan(req, res) {
     } else {
       const inserted = await pool.request()
         .input('name', sql.NVarChar, project_name)
-        .query('INSERT INTO projects (name) OUTPUT INSERTED.id VALUES (@name)');
+        .query('INSERT INTO projects (name, risk_threshold) OUTPUT INSERTED.id VALUES (@name, \'high\')');
       projectId = inserted.recordset[0].id;
     }
 
@@ -76,70 +76,97 @@ async function createScan(req, res) {
   }
 }
 
-// GET /api/scans — cho frontend hiển thị (qua authenticateAdmin)
-// Query: ?project_id=&status=&page=1&limit=20
+const VALID_STATUS = ['blocked', 'warned', 'passed'];
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+function buildScanFilters(query) {
+  const { project_id, status, branch, trigger_type, q, from, to } = query;
+  const where = [];
+  const binds = []; // [name, type, value]
+
+  if (project_id) {
+    if (Number.isNaN(parseInt(project_id, 10))) return { error: 'project_id phải là số' };
+    where.push('s.project_id = @project_id');
+    binds.push(['project_id', sql.Int, parseInt(project_id, 10)]);
+  }
+  if (status) {
+    if (!VALID_STATUS.includes(status)) {
+      return { error: `status phải là một trong: ${VALID_STATUS.join(', ')}` };
+    }
+    where.push('s.status = @status');
+    binds.push(['status', sql.NVarChar, status]);
+  }
+  if (branch) {
+    where.push('s.branch = @branch');
+    binds.push(['branch', sql.NVarChar, branch]);
+  }
+  if (trigger_type) {
+    where.push('s.trigger_type = @trigger_type');
+    binds.push(['trigger_type', sql.NVarChar, trigger_type]);
+  }
+  if (q && q.trim()) {
+    // escape ký tự đặc biệt của LIKE
+    const safe = q.trim().replace(/[%_[]/g, '[$&]');
+    where.push('(s.commit_hash LIKE @q OR s.branch LIKE @q)');
+    binds.push(['q', sql.NVarChar, `%${safe}%`]);
+  }
+  if (from) {
+    if (!DATE_RE.test(from)) return { error: 'from phải có dạng YYYY-MM-DD' };
+    where.push('s.created_at >= @from');
+    binds.push(['from', sql.Date, new Date(from)]);
+  }
+  if (to) {
+    if (!DATE_RE.test(to)) return { error: 'to phải có dạng YYYY-MM-DD' };
+    // gồm cả ngày "to"
+    where.push('s.created_at < DATEADD(DAY, 1, @to)');
+    binds.push(['to', sql.Date, new Date(to)]);
+  }
+
+  return {
+    whereSql: where.length ? `WHERE ${where.join(' AND ')}` : '',
+    apply(request) {
+      for (const [name, type, value] of binds) request.input(name, type, value);
+      return request;
+    },
+  };
+}
+
+// GET /api/scans?page=&limit=&project_id=&status=&branch=&trigger_type=&q=&from=&to=
 async function listScans(req, res) {
   const page = Math.max(parseInt(req.query.page, 10) || 1, 1);
   const limit = Math.min(Math.max(parseInt(req.query.limit, 10) || 20, 1), 200);
   const offset = (page - 1) * limit;
 
-  const { project_id, status } = req.query;
-
-  const validStatus = ['blocked', 'warned', 'passed'];
-  if (status && !validStatus.includes(status)) {
-    return res.status(400).json({ error: `status phải là một trong: ${validStatus.join(', ')}` });
-  }
-  if (project_id && Number.isNaN(parseInt(project_id, 10))) {
-    return res.status(400).json({ error: 'project_id phải là số' });
-  }
+  const filters = buildScanFilters(req.query);
+  if (filters.error) return res.status(400).json({ error: filters.error });
 
   try {
     const pool = await getPool();
 
-    const whereClauses = [];
-    const countRequest = pool.request();
-
-    if (project_id) {
-      whereClauses.push('s.project_id = @project_id');
-      countRequest.input('project_id', sql.Int, parseInt(project_id, 10));
-    }
-    if (status) {
-      whereClauses.push('s.status = @status');
-      countRequest.input('status', sql.NVarChar, status);
-    }
-
-    const whereSql = whereClauses.length ? `WHERE ${whereClauses.join(' AND ')}` : '';
-
-    const countResult = await countRequest
-      .query(`SELECT COUNT(*) AS total FROM scans s ${whereSql}`);
+    const countResult = await filters
+      .apply(pool.request())
+      .query(`SELECT COUNT(*) AS total FROM scans s ${filters.whereSql}`);
     const total = countResult.recordset[0].total;
 
-    // mssql không cho tái dùng input đã bind trên cùng 1 request -> tạo request mới cho query chính
-    const dataRequest = pool.request();
-    if (project_id) dataRequest.input('project_id', sql.Int, parseInt(project_id, 10));
-    if (status) dataRequest.input('status', sql.NVarChar, status);
-    dataRequest.input('offset', sql.Int, offset);
-    dataRequest.input('limit', sql.Int, limit);
-
-    const dataResult = await dataRequest.query(`
-      SELECT
-        s.id, s.commit_hash, s.branch, s.trigger_type, s.status,
-        s.total_findings, s.created_at, p.id AS project_id, p.name AS project_name
-      FROM scans s
-      JOIN projects p ON p.id = s.project_id
-      ${whereSql}
-      ORDER BY s.created_at DESC
-      OFFSET @offset ROWS FETCH NEXT @limit ROWS ONLY
-    `);
+    const dataResult = await filters
+      .apply(pool.request())
+      .input('offset', sql.Int, offset)
+      .input('limit', sql.Int, limit)
+      .query(`
+        SELECT
+          s.id, s.commit_hash, s.branch, s.trigger_type, s.status,
+          s.total_findings, s.created_at,
+          p.id AS project_id, p.name AS project_name
+        FROM scans s
+        JOIN projects p ON p.id = s.project_id
+        ${filters.whereSql}
+        ORDER BY s.created_at DESC, s.id DESC
+        OFFSET @offset ROWS FETCH NEXT @limit ROWS ONLY
+      `);
 
     return res.json({
       scans: dataResult.recordset,
-      pagination: {
-        page,
-        limit,
-        total,
-        totalPages: Math.ceil(total / limit) || 1,
-      },
+      pagination: { page, limit, total, totalPages: Math.ceil(total / limit) || 1 },
     });
   } catch (err) {
     console.error('List scans error:', err);
@@ -159,15 +186,16 @@ async function getScanById(req, res) {
     const pool = await getPool();
 
     const scanResult = await pool.request()
-      .input('id', sql.Int, scanId)
-      .query(`
-        SELECT
-          s.id, s.commit_hash, s.branch, s.trigger_type, s.status,
-          s.total_findings, s.created_at, p.id AS project_id, p.name AS project_name
-        FROM scans s
-        JOIN projects p ON p.id = s.project_id
-        WHERE s.id = @id
-      `);
+    .input('id', sql.Int, scanId)
+    .query(`
+      SELECT
+        s.id, s.commit_hash, s.branch, s.trigger_type, s.status,
+        s.total_findings, s.created_at,
+        p.id AS project_id, p.name AS project_name, p.risk_threshold
+      FROM scans s
+      JOIN projects p ON p.id = s.project_id
+      WHERE s.id = @id
+    `);
 
     const scan = scanResult.recordset[0];
 
@@ -191,4 +219,67 @@ async function getScanById(req, res) {
   }
 }
 
-module.exports = { createScan, listScans, getScanById };
+async function listBranches(req, res) {
+  try {
+    const pool = await getPool();
+    const r = await pool.request().query(
+      `SELECT DISTINCT branch FROM scans WHERE branch IS NOT NULL ORDER BY branch`
+    );
+    return res.json({ branches: r.recordset.map((x) => x.branch) });
+  } catch (err) {
+    console.error('List branches error:', err);
+    return res.status(500).json({ error: 'Lỗi server' });
+  }
+}
+
+// Chặn ô bắt đầu bằng = + - @ để Excel không chạy như công thức (CSV injection)
+function csvCell(value) {
+  if (value === null || value === undefined) return '';
+  let s = value instanceof Date ? value.toISOString() : String(value);
+  if (/^[=+\-@\t\r]/.test(s)) s = `'${s}`;
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+const EXPORT_MAX_ROWS = 10000;
+
+// GET /api/scans/export?status=&branch=&q=&from=&to=...  (cùng filter với listScans)
+async function exportScans(req, res) {
+  const filters = buildScanFilters(req.query);
+  if (filters.error) return res.status(400).json({ error: filters.error });
+
+  try {
+    const pool = await getPool();
+    const result = await filters
+      .apply(pool.request())
+      .input('max', sql.Int, EXPORT_MAX_ROWS)
+      .query(`
+        SELECT TOP (@max)
+          s.id, p.name AS project_name, s.commit_hash, s.branch,
+          s.trigger_type, s.status, s.total_findings, s.created_at
+        FROM scans s
+        JOIN projects p ON p.id = s.project_id
+        ${filters.whereSql}
+        ORDER BY s.created_at DESC, s.id DESC
+      `);
+
+    const columns = [
+      'id', 'project_name', 'commit_hash', 'branch',
+      'trigger_type', 'status', 'total_findings', 'created_at',
+    ];
+    const lines = [columns.join(',')];
+    for (const row of result.recordset) {
+      lines.push(columns.map((c) => csvCell(row[c])).join(','));
+    }
+
+    const filename = `scans_${new Date().toISOString().slice(0, 10)}.csv`;
+    res.setHeader('Content-Type', 'text/csv; charset=utf-8');
+    res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+    // BOM để Excel đọc đúng UTF-8
+    return res.send('\uFEFF' + lines.join('\r\n'));
+  } catch (err) {
+    console.error('Export scans error:', err);
+    return res.status(500).json({ error: 'Lỗi server' });
+  }
+}
+
+module.exports = { createScan, listScans, getScanById, listBranches, exportScans };

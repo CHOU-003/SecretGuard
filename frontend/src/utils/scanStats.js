@@ -2,6 +2,8 @@ import { TIME_RANGES } from '../constants/scanFilters.js';
 
 const DAY = 86_400_000;
 
+const sum = (arr) => arr.reduce((a, b) => a + b, 0);
+
 function startOfDay(value) {
   const d = new Date(value);
   d.setHours(0, 0, 0, 0);
@@ -19,6 +21,17 @@ export function dailyCounts(scans, predicate = () => true, days = 7) {
   }
   return counts;
 }
+
+
+
+  // So sánh `days` ngày gần nhất với `days` ngày liền trước đó.
+  export function trend(scans, predicate = () => true, days = 7) {
+    const counts = dailyCounts(scans, predicate, days * 2);
+    const previous = sum(counts.slice(0, days));
+    const series = counts.slice(days);
+    const current = sum(series);
+    return { series, current, previous, delta: current - previous };
+  }
 
 export function filterScans(scans, { query = '', range = 'all' } = {}) {
   const q = query.trim().toLowerCase();
