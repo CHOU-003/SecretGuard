@@ -45,9 +45,15 @@ async function listProjects(req, res) {
     const pool = await getPool();
 
     const result = await pool.request().query(`
-      SELECT id, name, risk_threshold, created_at
-      FROM projects
-      ORDER BY created_at DESC
+      SELECT
+        p.id, p.name, p.risk_threshold, p.created_at,
+        COUNT(s.id) AS total_scans,
+        ISNULL(SUM(CASE WHEN s.status = 'blocked' THEN 1 ELSE 0 END), 0) AS blocked_scans,
+        MAX(s.created_at) AS last_scan_at
+      FROM projects p
+      LEFT JOIN scans s ON s.project_id = p.id
+      GROUP BY p.id, p.name, p.risk_threshold, p.created_at
+      ORDER BY p.name ASC
     `);
 
     return res.json({ projects: result.recordset });
@@ -85,7 +91,6 @@ async function getProjectById(req, res) {
   }
 }
 
-// PUT /api/projects/:id/threshold — đổi ngưỡng rủi ro, tự ghi audit_log
 async function updateThreshold(req, res) {
   const projectId = parseInt(req.params.id, 10);
   const { risk_threshold } = req.body;
@@ -93,37 +98,39 @@ async function updateThreshold(req, res) {
   if (Number.isNaN(projectId)) {
     return res.status(400).json({ error: 'id không hợp lệ' });
   }
-
   if (!risk_threshold || !VALID_THRESHOLDS.includes(risk_threshold)) {
     return res.status(400).json({ error: `risk_threshold phải là một trong: ${VALID_THRESHOLDS.join(', ')}` });
   }
 
+  let tx;
   try {
     const pool = await getPool();
+    tx = new sql.Transaction(pool);
+    await tx.begin();
 
-    const existing = await pool.request()
+    // UPDLOCK: tránh 2 người đổi cùng lúc làm log sai old_value
+    const existing = await tx.request()
       .input('id', sql.Int, projectId)
-      .query('SELECT id, risk_threshold FROM projects WHERE id = @id');
+      .query('SELECT id, risk_threshold FROM projects WITH (UPDLOCK) WHERE id = @id');
 
     const project = existing.recordset[0];
-
     if (!project) {
+      await tx.rollback();
       return res.status(404).json({ error: 'Không tìm thấy project' });
     }
 
     const oldValue = project.risk_threshold;
-
     if (oldValue === risk_threshold) {
+      await tx.rollback();
       return res.json({ id: projectId, risk_threshold, message: 'Không có thay đổi' });
     }
 
-    await pool.request()
+    await tx.request()
       .input('id', sql.Int, projectId)
       .input('risk_threshold', sql.NVarChar, risk_threshold)
       .query('UPDATE projects SET risk_threshold = @risk_threshold WHERE id = @id');
 
-    // req.user do middleware authenticateAdmin gắn vào
-    await pool.request()
+    await tx.request()
       .input('project_id', sql.Int, projectId)
       .input('user_id', sql.Int, req.user.id)
       .input('action', sql.NVarChar, 'threshold_changed')
@@ -132,8 +139,10 @@ async function updateThreshold(req, res) {
       .query(`INSERT INTO audit_log (project_id, user_id, action, old_value, new_value)
               VALUES (@project_id, @user_id, @action, @old_value, @new_value)`);
 
+    await tx.commit();
     return res.json({ id: projectId, risk_threshold, previous: oldValue });
   } catch (err) {
+    if (tx) { try { await tx.rollback(); } catch { /* đã rollback */ } }
     console.error('Update threshold error:', err);
     return res.status(500).json({ error: 'Lỗi server' });
   }

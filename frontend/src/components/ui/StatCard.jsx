@@ -36,9 +36,7 @@ export default function StatCard({ label, value, icon: Icon, theme = 'scan', ser
           <p className="text-lg text-fg/90">{label}</p>
           <p className="mt-1 text-4xl font-bold leading-none text-white">{value}</p>
           {delta != null && (
-            <p className="mt-3 text-sm text-white/85">
-              {delta > 0 ? `↑ +${delta} hôm nay` : '→ Không đổi'}
-            </p>
+            <p className="mt-3 text-sm text-white/85">{deltaText(delta)}</p>
           )}
         </div>
       </div>
@@ -51,4 +49,10 @@ export default function StatCard({ label, value, icon: Icon, theme = 'scan', ser
       )}
     </div>
   );
+}
+
+function deltaText(delta) {
+  if (delta > 0) return `↑ +${delta} so với 7 ngày trước`;
+  if (delta < 0) return `↓ ${delta} so với 7 ngày trước`;
+  return '→ +0 So với 7 ngày trước';
 }

@@ -166,3 +166,22 @@ export const ChevronRightIcon = (p) => (
     <path d="M9 6l6 6-6 6" />
   </Svg>
 );
+
+export const ProjectIcon = (p) => (
+  <Svg {...p}>
+    <path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z" />
+    <path d="M8 11v6" />
+    <path d="M12 13v4" />
+    <path d="M16 10v7" />
+  </Svg>
+);
+
+export const AuditLogIcon = (p) => (
+  <Svg {...p}>
+    <rect x="5" y="4" width="14" height="17" rx="2" />
+    <path d="M9 4.5V3h6v1.5" />
+    <path d="M9 10h6" />
+    <path d="M9 14h6" />
+    <path d="M9 18h3" />
+  </Svg>
+);
