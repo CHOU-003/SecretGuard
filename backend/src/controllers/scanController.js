@@ -12,6 +12,8 @@ async function createScan(req, res) {
     findings,
   } = req.body;
 
+  const { notifyBlockedScan } = require('../utils/mailer');
+
   if (!project_name || !trigger_type || !status) {
     return res.status(400).json({ error: 'Thiếu project_name, trigger_type hoặc status' });
   }
@@ -69,7 +71,20 @@ async function createScan(req, res) {
       }
     }
 
-    return res.status(201).json({ id: scanId, project_id: projectId, status, total_findings: totalFindings });
+    res.status(201).json({ id: scanId, project_id: projectId, status, total_findings: totalFindings });
+
+    // Gửi mail sau khi đã trả response, lỗi mail không ảnh hưởng việc lưu scan
+    if (status === 'blocked') {
+      notifyBlockedScan({
+        scanId,
+        projectName: project_name,
+        branch,
+        commitHash: commit_hash,
+        triggerType: trigger_type,
+        findings: Array.isArray(findings) ? findings : [],
+      }).catch((err) => console.error('Notify blocked scan error:', err.message));
+    }
+    return;
   } catch (err) {
     console.error('Create scan error:', err);
     return res.status(500).json({ error: 'Lỗi server' });
