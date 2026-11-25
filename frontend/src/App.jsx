@@ -7,6 +7,8 @@ import ProtectedRoute from './components/security/ProtectedRoute.jsx';
 import History from './pages/History.jsx';
 import Projects from './pages/Projects.jsx';
 import AuditLog from './pages/AuditLog.jsx';
+import Stats from './pages/Stats.jsx';
+
 
 
 export default function App() {
@@ -28,6 +30,15 @@ export default function App() {
         element={
           <ProtectedRoute>
             <ScanDetail />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/stats"
+        element={
+          <ProtectedRoute>
+            <Stats />
           </ProtectedRoute>
         }
       />
