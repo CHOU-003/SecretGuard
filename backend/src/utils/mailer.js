@@ -67,7 +67,6 @@ function buildHtml({ scanId, projectName, branch, commitHash, triggerType, findi
     </div>
   </div>`;
 }
-
 async function notifyBlockedScan(scan) {
   const t = getTransporter();
   const to = (process.env.NOTIFY_EMAILS || '').split(',').map((s) => s.trim()).filter(Boolean);
